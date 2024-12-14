@@ -13,8 +13,7 @@
             flex-direction: column;
             align-items: center;
         }
-        h1 {
-            text-align: left;
+        text-align: left;
             margin: 20px 0;
             font-size: 2.5em;
             color: black;
@@ -32,6 +31,7 @@
         .grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(10, auto);
             grid-gap: 10px;
             padding: 20px;
         }
@@ -78,9 +78,23 @@
             margin-top: 10px;
             display: block;
             text-align: center;
-           }
-            
-        
+        }
+        .back-button {
+            margin: 10px 0;
+            text-align: center; /* Centra el botón */
+            width: 100%; /* Ocupa el ancho completo del contenedor */
+        }
+        .back-button .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block; /* Asegura que se muestre como un botón */
+        }
+        .back-button .btn:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -88,8 +102,13 @@
     <div class="search-bar">
         <input type="text" id="searchInput" placeholder="Buscar...">
     </div>
-    <div class="back-button">
-    <a href="index.html">&#8592; Volver</a>
+    <div class="button-container">
+        <div class="back-button">
+            <a href="index.html" class="btn">&#8592; Volver</a>
+        </div>
+        <div class="cart-button">
+            <button id="toggleCartBtn" class="btn">Minimizar Carrito</button>
+        </div>
     </div>
     <div class="grid" id="imageGrid">
         <!-- Imágenes enumeradas del 1 al 9 -->
@@ -98,45 +117,45 @@
             <div class="price">$10</div>
             <button class="btn" onclick="agregarAlCarrito('Producto 1', 10)">Agregar al Carrito</button>
         </div>
-        <div class="grid-item" data-title="Producto 2" data-price="20">
-            <img src="ruta/de/tu/imagen2.jpg" alt="Producto 2">
+        <div class="grid-item" data-title="Producto 2" data-price="15">
+            <img src="producto2.jpg" alt="Producto 2">
+            <div class="price">$15</div>
+            <button class="btn" onclick="agregarAlCarrito('Producto 2', 15)">Agregar al Carrito</button>
+        </div>
+        <div class="grid-item" data-title="Producto 3" data-price="20">
+            <img src="producto3.jpg" alt="Producto 3">
             <div class="price">$20</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 2', 20)">Agregar al Carrito</button>
+            <button class="btn" onclick="agregarAlCarrito('Producto 3', 20)">Agregar al Carrito</button>
         </div>
-        <div class="grid-item" data-title="Producto 3" data-price="30">
-            <img src="ruta/de/tu/imagen3.jpg" alt="Producto 3">
+        <div class="grid-item" data-title="Producto 4" data-price="25">
+            <img src="producto4.jpg" alt="Producto 4">
+            <div class="price">$25</div>
+            <button class="btn" onclick="agregarAlCarrito('Producto 4', 25)">Agregar al Carrito</button>
+        </div>
+        <div class="grid-item" data-title="Producto 5" data-price="30">
+            <img src="producto5.jpg" alt="Producto 5">
             <div class="price">$30</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 3', 30)">Agregar al Carrito</button>
+            <button class="btn" onclick="agregarAlCarrito('Producto 5', 30)">Agregar al Carrito</button>
         </div>
-        <div class="grid-item" data-title="Producto 4" data-price="40">
-            <img src="ruta/de/tu/imagen4.jpg" alt="Producto 4">
+        <div class="grid-item" data-title="Producto 6" data-price="35">
+            <img src="producto6.jpg" alt="Producto 6">
+            <div class="price">$35</div>
+            <button class="btn" onclick="agregarAlCarrito('Producto 6', 35)">Agregar al Carrito</button>
+        </div>
+        <div class="grid-item" data-title="Producto 7" data-price="40">
+            <img src="producto7.jpg" alt="Producto 7">
             <div class="price">$40</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 4', 40)">Agregar al Carrito</button>
+            <button class="btn" onclick="agregarAlCarrito('Producto 7', 40)">Agregar al Carrito</button>
         </div>
-        <div class="grid-item" data-title="Producto 5" data-price="50">
-            <img src="ruta/de/tu/imagen5.jpg" alt="Producto 5">
+        <div class="grid-item" data-title="Producto 8" data-price="45">
+            <img src="producto8.jpg" alt="Producto 8">
+            <div class="price">$45</div>
+            <button class="btn" onclick="agregarAlCarrito('Producto 8', 45)">Agregar al Carrito</button>
+        </div>
+        <div class="grid-item" data-title="Producto 9" data-price="50">
+            <img src="producto9.jpg" alt="Producto 9">
             <div class="price">$50</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 5', 50)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 6" data-price="60">
-            <img src="ruta/de/tu/imagen6.jpg" alt="Producto 6">
-            <div class="price">$60</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 6', 60)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 7" data-price="70">
-            <img src="ruta/de/tu/imagen7.jpg" alt="Producto 7">
-            <div class="price">$70</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 7', 70)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 8" data-price="80">
-            <img src="ruta/de/tu/imagen8.jpg" alt="Producto 8">
-            <div class="price">$80</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 8', 80)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 9" data-price="90">
-            <img src="ruta/de/tu/imagen9.jpg" alt="Producto 9">
-            <div class="price">$90</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 9', 90)">Agregar al Carrito</button>
+            <button class="btn" onclick="agregarAlCarrito('Producto 9', 50)">Agregar al Carrito</button>
         </div>
     </div>
     <div class="cart-container" id="carrito">
@@ -148,8 +167,11 @@
         <button class="btn-buy" onclick="generarPlanilla()">Generar Planilla</button>
     </div>
 
+    <audio id="clickSound" src="click.mp3"></audio>
+
     <script>
         let carrito = [];
+        let isCartMinimized = false;
 
         document.getElementById('searchInput').addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase();
@@ -168,8 +190,17 @@
             if (typeof producto !== 'undefined' && typeof precio !== 'undefined') {
                 carrito.push({ producto, precio });
                 mostrarCarrito();
+                localStorage.setItem('carrito', JSON.stringify(carrito));
             } else {
                 console.error('Producto o precio no definido');
+            }
+        }
+
+        function cargarCarrito() {
+            const carritoGuardado = localStorage.getItem('carrito');
+            if (carritoGuardado) {
+                carrito = JSON.parse(carritoGuardado);
+                mostrarCarrito();
             }
         }
 
@@ -182,15 +213,24 @@
                 return;
             }
 
-            carrito.forEach(item => {
+            carrito.forEach((item, index) => {
                 const productDiv = document.createElement('div');
                 productDiv.classList.add('product');
-                productDiv.innerHTML = `<p>${item.producto} - $${item.precio}</p>`;
+                productDiv.innerHTML = `
+                    <p>${item.producto} - $${item.precio}</p>
+                    <button class="btn" onclick="restarDelCarrito(${index})">Restar</button>
+                `;
                 carritoItems.appendChild(productDiv);
             });
 
             const total = carrito.reduce((sum, item) => sum + item.precio, 0);
             document.getElementById('total').innerText = `Total: $${total}`;
+        }
+
+        function restarDelCarrito(index) {
+            carrito.splice(index, 1);
+            mostrarCarrito();
+            localStorage.setItem('carrito', JSON.stringify(carrito));
         }
 
         function generarPlanilla() {
@@ -210,13 +250,32 @@
             const total = carrito.reduce((sum, item) => sum + item.precio, 0);
             planilla += `\nTotal: $${total}`;
 
-            // Generar link de WhatsApp
             const encodedPlanilla = encodeURIComponent(planilla);
             const whatsappUrl = `https://wa.me/?text=${encodedPlanilla}`;
-
-            // Crear enlace de WhatsApp
             window.open(whatsappUrl, '_blank');
         }
+
+        function toggleCart() {
+            const carrito = document.getElementById('carrito');
+            const toggleBtn = document.getElementById('toggleCartBtn');
+            if (isCartMinimized) {
+                carrito.style.display = 'block';
+                toggleBtn.innerHTML = 'Minimizar Carrito';
+            } else {
+                carrito.style.display = 'none';
+                toggleBtn.innerHTML = '🛒';
+            }
+            isCartMinimized = !isCartMinimized;
+            playSound();
+        }
+
+        function playSound() {
+            var sound = document.getElementById("clickSound");
+            sound.play();
+        }
+
+        document.getElementById('toggleCartBtn').addEventListener('click', toggleCart);
+        document.addEventListener('DOMContentLoaded', cargarCarrito);
     </script>
 </body>
 </html>
