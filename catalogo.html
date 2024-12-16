@@ -13,12 +13,13 @@
             flex-direction: column;
             align-items: center;
         }
-        text-align: left;
+        h1 {
+            text-align: left;
             margin: 20px 0;
             font-size: 2.5em;
             color: black;
         }
-        .search-bar {
+        .search-bar {}
             margin: 20px 0;
         }
         .search-bar input {
@@ -44,7 +45,7 @@
             object-fit: cover;
         }
         .btn {
-            background-color: #4CAF50;
+            background-color: #800080;
             color: white;
             padding: 10px;
             margin-top: 10px;
@@ -52,32 +53,18 @@
             cursor: pointer;
             border-radius: 5px;
         }
-        .cart-container {
-            width: 100%;
-            padding: 20px;
-            background: white;
-            border-top: 1px solid #ddd;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-        }
-        .cart-container h2 {
-            margin-top: 0;
-            font-size: 1.5em;
-            text-align: center;
-        }
-        .cart-container .product {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-            text-align: left;
-        }
-        .cart-container .btn-buy {
-            background-color: #008CBA;
-            width: 100%;
-            padding: 10px;
-            font-size: 1em;
-            margin-top: 10px;
-            display: block;
-            text-align: center;
+        
+        .boton-limpieza {
+         background-color: #800080;
+         color: white;
+         padding: 10px;
+         margin-top: 10px;
+         border: none;
+         cursor: pointer;
+         border-radius: 5px;
+         }
+       
+                      
         }
         .back-button {
             margin: 10px 0;
@@ -87,195 +74,55 @@
         .back-button .btn {
             text-decoration: none;
             color: white;
-            background-color: #4CAF50;
+            background-color: #800080;
             padding: 10px 20px;
             border-radius: 5px;
             display: inline-block; /* Asegura que se muestre como un botón */
         }
         .back-button .btn:hover {
-            background-color: #45a049;
+            background-color: #800080;
         }
     </style>
 </head>
 <body>
-    <h1>COMPRA</h1>
-    <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="Buscar...">
-    </div>
+    <h1>COMERCIAL 88</h1>
+    
+     
+    
     <div class="button-container">
         <div class="back-button">
             <a href="index.html" class="btn">&#8592; Volver</a>
         </div>
-        <div class="cart-button">
-            <button id="toggleCartBtn" class="btn">Minimizar Carrito</button>
-        </div>
+    
+    <div class="pagination" style="display: flex; flex-direction: column; align-items: center;">
+        <!-- Botones de paginación -->
+        <button onclick="window.location.href='limpieza.html'" class="boton-limpieza">LIMPIEZA</button>
+        <button class="btn" onclick="window.location.href='charcuteria.html'">Charcutería</button>
+        <button class="btn" onclick="changePage(3)">Contenido 3</button>
+        <button class="btn" onclick="changePage(4)">Contenido 4</button>
+        <button class="btn" onclick="changePage(5)">Contenido 5</button>
+        <button class="btn" onclick="changePage(6)">Contenido 6</button>
+        <button class="btn" onclick="changePage(7)">Contenido 7</button>
+        <button class="btn" onclick="changePage(8)">Contenido 8</button>
+        <button class="btn" onclick="changePage(9)">Contenido 9</button>
+        <button class="btn" onclick="changePage(10)">Contenido 10</button>
+        <button class="btn" onclick="changePage(11)">Contenido 11</button>
     </div>
-    <div class="grid" id="imageGrid">
-        <!-- Imágenes enumeradas del 1 al 9 -->
-        <div class="grid-item" data-title="Producto 1" data-price="10">
-            <img src="huevo.jpg" alt="Producto 1">
-            <div class="price">$10</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 1', 10)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 2" data-price="15">
-            <img src="producto2.jpg" alt="Producto 2">
-            <div class="price">$15</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 2', 15)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 3" data-price="20">
-            <img src="producto3.jpg" alt="Producto 3">
-            <div class="price">$20</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 3', 20)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 4" data-price="25">
-            <img src="producto4.jpg" alt="Producto 4">
-            <div class="price">$25</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 4', 25)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 5" data-price="30">
-            <img src="producto5.jpg" alt="Producto 5">
-            <div class="price">$30</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 5', 30)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 6" data-price="35">
-            <img src="producto6.jpg" alt="Producto 6">
-            <div class="price">$35</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 6', 35)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 7" data-price="40">
-            <img src="producto7.jpg" alt="Producto 7">
-            <div class="price">$40</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 7', 40)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 8" data-price="45">
-            <img src="producto8.jpg" alt="Producto 8">
-            <div class="price">$45</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 8', 45)">Agregar al Carrito</button>
-        </div>
-        <div class="grid-item" data-title="Producto 9" data-price="50">
-            <img src="producto9.jpg" alt="Producto 9">
-            <div class="price">$50</div>
-            <button class="btn" onclick="agregarAlCarrito('Producto 9', 50)">Agregar al Carrito</button>
-        </div>
-    </div>
-    <div class="cart-container" id="carrito">
-        <h2>Carrito de Compras</h2>
-        <div id="carritoItems">
-            <p>Tu carrito está vacío.</p>
-        </div>
-        <h3 id="total">Total: $0</h3>
-        <button class="btn-buy" onclick="generarPlanilla()">Generar Planilla</button>
+    <div class="grid" id="productGrid">
+        <!-- Productos enumerados sin imágenes, precios ni botones de agregar al carrito -->
+        <div class="grid-item" data-title="Producto 1"></div>
+        <div class="grid-item" data-title="Producto 2"></div>
+        <div class="grid-item" data-title="Producto 3"></div>
+        <div class="grid-item" data-title="Producto 4"></div>
+        <div class="grid-item" data-title="Producto 5"></div>
+        <div class="grid-item" data-title="Producto 6"></div>
+        <div class="grid-item" data-title="Producto 7"></div>
+        <div class="grid-item" data-title="Producto 8"></div>
+        <div class="grid-item" data-title="Producto 9"></div>
     </div>
 
     <audio id="clickSound" src="click.mp3"></audio>
 
-    <script>
-        let carrito = [];
-        let isCartMinimized = false;
-
-        document.getElementById('searchInput').addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase();
-            const items = document.querySelectorAll('.grid-item');
-            items.forEach(item => {
-                const title = item.getAttribute('data-title').toLowerCase();
-                if (title.includes(searchTerm)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        });
-
-        function agregarAlCarrito(producto, precio) {
-            if (typeof producto !== 'undefined' && typeof precio !== 'undefined') {
-                carrito.push({ producto, precio });
-                mostrarCarrito();
-                localStorage.setItem('carrito', JSON.stringify(carrito));
-            } else {
-                console.error('Producto o precio no definido');
-            }
-        }
-
-        function cargarCarrito() {
-            const carritoGuardado = localStorage.getItem('carrito');
-            if (carritoGuardado) {
-                carrito = JSON.parse(carritoGuardado);
-                mostrarCarrito();
-            }
-        }
-
-        function mostrarCarrito() {
-            const carritoItems = document.getElementById('carritoItems');
-            carritoItems.innerHTML = '';
-
-            if (carrito.length === 0) {
-                carritoItems.innerHTML = '<p>Tu carrito está vacío.</p>';
-                return;
-            }
-
-            carrito.forEach((item, index) => {
-                const productDiv = document.createElement('div');
-                productDiv.classList.add('product');
-                productDiv.innerHTML = `
-                    <p>${item.producto} - $${item.precio}</p>
-                    <button class="btn" onclick="restarDelCarrito(${index})">Restar</button>
-                `;
-                carritoItems.appendChild(productDiv);
-            });
-
-            const total = carrito.reduce((sum, item) => sum + item.precio, 0);
-            document.getElementById('total').innerText = `Total: $${total}`;
-        }
-
-        function restarDelCarrito(index) {
-            carrito.splice(index, 1);
-            mostrarCarrito();
-            localStorage.setItem('carrito', JSON.stringify(carrito));
-        }
-
-        function generarPlanilla() {
-            const nombre = prompt('Ingrese su nombre:');
-            const direccion = prompt('Ingrese su dirección:');
-
-            if (!nombre || !direccion) {
-                alert('Debe ingresar su nombre y dirección.');
-                return;
-            }
-
-            let planilla = `Pedido de ${nombre}\nDirección: ${direccion}\n\nProductos:\n`;
-            carrito.forEach(item => {
-                planilla += `${item.producto} - $${item.precio}\n`;
-            });
-
-            const total = carrito.reduce((sum, item) => sum + item.precio, 0);
-            planilla += `\nTotal: $${total}`;
-
-            const encodedPlanilla = encodeURIComponent(planilla);
-            const whatsappUrl = `https://wa.me/?text=${encodedPlanilla}`;
-            window.open(whatsappUrl, '_blank');
-        }
-
-        function toggleCart() {
-            const carrito = document.getElementById('carrito');
-            const toggleBtn = document.getElementById('toggleCartBtn');
-            if (isCartMinimized) {
-                carrito.style.display = 'block';
-                toggleBtn.innerHTML = 'Minimizar Carrito';
-            } else {
-                carrito.style.display = 'none';
-                toggleBtn.innerHTML = '🛒';
-            }
-            isCartMinimized = !isCartMinimized;
-            playSound();
-        }
-
-        function playSound() {
-            var sound = document.getElementById("clickSound");
-            sound.play();
-        }
-
-        document.getElementById('toggleCartBtn').addEventListener('click', toggleCart);
-        document.addEventListener('DOMContentLoaded', cargarCarrito);
-    </script>
+    
 </body>
 </html>
