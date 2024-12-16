@@ -50,11 +50,9 @@ function mostrarCarrito() {
     const totalElement = document.getElementById('total');
     totalElement.innerText = `Total: $${total}`;
 
-    // Centrar el texto del total
     totalElement.style.textAlign = 'center';
     totalElement.style.marginTop = '20px';
 
-    // Añadir botón PEDIR
     const pedirBtn = document.createElement('button');
     pedirBtn.innerText = 'PEDIR';
     pedirBtn.style.display = 'block';
@@ -63,6 +61,7 @@ function mostrarCarrito() {
     pedirBtn.style.color = 'white';
     pedirBtn.style.border = '2px solid #800080';
     pedirBtn.style.padding = '10px 20px';
+    pedirBtn.style.marginLeft= '1000px';
     pedirBtn.onclick = mostrarFormulario;
     totalElement.appendChild(pedirBtn);
 }
@@ -82,9 +81,17 @@ function mostrarFormulario() {
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         <button onclick="enviarFormulario()" style="display: block; margin: 20px auto 0; background-color: #800080; color: white; border: 2px solid #800080; padding: 5px 10px;">Enviar</button>
+        <button onclick="cerrarFormulario()" style="display: block; margin: 10px auto 0; background-color: #800080; color: white; border: 2px solid #800080; padding: 5px 10px;">Regresar</button>
     `;
 
     document.body.appendChild(formularioDiv);
+}
+
+function cerrarFormulario() {
+    const formularioDiv = document.querySelector('div[style*="fixed"]');
+    if (formularioDiv) {
+        document.body.removeChild(formularioDiv);
+    }
 }
 
 function enviarFormulario() {
@@ -146,11 +153,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const totalElement = document.getElementById('total');
     totalElement.style.textAlign = 'center';
-    totalElement.style.marginTop = '20px';
+    totalElement.style.marginTop = '14px';
 
     const carritoTitulo = document.querySelector('h2');
     if (carritoTitulo) {
         carritoTitulo.style.textAlign = 'right';
-        carritoTitulo.style.marginRight = '135px';
+        carritoTitulo.style.marginRight = '14px';
     }
 });

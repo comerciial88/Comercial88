@@ -87,10 +87,39 @@
             align-items: center;
             width: 80%;
         }
+        
+         }
+        .back-button {
+            margin: 50px 0;
+            text-align: center; /* Centra el botón */
+            width: 100%; /* Ocupa el ancho completo del contenedor */
+        }
+        
+        .back-button .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #800080;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 30px;
+            display: inline-block; /* Asegura que se muestre como un botón */
+          
+        }
+        
+        .back-button .btn:hover {
+            background-color: #800080;
+        } 
+        
+        
     </style>
 </head>
 <body>
     <h1>Compras</h1>
+    
+        <div class="back-button">
+            <a href="index.html" class="btn">&#8592; Volver</a>
+        </div>
+    
     <input type="text" id="searchBar" placeholder="Buscar productos...">
     <div id="carrito">
         <div id="carritoItems"></div>
@@ -157,7 +186,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const totalElement = document.getElementById('total');
             if (totalElement) {
-                totalElement.style.textAlign = 'right';
+                totalElement.style.textAlign = 'center';
                 totalElement.style.marginRight = '20px';
             }
 
