@@ -61,7 +61,7 @@ function mostrarCarrito() {
     pedirBtn.style.color = 'white';
     pedirBtn.style.border = '2px solid #800080';
     pedirBtn.style.padding = '10px 20px';
-    pedirBtn.style.marginLeft= '1000px';
+    pedirBtn.style.marginLeft= '100px';
     pedirBtn.onclick = mostrarFormulario;
     totalElement.appendChild(pedirBtn);
 }
