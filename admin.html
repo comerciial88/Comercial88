@@ -27,8 +27,8 @@
     </form>
 
     <h2>Búsqueda de Productos</h2>
-    <input type="text" id="searchBar" placeholder="Buscar producto..." onkeyup="buscarProducto()">
-    <ul id="productList"></ul>
+    <input type="text" id="searchBar" placeholder="Buscar producto..." onkeyup="buscarProducto()" aria-label="Buscar producto">
+    <ul id="productList" aria-live="polite"></ul>
 
     <div id="productForm" style="display:none;">
         <h3>Modificar Producto</h3>
@@ -46,16 +46,19 @@
     <script>
         let productos = [];
 
-        // Cargar productos desde la página charcuteria.html
-        fetch('charcuteria.html')
-            .then(response => response.json())
-            .then(data => {
+        // Cargar productos desde el archivo charcuteria.json
+        async function cargarProductos() {
+            try {
+                const response = await fetch('charcuteria.json');
+                const data = await response.json();
                 productos = data;
-                buscarProducto(); // Llamar a buscarProducto después de cargar los productos
-            })
-            .catch(error => {
+                buscarProducto();
+            } catch (error) {
                 console.error('Error al cargar los productos:', error);
-            });
+            }
+        }
+
+        cargarProductos();
 
         function buscarProducto() {
             const searchQuery = document.getElementById('searchBar').value.toLowerCase();
@@ -86,7 +89,7 @@
                 producto.precio = parseFloat(productPrice);
                 alert('Producto actualizado');
                 document.getElementById('productForm').style.display = 'none';
-                buscarProducto(); // Actualizar la lista de productos
+                buscarProducto();
             } else {
                 alert('Error al actualizar el producto');
             }
@@ -94,6 +97,10 @@
 
         function actualizarTasaCambio() {
             const exchangeRate = document.getElementById('exchangeRate').value;
+            if (isNaN(exchangeRate) || exchangeRate <= 0) {
+                alert('Por favor, ingresa una tasa de cambio válida.');
+                return;
+            }
             const mensaje = {
                 type: 'actualizarTasaCambio',
                 exchangeRate: parseFloat(exchangeRate)
