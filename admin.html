@@ -8,7 +8,7 @@
         .moradoness {
             background-color: purple;
             color: white;
-            border: none;
+            border: 2px solid purple; /* borde morado */
             padding: 3.33px 6.66px;
             text-align: center;
             display: inline-block;
@@ -20,6 +20,7 @@
 </head>
 <body>
     <h1>Administración</h1>
+    <button class="moradoness" onclick="window.history.back()">VOLVER</button>
     <form id="exchangeRateForm">
         <label for="exchangeRate">REF: $ = Bs</label>
         <input type="number" id="exchangeRate" name="exchangeRate" value="50.37" step="0.01">
