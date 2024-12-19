@@ -5,39 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administración</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
+        .moradoness {
+            background-color: purple;
+            color: white;
+            border: none;
+            padding: 3.33px 6.66px;
             text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .rate-box {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
+            display: inline-block;
+            font-size: 10.66px;
+            margin: 2.66px 1.33px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Administración</h1>
-        <div class="rate-box">
-            <label for="usd-rate">REF</label>
-            <input type="number" id="usd-rate" value="50">
-            <span>Bs</span>
-        </div>
+    <h1>Administración</h1>
+    <form id="exchangeRateForm">
+        <label for="exchangeRate">REF: $ = Bs</label>
+        <input type="number" id="exchangeRate" name="exchangeRate" value="50.37" step="0.01">
+        <button type="button" class="moradoness" onclick="actualizarTasaCambio()">ACTUALIZAR</button>
+    </form>
+
+    <h2>Búsqueda de Productos</h2>
+    <input type="text" id="searchBar" placeholder="Buscar producto..." onkeyup="buscarProducto()">
+    <ul id="productList"></ul>
+
+    <div id="productForm" style="display:none;">
+        <h3>Modificar Producto</h3>
+        <form>
+            <label for="productName">Nombre del Producto:</label>
+            <input type="text" id="productName">
+            <br>
+            <label for="productPrice">Precio del Producto:</label>
+            <input type="number" id="productPrice" step="0.01">
+            <br>
+            <button type="button" class="moradoness" onclick="modificarProducto()">Confirmar</button>
+        </form>
     </div>
+
+    <script>
+        let productos = [];
+
+        // Cargar productos desde la página charcuteria.html
+        fetch('charcuteria.html')
+            .then(response => response.json())
+            .then(data => {
+                productos = data;
+                buscarProducto(); // Llamar a buscarProducto después de cargar los productos
+            })
+            .catch(error => {
+                console.error('Error al cargar los productos:', error);
+            });
+
+        function buscarProducto() {
+            const searchQuery = document.getElementById('searchBar').value.toLowerCase();
+            const productList = document.getElementById('productList');
+            productList.innerHTML = '';
+            productos.forEach(producto => {
+                if (producto.nombre.toLowerCase().includes(searchQuery)) {
+                    const li = document.createElement('li');
+                    li.textContent = `${producto.nombre} - Bs ${producto.precio.toFixed(2)}`;
+                    li.onclick = () => seleccionarProducto(producto);
+                    productList.appendChild(li);
+                }
+            });
+        }
+
+        function seleccionarProducto(producto) {
+            document.getElementById('productName').value = producto.nombre;
+            document.getElementById('productPrice').value = producto.precio;
+            document.getElementById('productForm').style.display = 'block';
+        }
+
+        function modificarProducto() {
+            const productName = document.getElementById('productName').value;
+            const productPrice = document.getElementById('productPrice').value;
+            const producto = productos.find(p => p.nombre === productName);
+            if (producto) {
+                producto.nombre = productName;
+                producto.precio = parseFloat(productPrice);
+                alert('Producto actualizado');
+                document.getElementById('productForm').style.display = 'none';
+                buscarProducto(); // Actualizar la lista de productos
+            } else {
+                alert('Error al actualizar el producto');
+            }
+        }
+
+        function actualizarTasaCambio() {
+            const exchangeRate = document.getElementById('exchangeRate').value;
+            const mensaje = {
+                type: 'actualizarTasaCambio',
+                exchangeRate: parseFloat(exchangeRate)
+            };
+
+            // Enviar el mensaje a las demás páginas abiertas
+            if (window.opener) {
+                window.opener.postMessage(mensaje, '*');
+            }
+            // Guardar la tasa de cambio en el almacenamiento local
+            localStorage.setItem('exchangeRate', exchangeRate);
+        }
+    </script>
 </body>
 </html>
