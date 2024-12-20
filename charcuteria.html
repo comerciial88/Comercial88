@@ -87,8 +87,7 @@
             align-items: center;
             width: 80%;
         }
-            
-            .back-button .btn {
+        .back-button .btn {
             text-decoration: none;
             color: white;
             background-color: #800080;
@@ -96,24 +95,18 @@
             border-radius: 5px;
             margin: 30px;
             display: inline-block; /* Asegura que se muestre como un botón */
-          
         }
-          
-        
-         .back-button .btn:hover {
+        .back-button .btn:hover {
             background-color: #800080;
         }
-        
-        
     </style>
 </head>
 <body>
     <h1>Compras</h1>
     
-           <div class="back-button">
-            <a href="index.html" class="btn">&#8592; Volver</a>
-        </div>
-    
+    <div class="back-button">
+        <a href="index.html" class="btn">&#8592; Volver</a>
+    </div>
     
     <input type="text" id="searchBar" placeholder="Buscar productos...">
     <div id="carrito">
@@ -127,28 +120,21 @@
     <audio id="clickSound" src="click.mp3" preload="auto"></audio>
     <script src="carrito.js"></script>
     <script>
-        const products = [
-            { title: 'Producto 1', price: 10, image: 'huevo.jpg' },
-            { title: 'Producto 2', price: 20, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 3', price: 30, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 4', price: 40, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 5', price: 50, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 6', price: 60, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 7', price: 70, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 8', price: 80, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 9', price: 90, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 10', price: 100, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 11', price: 110, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 12', price: 120, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 13', price: 130, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 14', price: 140, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 15', price: 150, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 16', price: 160, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 17', price: 170, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 18', price: 180, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 19', price: 190, image: 'https://via.placeholder.com/150' },
-            { title: 'Producto 20', price: 200, image: 'https://via.placeholder.com/150' },
-        ];
+        let productos = [];
+
+        // Cargar productos desde el archivo charcuteria.json
+        async function cargarProductos() {
+            try {
+                const response = await fetch('charcuteria.json');
+                const data = await response.json();
+                productos = data;
+                displayProducts(productos);
+            } catch (error) {
+                console.error('Error al cargar los productos:', error);
+            }
+        }
+
+        cargarProductos();
 
         function displayProducts(products) {
             const gallery = document.getElementById('gallery');
@@ -157,10 +143,10 @@
                 const productDiv = document.createElement('div');
                 productDiv.classList.add('product');
                 productDiv.innerHTML = `
-                    <img src="${product.image}" alt="${product.title}">
-                    <h3>${product.title}</h3>
-                    <p>Precio: $${product.price}</p>
-                    <button onclick="agregarAlCarrito('${product.title}', ${product.price})">Agregar al carrito</button>
+                    <img src="${product.imagen}" alt="${product.nombre}">
+                    <h3>${product.nombre}</h3>
+                    <p>Precio: $${product.precio}</p>
+                    <button onclick="agregarAlCarrito('${product.nombre}', ${product.precio})">Agregar al carrito</button>
                 `;
                 gallery.appendChild(productDiv);
             });
@@ -168,44 +154,43 @@
 
         function filterProducts() {
             const searchTerm = document.getElementById('searchBar').value.toLowerCase();
-            const filteredProducts = products.filter(product => product.title.toLowerCase().includes(searchTerm));
+            const filteredProducts = productos.filter(product => product.nombre.toLowerCase().includes(searchTerm));
             displayProducts(filteredProducts);
         }
 
         document.getElementById('searchBar').addEventListener('input', filterProducts);
 
-        // Mostrar todos los productos al cargar la página
-        displayProducts(products);
-
-        // Alinear el texto del título y el total a la derecha cuando se cargue la página
-        document.addEventListener('DOMContentLoaded', function() {
-            const totalElement = document.getElementById('total');
-            if (totalElement) {
-                totalElement.style.textAlign = 'right';
-                totalElement.style.marginRight = '20px';
-            }
-
-            const carritoTitulo = document.querySelector('h2');
-            if (carritoTitulo) {
-                carritoTitulo.style.textAlign = 'right';
-                carritoTitulo.style.marginRight = '135px';
+        // Escuchar los cambios de tasa de cambio y productos
+        window.addEventListener('message', (event) => {
+            if (event.data.type === 'actualizarTasaCambio') {
+                const exchangeRate = event.data.exchangeRate;
+                // Aplica la nueva tasa de cambio
+                console.log(`Nueva tasa de cambio recibida: $1 = Bs ${exchangeRate}`);
+            } else if (event.data.type === 'actualizarProductos') {
+                productos = event.data.productos;
+                displayProducts(productos);
+                console.log('Productos actualizados:', productos);
             }
         });
 
-        function toggleCart() {
-            const carrito = document.getElementById('carrito');
-            const toggleBtn = document.getElementById('toggleCartBtn');
-            if (isCartMinimized) {
-                carrito.style.display = 'flex';
-                toggleBtn.innerHTML = 'Minimizar Carrito';
-                toggleBtn.style.backgroundColor = '#800080';
-            } else {
-                carrito.style.display = 'none';
-                toggleBtn.innerHTML = 'Maximizar Carrito';
-                toggleBtn.style.backgroundColor = '#800080';
+        // Cargar la tasa de cambio y los productos desde el almacenamiento local al cargar la página
+        document.addEventListener('DOMContentLoaded', () => {
+            const exchangeRate = localStorage.getItem('exchangeRate');
+            if (exchangeRate) {
+                // Aplica la tasa de cambio guardada
+                console.log(`Tasa de cambio cargada: $1 = Bs ${exchangeRate}`);
             }
-            isCartMinimized = !isCartMinimized;
-            playSound();
+
+            const productosGuardados = localStorage.getItem('productos');
+            if (productosGuardados) {
+                productos = JSON.parse(productosGuardados);
+                displayProducts(productos);
+                console.log('Productos cargados desde el almacenamiento local:', productos);
+            }
+        });
+
+        function agregarAlCarrito(nombre, precio) {
+            // Implementar la lógica para agregar productos al carrito
         }
 
         function playSound() {

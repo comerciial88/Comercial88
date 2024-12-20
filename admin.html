@@ -88,12 +88,30 @@
             if (producto) {
                 producto.nombre = productName;
                 producto.precio = parseFloat(productPrice);
+
+                // Guardar los cambios en charcuteria.json
+                actualizarProductos(productos);
+
                 alert('Producto actualizado');
                 document.getElementById('productForm').style.display = 'none';
                 buscarProducto();
             } else {
                 alert('Error al actualizar el producto');
             }
+        }
+
+        function actualizarProductos(productos) {
+            const data = JSON.stringify(productos, null, 2);
+            const blob = new Blob([data], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+
+            // Simular la descarga del archivo actualizado
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'charcuteria.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
         }
 
         function actualizarTasaCambio() {
