@@ -47,7 +47,6 @@
     <script>
         let productos = [];
 
-        // Cargar productos desde el archivo charcuteria.json
         async function cargarProductos() {
             try {
                 const response = await fetch('charcuteria.json');
@@ -81,7 +80,7 @@
             document.getElementById('productForm').style.display = 'block';
         }
 
-        function modificarProducto() {
+        async function modificarProducto() {
             const productName = document.getElementById('productName').value;
             const productPrice = document.getElementById('productPrice').value;
             const producto = productos.find(p => p.nombre === productName);
@@ -89,8 +88,7 @@
                 producto.nombre = productName;
                 producto.precio = parseFloat(productPrice);
 
-                // Guardar los cambios en charcuteria.json
-                actualizarProductos(productos);
+                await actualizarProductos(productos);
 
                 alert('Producto actualizado');
                 document.getElementById('productForm').style.display = 'none';
@@ -100,18 +98,45 @@
             }
         }
 
-        function actualizarProductos(productos) {
-            const data = JSON.stringify(productos, null, 2);
-            const blob = new Blob([data], {type: 'application/json'});
-            const url = URL.createObjectURL(blob);
+        async function actualizarProductos(productos) {
+            const token = 'YOUR_NEW_TOKEN_HERE'; // Reemplaza con tu nuevo token
+            const repoOwner = 'comercial88'; // Tu nombre de usuario de GitHub
+            const repoName = 'charcuteria'; // El nombre de tu repositorio
+            const filePath = 'charcuteria.json'; // La ruta al archivo en tu repositorio
+            const branch = 'main'; // La rama en la que quieres actualizar el archivo
 
-            // Simular la descarga del archivo actualizado
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'charcuteria.json';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+            try {
+                // Obtener el SHA del archivo actual
+                const getResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json`
+                    }
+                });
+                const fileData = await getResponse.json();
+                const sha = fileData.sha;
+
+                // Actualizar el archivo con el nuevo contenido
+                const updateResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'Actualizar productos',
+                        content: btoa(JSON.stringify(productos, null, 2)),
+                        sha: sha,
+                        branch: branch
+                    })
+                });
+                const result = await updateResponse.json();
+                console.log(result);
+                alert('Productos actualizados en GitHub');
+            } catch (error) {
+                console.error('Error al actualizar los productos en GitHub:', error);
+            }
         }
 
         function actualizarTasaCambio() {
