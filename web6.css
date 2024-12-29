@@ -46,7 +46,10 @@ button:link, button:visited {
     margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
 }
 
-button + button {
+.tuto:hover, .catalogo:hover; {
+    background: #bbb;
+    text-decoration: none;
+}
     margin-top: 0; /* Elimina el margen superior entre botones adyacentes */
 }
 
