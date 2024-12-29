@@ -6,12 +6,12 @@ body {
 
 h1 {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente específica para el encabezado h1 */
-    font-size: 5em; /* Tamaño de fuente grande para el encabezado h1 */
+    font-size: 7em; /* Tamaño de fuente grande para el encabezado h1 */
     margin-top: 20px; /* Margen superior de 20px */
 }
 
 .imagen-comercial {
-    width: 600px; /* Ancho de la imagen */
+    width: 800px; /* Ancho de la imagen */
     height: 100%; /* Altura automática para mantener la proporción */
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
