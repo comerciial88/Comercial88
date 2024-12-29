@@ -23,14 +23,14 @@ button {
     padding: 30px; /* Espacio interno del botón */
     font-size: 3em; /* Tamaño de la fuente del botón */
     background-color: #ccc; /* Color de fondo del botón */
-    text-decoration: none; /* Elimina el subrayado del texto */
+    text-decoration: none !important; /* Elimina el subrayado del texto */
     border: 2px solid #888; /* Borde gris del botón */
     border-radius: 5px; /* Bordes redondeados del botón */
     cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
 }
 
 button:link, button:visited {
-    text-decoration: none; /* Elimina el subrayado del enlace en todos los estados */
+    text-decoration: none !important; /* Elimina el subrayado del enlace en todos los estados */
 }
 
 .tuto, .catalogo {
@@ -42,13 +42,13 @@ button:link, button:visited {
     border: 2px solid #888; /* Borde gris del botón */
     border-radius: 5px; /* Bordes redondeados del botón */
     cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
-    text-decoration: none; /* Elimina el subrayado del texto */
+    text-decoration: none !important; /* Elimina el subrayado del texto */
     margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
 }
 
-.tuto:hover, .catalogo:hover; {
+.tuto:hover, .catalogo:hover {
     background: #bbb;
-    text-decoration: none;
+    text-decoration: none !important; /* Mantiene el texto sin subrayar */
 }
 
 button + button {
@@ -57,7 +57,7 @@ button + button {
 
 button:hover {
     background-color: #bbb; /* Cambia el color de fondo al pasar el ratón */
-    text-decoration: none; /* Mantiene el texto sin subrayar */
+    text-decoration: none !important; /* Mantiene el texto sin subrayar */
 }
 
 h2 {
