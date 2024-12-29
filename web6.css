@@ -16,7 +16,7 @@ h1 {
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-button {
+button, .tuto, .catalogo {
     display: block; /* Muestra el botón como un bloque */
     width: 200px; /* Ancho del botón */
     margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
@@ -29,35 +29,21 @@ button {
     cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
 }
 
-button:link, button:visited {
+a:link, a:visited, a:hover, a:active {
     text-decoration: none !important; /* Elimina el subrayado del enlace en todos los estados */
 }
 
-.tuto, .catalogo {
-    display: block; /* Muestra el elemento como un bloque en línea */
-    width: 400px; /* Ancho del botón */
-    padding: 30px; /* Espacio interno del botón */
-    font-size: 3em; /* Tamaño de la fuente del botón */
-    background-color: #ccc; /* Color de fondo del botón */
-    border: 2px solid #888; /* Borde gris del botón */
-    border-radius: 5px; /* Bordes redondeados del botón */
-    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
-    text-decoration: none !important; /* Elimina el subrayado del texto */
-    margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
+button:link, button:visited, .tuto:link, .catalogo:link, .tuto:visited, .catalogo:visited {
+    text-decoration: none !important; /* Elimina el subrayado del enlace en todos los estados */
 }
 
-.tuto:hover, .catalogo:hover {
+button:hover, .tuto:hover, .catalogo:hover {
     background: #bbb;
     text-decoration: none !important; /* Mantiene el texto sin subrayar */
 }
 
 button + button {
     margin-top: 0; /* Elimina el margen superior entre botones adyacentes */
-}
-
-button:hover {
-    background-color: #bbb; /* Cambia el color de fondo al pasar el ratón */
-    text-decoration: none !important; /* Mantiene el texto sin subrayar */
 }
 
 h2 {
