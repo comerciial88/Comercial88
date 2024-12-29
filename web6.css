@@ -1,61 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f9f9f9;
+    font-family: Arial, sans-serif; /* Establece la fuente del texto en Arial */
+    text-align: center; /* Centra el contenido del texto */
+    background-color: #f9f9f9; /* Establece el color de fondo */
 }
 
 h1 {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 2.5em;
-    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente específica para el encabezado h1 */
+    font-size: 2.5em; /* Tamaño de fuente grande para el encabezado h1 */
+    margin-top: 20px; /* Margen superior de 20px */
 }
 
 .imagen-comercial {
-    width: 300px;
-    height: auto;
-    margin: 0 auto;
+    width: 600px; /* Ancho de la imagen */
+    height: 100%; /* Altura automática para mantener la proporción */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 button {
-    display: block;
-    width: 200px;
-    margin: 10px auto;
-    padding: 10px;
-    font-size: 1.2em;
-    background-color: #ccc;
-    text-decoration: none;
-    border: 2px solid #888;
-    border-radius: 5px;
-    cursor: pointer;
+    display: block; /* Muestra el botón como un bloque */
+    width: 200px; /* Ancho del botón */
+    margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
+    padding: 30px; /* Espacio interno del botón */
+    font-size: 3em; /* Tamaño de la fuente del botón */
+    background-color: #ccc; /* Color de fondo del botón */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    border: 2px solid #888; /* Borde gris del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
 }
 
 button:link, button:visited {
-    text-decoration: none;
+    text-decoration: none; /* Elimina el subrayado del enlace en todos los estados */
 }
 
 .tuto, .catalogo {
-    display: inline-block;
-    width: 200px;
-    padding: 10px;
-    font-size: 1.2em;
-    background-color: #ccc;
-    border: 2px solid #888;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    margin: 10px auto;
+    display: inline-block; /* Muestra el elemento como un bloque en línea */
+    width: 400px; /* Ancho del botón */
+    padding: 30px; /* Espacio interno del botón */
+    font-size: 3em; /* Tamaño de la fuente del botón */
+    background-color: #ccc; /* Color de fondo del botón */
+    border: 2px solid #888; /* Borde gris del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
 }
 
 button + button {
-    margin-top: 0;
+    margin-top: 0; /* Elimina el margen superior entre botones adyacentes */
 }
 
 button:hover {
-    background-color: #bbb;
-    text-decoration: none;
+    background-color: #bbb; /* Cambia el color de fondo al pasar el ratón */
+    text-decoration: none; /* Mantiene el texto sin subrayar */
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-top: 20px;
+    font-size: 1.5em; /* Tamaño de fuente para el encabezado h2 */
+    margin-top: 20px; /* Margen superior de 20px */
 }
