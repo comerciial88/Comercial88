@@ -34,7 +34,7 @@ button:link, button:visited {
 }
 
 .tuto, .catalogo {
-    display: inline-block; /* Muestra el elemento como un bloque en línea */
+    display: block; /* Muestra el elemento como un bloque en línea */
     width: 400px; /* Ancho del botón */
     padding: 30px; /* Espacio interno del botón */
     font-size: 3em; /* Tamaño de la fuente del botón */
