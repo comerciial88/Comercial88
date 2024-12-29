@@ -1,4 +1,4 @@
-const cart = [];
+const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 function searchItems() {
     const query = document.getElementById('search').value.toLowerCase();
@@ -41,6 +41,7 @@ function addToCart(id) {
     cart.push(item);
     updateCart();
     document.getElementById('click3Sound').play();
+    localStorage.setItem('cart', JSON.stringify(cart));
 }
 
 function updateCart() {
@@ -59,6 +60,7 @@ function updateCart() {
 function removeFromCart(index) {
     cart.splice(index, 1);
     updateCart();
+    localStorage.setItem('cart', JSON.stringify(cart));
 }
 
 function toggleCart() {
@@ -92,4 +94,5 @@ document.getElementById('click4Sound').addEventListener('click', () => {
 
 window.onload = function() {
     searchItems();
+    updateCart(); // Actualiza el carrito al cargar la página
 };
