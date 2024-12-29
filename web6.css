@@ -50,6 +50,8 @@ button:link, button:visited {
     background: #bbb;
     text-decoration: none;
 }
+
+button + button {
     margin-top: 0; /* Elimina el margen superior entre botones adyacentes */
 }
 
