@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.imagen-comercial {
+    width: 300px; /* Ajuste de tamaño */
+    height: auto;
+    margin: 0px 0;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #ccc;
+    text-decoration: none;
+    border: 2px solid #888; /* Borde gris */
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:link, button:visited {
+    text-decoration: none;
+}
+
+    a .tuto {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #ccc;
+    border: 2px solid #888; /* Borde gris */
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Eliminar subrayado */
+    margin: 10px auto;
+} 
+
+     .catalogo {
+    display: inline-block;
+    width: 180px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #ccc;
+    color: black;
+    border: 2px solid #888; /* Borde gris */
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Eliminar subrayado */
+    margin: 10px auto;
+ }
+
+
+button + button {
+    margin-top: 0; /* Ajuste de espacio entre botones */
+}
+
+button:hover {
+    background-color: #bbb;
+    text-decoration: none;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
