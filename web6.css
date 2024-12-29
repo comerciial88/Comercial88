@@ -16,12 +16,16 @@ h1 {
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
+a.button-link {
+    text-decoration: none !important; /* Elimina el subrayado de los enlaces */
+}
+
 button, .tuto, .catalogo {
     display: block; /* Muestra el botón como un bloque */
-    width: 200px; /* Ancho del botón */
+    width: 250px; /* Ancho del botón */
     margin: 10px auto; /* Márgenes para centrar y espaciar el botón */
-    padding: 30px; /* Espacio interno del botón */
-    font-size: 3em; /* Tamaño de la fuente del botón */
+    padding: 20px; /* Espacio interno del botón */
+    font-size: 2em; /* Tamaño de la fuente del botón */
     background-color: #ccc; /* Color de fondo del botón */
     text-decoration: none !important; /* Elimina el subrayado del texto */
     border: 2px solid #888; /* Borde gris del botón */
@@ -29,7 +33,7 @@ button, .tuto, .catalogo {
     cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
 }
 
-a:link, a:visited, a:hover, a:active {
+a.button-link:link, a.button-link:visited, a.button-link:hover, a.button-link:active {
     text-decoration: none !important; /* Elimina el subrayado del enlace en todos los estados */
 }
 
