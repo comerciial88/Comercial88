@@ -3,51 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Búsqueda</title>
-    <link rel="stylesheet" href="catalogo.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
-    <script src="catalogo.js" defer></script>
+    <title>Búsqueda de Productos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Búsqueda</h1>
+        <h1>Búsqueda de Productos</h1>
     </header>
     <main>
         <div class="search-bar">
-            <input type="text" id="search" placeholder="Buscar producto..." oninput="filterProducts()">
-            <button class="camera-button" id="startScan">
-                📸
-            </button>
+            <input type="text" id="search" placeholder="Buscar producto...">
         </div>
-        <div id="scanner" style="width: 100%; height: 300px;"></div>
-        <p id="output"></p>
-        <section id="catalog" class="catalog">
-            <div class="product">
+        <section class="catalog">
+            <div class="product" data-name="Producto 1">
                 <img src="producto1.jpg" alt="Producto 1">
                 <h2>Producto 1</h2>
                 <p>$10.00</p>
             </div>
-            <div class="product">
+            <div class="product" data-name="Producto 2">
                 <img src="producto2.jpg" alt="Producto 2">
                 <h2>Producto 2</h2>
                 <p>$20.00</p>
             </div>
-            <div class="product">
+            <div class="product" data-name="Producto 3">
                 <img src="producto3.jpg" alt="Producto 3">
                 <h2>Producto 3</h2>
                 <p>$30.00</p>
             </div>
-            <div class="product">
+            <div class="product" data-name="Producto 4">
                 <img src="producto4.jpg" alt="Producto 4">
                 <h2>Producto 4</h2>
                 <p>$40.00</p>
             </div>
-            <div class="product">
+            <div class="product" data-name="Producto 5">
                 <img src="producto5.jpg" alt="Producto 5">
                 <h2>Producto 5</h2>
                 <p>$50.00</p>
             </div>
-            <div class="product">
+            <div class="product" data-name="Producto 6">
                 <img src="producto6.jpg" alt="Producto 6">
                 <h2>Producto 6</h2>
                 <p>$60.00</p>
