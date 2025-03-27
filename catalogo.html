@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Búsqueda</title>
     <link rel="stylesheet" href="catalogo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
     <script src="catalogo.js" defer></script>
 </head>
 <body>
@@ -14,12 +15,13 @@
     <main>
         <div class="search-bar">
             <input type="text" id="search" placeholder="Buscar producto..." oninput="filterProducts()">
-            <button class="camera-button" onclick="scanBarcode()">
+            <button class="camera-button" id="startScan">
                 📸
             </button>
         </div>
+        <div id="scanner" style="width: 100%; height: 300px;"></div>
+        <p id="output"></p>
         <section id="catalog" class="catalog">
-            <!-- Cuadros de producto (ejemplo con datos iniciales) -->
             <div class="product">
                 <img src="producto1.jpg" alt="Producto 1">
                 <h2>Producto 1</h2>
