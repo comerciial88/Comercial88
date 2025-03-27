@@ -49,7 +49,7 @@ h1 {
 
 .product img {
     width: 100%; /* Se adapta al ancho del contenedor */
-    max-width: 160px; /* Tamaño máximo en pantallas grandes */
+    max-width: 200px; /* Tamaño máximo en pantallas grandes */
     height: auto; /* Mantiene la proporción original */
     object-fit: contain; /* Ajusta la imagen sin deformarla */
     border-radius: 5px; /* Esquinas redondeadas, opcional */
