@@ -1,31 +1,18 @@
-document.getElementById('startScan').addEventListener('click', () => {
-    Quagga.init({
-        inputStream: {
-            name: "Live",
-            type: "LiveStream",
-            constraints: {
-                width: 640,
-                height: 480,
-                facingMode: "environment"
-            },
-            target: document.querySelector('#scanner') // Elemento donde se mostrará la cámara
-        },
-        decoder: {
-            readers: ["ean_reader"] // Lee códigos de barras EAN-13
-        }
-    }, function(err) {
-        if (err) {
-            console.error(err);
-            alert("Error al iniciar el escaneo: " + err);
-            return;
-        }
-        Quagga.start();
-        console.log("Escaneo iniciado");
-    });
+// Seleccionar elementos importantes
+const searchInput = document.getElementById('search');
+const products = document.querySelectorAll('.product');
 
-    Quagga.onDetected(data => {
-        const scannedCode = data.codeResult.code;
-        document.getElementById('output').textContent = `Código escaneado: ${scannedCode}`;
-        Quagga.stop();
+// Escuchar el evento de escritura en la barra de búsqueda
+searchInput.addEventListener('input', () => {
+    const searchText = searchInput.value.toLowerCase();
+
+    // Filtrar productos según el texto ingresado
+    products.forEach(product => {
+        const productName = product.getAttribute('data-name').toLowerCase();
+        if (productName.includes(searchText)) {
+            product.style.display = 'block'; // Mostrar si coincide
+        } else {
+            product.style.display = 'none'; // Ocultar si no coincide
+        }
     });
 });
