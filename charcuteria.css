@@ -51,7 +51,7 @@ h1 {
     width: 100%; /* Se adapta al ancho del contenedor */
     max-width: 160px; /* Tamaño máximo en pantallas grandes */
     height: auto; /* Mantiene la proporción original */
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
     border-radius: 5px; /* Esquinas redondeadas, opcional */
     margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 }
