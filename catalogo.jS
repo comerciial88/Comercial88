@@ -1,13 +1,31 @@
-function filterProducts() {
-    const searchInput = document.getElementById("search").value.toLowerCase();
-    const products = document.querySelectorAll(".product");
-
-    products.forEach(product => {
-        const title = product.querySelector("h2").textContent.toLowerCase();
-        product.style.display = title.includes(searchInput) ? "block" : "none";
+document.getElementById('startScan').addEventListener('click', () => {
+    Quagga.init({
+        inputStream: {
+            name: "Live",
+            type: "LiveStream",
+            constraints: {
+                width: 640,
+                height: 480,
+                facingMode: "environment"
+            },
+            target: document.querySelector('#scanner') // Elemento donde se mostrará la cámara
+        },
+        decoder: {
+            readers: ["ean_reader"] // Lee códigos de barras EAN-13
+        }
+    }, function(err) {
+        if (err) {
+            console.error(err);
+            alert("Error al iniciar el escaneo: " + err);
+            return;
+        }
+        Quagga.start();
+        console.log("Escaneo iniciado");
     });
-}
 
-function scanBarcode() {
-    alert("Función de escaneo activada. Integra una librería como QuaggaJS o ZXing para leer códigos EAN_13.");
-}
+    Quagga.onDetected(data => {
+        const scannedCode = data.codeResult.code;
+        document.getElementById('output').textContent = `Código escaneado: ${scannedCode}`;
+        Quagga.stop();
+    });
+});
