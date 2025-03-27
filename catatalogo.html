@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda</title>
+    <link rel="stylesheet" href="catalogo.css">
+    <script src="catalogo.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Búsqueda</h1>
+    </header>
+    <main>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Buscar producto..." oninput="filterProducts()">
+            <button class="camera-button" onclick="scanBarcode()">
+                📸
+            </button>
+        </div>
+        <section id="catalog" class="catalog">
+            <!-- Cuadros de producto (ejemplo con datos iniciales) -->
+            <div class="product">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p>$10.00</p>
+            </div>
+            <div class="product">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h2>Producto 2</h2>
+                <p>$20.00</p>
+            </div>
+            <div class="product">
+                <img src="producto3.jpg" alt="Producto 3">
+                <h2>Producto 3</h2>
+                <p>$30.00</p>
+            </div>
+            <div class="product">
+                <img src="producto4.jpg" alt="Producto 4">
+                <h2>Producto 4</h2>
+                <p>$40.00</p>
+            </div>
+            <div class="product">
+                <img src="producto5.jpg" alt="Producto 5">
+                <h2>Producto 5</h2>
+                <p>$50.00</p>
+            </div>
+            <div class="product">
+                <img src="producto6.jpg" alt="Producto 6">
+                <h2>Producto 6</h2>
+                <p>$60.00</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
