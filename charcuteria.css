@@ -72,16 +72,16 @@ h1 {
     padding: 10px 20px; /* Espaciado interno */
     font-size: 16px; /* Tamaño de la fuente */
     color: white; /* Color del texto */
-    background-color: #007BFF; /* Fondo azul */
+    background-color: #228B22; /* Fondo azul */
     text-decoration: none; /* Elimina el subrayado del enlace */
-    border: 2px solid #007BFF; /* Bordes en azul */
+    border: 2px solid #228B22; /* Bordes en azul */
     border-radius: 5px; /* Esquinas redondeadas */
     transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
 }
 
 .button:hover {
     background-color: white; /* Cambia el fondo al pasar el mouse */
-    color: #007BFF; /* Cambia el texto al color del borde */
+    color: #6B8C23; /* Cambia el texto al color del borde */
 }
 
 .centrar {
