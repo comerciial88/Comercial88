@@ -1,3 +1,5 @@
+console.log('¡El archivo carrito.js está cargando correctamente!');
+
 // Selección de elementos
 const carrito = document.getElementById('carrito');
 const listaProductos = document.getElementById('lista-productos');
