@@ -83,3 +83,7 @@ h1 {
     background-color: white; /* Cambia el fondo al pasar el mouse */
     color: #007BFF; /* Cambia el texto al color del borde */
 }
+
+.centrar {
+    text-align: center;
+}
