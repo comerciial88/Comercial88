@@ -132,3 +132,8 @@ h1 {
 #carrito.active .cart-details {
     display: block;
 }
+#lista-productos li {
+    font-size: 18px; /* Cambia el tamaño según prefieras */
+    font-weight: bold; /* Opcional */
+    color: #333; /* Opcional */
+}
