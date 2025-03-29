@@ -87,3 +87,48 @@ h1 {
 .centrar {
     text-align: center;
 }
+
+/* Estilo básico del carrito */
+#carrito {
+    position: fixed; /* Flotante en la pantalla */
+    bottom: 20px; /* Separación desde abajo */
+    right: 20px; /* Separación desde la derecha */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Forma circular */
+    background-color: #007BFF; /* Fondo azul vibrante */
+    color: white; /* Texto/blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: all 0.3s ease-in-out; /* Animación suave */
+    z-index: 1000; /* Asegura que esté siempre visible */
+}
+
+/* Hover para dar interactividad */
+#carrito:hover {
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+/* Detalles del carrito (oculto por defecto) */
+.cart-details {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 300px;
+    max-height: 400px;
+    background-color: white; /* Fondo blanco para el contenido */
+    color: black; /* Texto negro */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    overflow-y: auto; /* Barra de desplazamiento si el contenido excede */
+    display: none; /* Oculto al inicio */
+    padding: 10px;
+}
+
+/* Mostrar detalles al interactuar */
+#carrito.active .cart-details {
+    display: block;
+}
