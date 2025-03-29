@@ -66,3 +66,20 @@ h1 {
     font-size: 16px;
     color: #007BFF;
 }
+
+.button {
+    display: inline-block; /* Hace que se comporte como un botón */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+    background-color: #007BFF; /* Fondo azul */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border: 2px solid #007BFF; /* Bordes en azul */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
+}
+
+.button:hover {
+    background-color: white; /* Cambia el fondo al pasar el mouse */
+    color: #007BFF; /* Cambia el texto al color del borde */
+}
