@@ -34,19 +34,25 @@ function actualizarCarrito() {
     listaProductos.innerHTML = ''; // Limpiar lista de productos
     let total = 0;
 
-    carritoProductos.forEach((producto, index) => {
-        // Crear el elemento del producto
+    if (carritoProductos.length === 0) {
+        // Mostrar mensaje si el carrito está vacío
         const li = document.createElement('li');
-        li.innerHTML = `
-            ${producto.nombre} - $${producto.precio} x ${producto.cantidad}
-            <button onclick="restarProducto(${index})">-</button>
-            <button onclick="sumarProducto(${index})">+</button>
-        `;
+        li.textContent = 'Tu carrito está vacío.';
         listaProductos.appendChild(li);
+    } else {
+        carritoProductos.forEach((producto, index) => {
+            // Crear el elemento del producto
+            const li = document.createElement('li');
+            li.innerHTML = `
+                ${producto.nombre} - $${producto.precio} x ${producto.cantidad}
+                <button onclick="restarProducto(${index})">-</button>
+                <button onclick="sumarProducto(${index})">+</button>
+            `;
+            listaProductos.appendChild(li);
 
-        // Calcular el total
-        total += producto.precio * producto.cantidad;
-    });
+            total += producto.precio * producto.cantidad; // Calcular total
+        });
+    }
 
     totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
 }
