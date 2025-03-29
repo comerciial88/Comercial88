@@ -73,3 +73,10 @@ function restarProducto(index) {
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
     actualizarCarrito(); // Refrescar la vista del carrito
 }
+// Función dinámica para agregar producto desde el HTML
+function agregarProductoDesdeHTML(boton) {
+    const producto = boton.parentElement; // Contenedor del producto
+    const nombre = producto.getAttribute('data-nombre'); // Leer nombre del atributo data-nombre
+    const precio = parseFloat(producto.getAttribute('data-precio')); // Leer precio del atributo data-precio
+    agregarProducto(nombre, precio); // Llama a la función agregarProducto existente
+}
