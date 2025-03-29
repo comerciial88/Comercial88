@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="charcuteria.css">
 </head>
 <body>
+    <!-- Cartica flotante -->
+<div id="carrito" class="cart">
+    <!-- Icono del carrito -->
+    <div class="cart-icon">🛒</div>
+
+    <!-- Detalles del carrito (ocultos por defecto) -->
+    <div class="cart-details">
+        <h3>Tu Carrito</h3>
+        <ul id="lista-productos">
+            <!-- Aquí se agregarán los productos dinámicamente -->
+        </ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </div>
+</div>
     <header>
         <h1>Búsqueda de Productos</h1>
     </header>
@@ -107,5 +121,6 @@
         </section>
     </main>
     <script src="charcuteria.js"></script>
+    <script src="carrito.js"></script>
 </body>
 </html>
