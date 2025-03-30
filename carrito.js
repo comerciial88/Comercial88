@@ -45,10 +45,10 @@ function actualizarCarrito() {
             // Crear el elemento del producto
             const li = document.createElement('li');
             li.innerHTML = `
-                ${producto.nombre} - $${producto.precio} x ${producto.cantidad}
-                <button onclick="restarProducto(${index})">-</button>
-                <button onclick="sumarProducto(${index})">+</button>
-            `;
+    ${producto.nombre} - $${producto.precio} x ${producto.cantidad}
+    <button onclick="restarProducto(${index}, event)">-</button>
+    <button onclick="sumarProducto(${index}, event)">+</button>
+`;
             listaProductos.appendChild(li);
 
             total += producto.precio * producto.cantidad; // Calcular total
