@@ -133,7 +133,7 @@ h1 {
     display: block;
 }
 #lista-productos li {
-    font-size: 12px; /* Cambia el tamaño según prefieras */
+    font-size: 13px; /* Cambia el tamaño según prefieras */
     font-weight: bold; /* Opcional */
     color: #333; /* Opcional */
 }
