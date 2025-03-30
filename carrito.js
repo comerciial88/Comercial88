@@ -65,8 +65,15 @@ function sumarProducto(index) {
     actualizarCarrito(); // Refrescar la vista del carrito
 }
 
-// Función para restar la cantidad de un producto
-function restarProducto(index) {
+function sumarProducto(index, event) {
+    event.stopPropagation(); // Detener propagación del evento
+    carritoProductos[index].cantidad += 1; // Incrementar cantidad
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+    actualizarCarrito(); // Refrescar la vista del carrito
+}
+
+function restarProducto(index, event) {
+    event.stopPropagation(); // Detener propagación del evento
     if (carritoProductos[index].cantidad > 1) {
         carritoProductos[index].cantidad -= 1; // Reducir cantidad
     } else {
