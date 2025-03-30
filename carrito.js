@@ -91,7 +91,8 @@ function restarProducto(index, event) {
 // Función dinámica para agregar producto desde el HTML
 function agregarProductoDesdeHTML(boton) {
     const producto = boton.parentElement; // Contenedor del producto
-    const nombre = producto.getAttribute('data-nombre'); // Leer nombre del atributo data-nombre
-    const precio = parseFloat(producto.getAttribute('data-precio')); // Leer precio del atributo data-precio
-    agregarProducto(nombre, precio); // Llama a la función agregarProducto existente
+    const nombre = producto.getAttribute('data-nombre'); // Leer nombre
+    const precio = parseFloat(producto.getAttribute('data-precio')); // Leer precio
+    const tipo = producto.getAttribute('data-tipo'); // Leer tipo (gramos o unidad)
+    agregarProducto(nombre, precio, tipo); // Pasar el tipo al agregar producto
 }
