@@ -169,3 +169,23 @@ button[onclick*="restarProducto"]:hover {
     background-color: red; /* Fondo rojo */
     color: white; /* Texto blanco */
 }
+
+/* Estilo para el botón de "agregar al carrito" */
+button[onclick*="agregarProductoDesdeHTML"] {
+    border: 2px solid green; /* Borde verde */
+    background-color: white; /* Fondo blanco */
+    color: green; /* Texto verde */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negritas */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia a cursor de mano al pasar el mouse */
+    transition: all 0.3s ease; /* Transición para un efecto suave */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button[onclick*="agregarProductoDesdeHTML"]:hover {
+    background-color: green; /* Fondo verde */
+    color: white; /* Texto blanco */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
