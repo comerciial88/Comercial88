@@ -48,15 +48,25 @@ function actualizarCarrito() {
         listaProductos.appendChild(li);
     } else {
         carritoProductos.forEach((producto, index) => {
-            // Crear el elemento del producto
             const li = document.createElement('li');
-            li.innerHTML = `
-    ${producto.nombre} - $${producto.precio} x ${producto.cantidad}
-    <button onclick="restarProducto(${index}, event)">-</button>
-    <button onclick="sumarProducto(${index}, event)">+</button>
-`;
-            listaProductos.appendChild(li);
 
+            if (producto.tipo === "gramos") {
+                // Mostrar productos por gramaje
+                li.innerHTML = `
+                    ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}g
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            } else {
+                // Mostrar productos por unidad
+                li.innerHTML = `
+                    ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            }
+
+            listaProductos.appendChild(li);
             total += producto.precio * producto.cantidad; // Calcular total
         });
     }
