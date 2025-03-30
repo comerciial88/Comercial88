@@ -6,9 +6,11 @@ const totalSpan = document.getElementById('total');
 let carritoProductos = JSON.parse(localStorage.getItem('carrito')) || [];
 actualizarCarrito();
 
-// Mostrar/ocultar detalles del carrito
-carrito.addEventListener('click', () => {
-    carrito.classList.toggle('active'); // Alterna la clase 'active' para mostrar detalles
+carrito.addEventListener('click', (event) => {
+    // Verificar si el clic fue dentro del carrito
+    if (!event.target.closest('button')) {
+        carrito.classList.toggle('active'); // Solo alterna si no es un botón
+    }
 });
 
 // Función para agregar un producto al carrito
