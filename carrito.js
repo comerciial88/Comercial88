@@ -38,6 +38,45 @@ function agregarProducto(nombre, precio, tipo) {
 
 // Función para mostrar el carrito
 function actualizarCarrito() {
+    listaProductos.innerHTML = ''; // Limpiar lista de productos
+    let total = 0;
+
+    if (carritoProductos.length === 0) {
+        // Mostrar mensaje si el carrito está vacío
+        const li = document.createElement('li');
+        li.textContent = 'Tu carrito está vacío.';
+        listaProductos.appendChild(li);
+    } else {
+        carritoProductos.forEach((producto, index) => {
+            const li = document.createElement('li');
+            let precioPorCantidad;
+
+            if (producto.tipo === "gramos") {
+                // Calcular el precio por gramos dinámicamente
+                const precioPorGramo = producto.precio / 1000; // Precio por gramo (precio por kg / 1000)
+                precioPorCantidad = (precioPorGramo * producto.cantidad).toFixed(2); // Precio total según gramaje
+                li.innerHTML = `
+                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad}g)
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            } else {
+                // Calcular el precio normal para productos por unidad
+                precioPorCantidad = (producto.precio * producto.cantidad).toFixed(2);
+                li.innerHTML = `
+                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad} unidades)
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            }
+
+            listaProductos.appendChild(li);
+            total += parseFloat(precioPorCantidad); // Sumar al total general
+        });
+    }
+
+    totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
+}
 
 
 // Función para sumar la cantidad de un producto
