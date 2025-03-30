@@ -38,7 +38,7 @@ function agregarProducto(nombre, precio, tipo) {
 
 // Función para mostrar el carrito
 function actualizarCarrito() {
-    listaProductos.innerHTML = ''; // Limpiar lista de productos
+    listaProductos.innerHTML = ''; // Limpiar la lista de productos
     let total = 0;
 
     if (carritoProductos.length === 0) {
@@ -51,14 +51,14 @@ function actualizarCarrito() {
             const li = document.createElement('li');
 
             if (producto.tipo === "gramos") {
-                // Mostrar productos por gramaje
+                // Mostrar productos vendidos por gramaje
                 li.innerHTML = `
                     ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}g
                     <button onclick="restarProducto(${index}, event)">-</button>
                     <button onclick="sumarProducto(${index}, event)">+</button>
                 `;
             } else {
-                // Mostrar productos por unidad
+                // Mostrar productos vendidos por unidad
                 li.innerHTML = `
                     ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}
                     <button onclick="restarProducto(${index}, event)">-</button>
@@ -67,7 +67,7 @@ function actualizarCarrito() {
             }
 
             listaProductos.appendChild(li);
-            total += producto.precio * producto.cantidad; // Calcular total
+            total += producto.precio * producto.cantidad; // Calcular el total
         });
     }
 
