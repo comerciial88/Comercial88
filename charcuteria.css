@@ -175,7 +175,7 @@ button[onclick*="agregarProductoDesdeHTML"] {
     border: 2px solid green; /* Borde verde */
     background-color: white; /* Fondo blanco */
     color: green; /* Texto verde */
-    font-size: 16px; /* Tamaño de fuente */
+    font-size: 10px; /* Tamaño de fuente */
     font-weight: bold; /* Texto en negritas */
     border-radius: 5px; /* Bordes ligeramente redondeados */
     padding: 10px 15px; /* Espaciado interno */
