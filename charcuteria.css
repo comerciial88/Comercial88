@@ -132,8 +132,40 @@ h1 {
 #carrito.active .cart-details {
     display: block;
 }
+
 #lista-productos li {
     font-size: 13px; /* Cambia el tamaño según prefieras */
     font-weight: bold; /* Opcional */
     color: #333; /* Opcional */
+}
+/* Estilo para el botón + */
+button[onclick*="sumarProducto"] {
+    border: 2px solid green; /* Borde verde */
+    background-color: white; /* Fondo blanco */
+    color: green; /* Texto verde */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Indicador de clic */
+}
+
+/* Efecto al pasar el mouse sobre el botón + */
+button[onclick*="sumarProducto"]:hover {
+    background-color: green; /* Fondo verde */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo para el botón - */
+button[onclick*="restarProducto"] {
+    border: 2px solid red; /* Borde rojo */
+    background-color: white; /* Fondo blanco */
+    color: red; /* Texto rojo */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Indicador de clic */
+}
+
+/* Efecto al pasar el mouse sobre el botón - */
+button[onclick*="restarProducto"]:hover {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Texto blanco */
 }
