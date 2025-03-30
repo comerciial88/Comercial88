@@ -14,20 +14,26 @@ carrito.addEventListener('click', (event) => {
 });
 
 // Función para agregar un producto al carrito
-function agregarProducto(nombre, precio) {
+function agregarProducto(nombre, precio, tipo) {
     const productoExistente = carritoProductos.find(producto => producto.nombre === nombre);
 
     if (productoExistente) {
-        // Si ya existe, aumenta la cantidad
-        productoExistente.cantidad += 1;
+        if (tipo === "gramos") {
+            // Incrementar en 50g si es por gramaje
+            productoExistente.cantidad += 50;
+        } else {
+            // Incrementar en 1 si es por unidad
+            productoExistente.cantidad += 1;
+        }
     } else {
-        // Si no existe, agregar como nuevo producto con cantidad inicial 1
-        carritoProductos.push({ nombre, precio, cantidad: 1 });
+        // Agregar nuevo producto
+        const cantidadInicial = tipo === "gramos" ? 100 : 1; // 100g para gramaje, 1 para unidad
+        carritoProductos.push({ nombre, precio, cantidad: cantidadInicial, tipo });
     }
 
     // Guardar el carrito en localStorage
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-    actualizarCarrito(); // Actualizar visualización
+    actualizarCarrito(); // Refrescar visualización
 }
 
 // Función para mostrar el carrito
