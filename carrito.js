@@ -38,41 +38,7 @@ function agregarProducto(nombre, precio, tipo) {
 
 // Función para mostrar el carrito
 function actualizarCarrito() {
-    listaProductos.innerHTML = ''; // Limpiar la lista de productos
-    let total = 0;
 
-    if (carritoProductos.length === 0) {
-        // Mostrar mensaje si el carrito está vacío
-        const li = document.createElement('li');
-        li.textContent = 'Tu carrito está vacío.';
-        listaProductos.appendChild(li);
-    } else {
-        carritoProductos.forEach((producto, index) => {
-            const li = document.createElement('li');
-
-            if (producto.tipo === "gramos") {
-                // Mostrar productos vendidos por gramaje
-                li.innerHTML = `
-                    ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}g
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            } else {
-                // Mostrar productos vendidos por unidad
-                li.innerHTML = `
-                    ${producto.nombre} - $${producto.precio.toFixed(2)} x ${producto.cantidad}
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            }
-
-            listaProductos.appendChild(li);
-            total += producto.precio * producto.cantidad; // Calcular el total
-        });
-    }
-
-    totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
-}
 
 // Función para sumar la cantidad de un producto
 function sumarProducto(index, event) {
@@ -91,7 +57,47 @@ function sumarProducto(index, event) {
     localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
     actualizarCarrito(); // Refrescar la vista del carrito
 }
+function actualizarCarrito() {
+    listaProductos.innerHTML = ''; // Limpiar lista de productos
+    let total = 0;
 
+    if (carritoProductos.length === 0) {
+        // Mostrar mensaje si el carrito está vacío
+        const li = document.createElement('li');
+        li.textContent = 'Tu carrito está vacío.';
+        listaProductos.appendChild(li);
+    } else {
+        carritoProductos.forEach((producto, index) => {
+            const li = document.createElement('li');
+            let precioPorCantidad;
+
+            if (producto.tipo === "gramos") {
+                // Calcular el precio por gramos dinámicamente
+                const precioPorGramo = producto.precio / 1000; // Precio por gramo (precio por kg / 1000)
+                precioPorCantidad = (precioPorGramo * producto.cantidad).toFixed(2); // Precio total según gramaje
+                li.innerHTML = `
+                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad}g)
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            } else {
+                // Calcular el precio normal para productos por unidad
+                precioPorCantidad = (producto.precio * producto.cantidad).toFixed(2);
+                li.innerHTML = `
+                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad} unidades)
+                    <button onclick="restarProducto(${index}, event)">-</button>
+                    <button onclick="sumarProducto(${index}, event)">+</button>
+                `;
+            }
+
+            listaProductos.appendChild(li);
+            total += parseFloat(precioPorCantidad); // Sumar al total general
+        });
+    }
+
+    totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
+}
+    
 function restarProducto(index, event) {
     event.stopPropagation(); // Evita interferencias con el contenedor del carrito
 
