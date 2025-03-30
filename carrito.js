@@ -65,29 +65,49 @@ function actualizarCarrito() {
 }
 
 // Función para sumar la cantidad de un producto
-function sumarProducto(index) {
-    carritoProductos[index].cantidad += 1; // Incrementar cantidad
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-    actualizarCarrito(); // Refrescar la vista del carrito
-}
-
 function sumarProducto(index, event) {
-    event.stopPropagation(); // Detener propagación del evento
-    carritoProductos[index].cantidad += 1; // Incrementar cantidad
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+    event.stopPropagation(); // Evita interferencias con el contenedor del carrito
+
+    const producto = carritoProductos[index];
+
+    if (producto.tipo === "gramos") {
+        // Incrementar en bloques de 50g si el producto es por gramaje
+        producto.cantidad += 50;
+    } else {
+        // Incrementar en 1 unidad si el producto es por unidad
+        producto.cantidad += 1;
+    }
+
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
     actualizarCarrito(); // Refrescar la vista del carrito
 }
 
 function restarProducto(index, event) {
-    event.stopPropagation(); // Detener propagación del evento
-    if (carritoProductos[index].cantidad > 1) {
-        carritoProductos[index].cantidad -= 1; // Reducir cantidad
+    event.stopPropagation(); // Evita interferencias con el contenedor del carrito
+
+    const producto = carritoProductos[index];
+
+    if (producto.tipo === "gramos") {
+        // Reducir en bloques de 50g si el producto es por gramaje
+        producto.cantidad -= 50;
+
+        // Eliminar el producto si la cantidad baja de 100g
+        if (producto.cantidad < 100) {
+            carritoProductos.splice(index, 1); // Remover del carrito
+        }
     } else {
-        carritoProductos.splice(index, 1); // Eliminar producto si la cantidad es 0
+        // Reducir en 1 unidad si el producto es por unidad
+        if (producto.cantidad > 1) {
+            producto.cantidad -= 1;
+        } else {
+            carritoProductos.splice(index, 1); // Remover del carrito
+        }
     }
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
     actualizarCarrito(); // Refrescar la vista del carrito
 }
+
 // Función dinámica para agregar producto desde el HTML
 function agregarProductoDesdeHTML(boton) {
     const producto = boton.parentElement; // Contenedor del producto
