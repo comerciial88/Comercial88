@@ -173,8 +173,8 @@ button[onclick*="restarProducto"]:hover {
 /* Estilo para el botón de "agregar al carrito" */
 button[onclick*="agregarProductoDesdeHTML"] {
     border: 2px solid green; /* Borde verde */
-    background-color: white; /* Fondo blanco */
-    color: green; /* Texto verde */
+    background-color: green; /* Fondo blanco */
+    color: white; /* Texto verde */
     font-size: 10px; /* Tamaño de fuente */
     font-weight: bold; /* Texto en negritas */
     border-radius: 5px; /* Bordes ligeramente redondeados */
