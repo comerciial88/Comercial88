@@ -19,10 +19,10 @@ function agregarProducto(nombre, precio, tipo) {
 
     if (productoExistente) {
         if (tipo === "gramos") {
-            // Incrementar en 50g si es por gramaje
+            // Incrementar en bloques de 50g si el producto es por gramaje
             productoExistente.cantidad += 50;
         } else {
-            // Incrementar en 1 si es por unidad
+            // Incrementar en 1 si el producto es por unidad
             productoExistente.cantidad += 1;
         }
     } else {
@@ -78,7 +78,6 @@ function actualizarCarrito() {
     totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
 }
 
-
 // Función para sumar la cantidad de un producto
 function sumarProducto(index, event) {
     event.stopPropagation(); // Evita interferencias con el contenedor del carrito
@@ -96,47 +95,8 @@ function sumarProducto(index, event) {
     localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
     actualizarCarrito(); // Refrescar la vista del carrito
 }
-function actualizarCarrito() {
-    listaProductos.innerHTML = ''; // Limpiar lista de productos
-    let total = 0;
 
-    if (carritoProductos.length === 0) {
-        // Mostrar mensaje si el carrito está vacío
-        const li = document.createElement('li');
-        li.textContent = 'Tu carrito está vacío.';
-        listaProductos.appendChild(li);
-    } else {
-        carritoProductos.forEach((producto, index) => {
-            const li = document.createElement('li');
-            let precioPorCantidad;
-
-            if (producto.tipo === "gramos") {
-                // Calcular el precio por gramos dinámicamente
-                const precioPorGramo = producto.precio / 1000; // Precio por gramo (precio por kg / 1000)
-                precioPorCantidad = (precioPorGramo * producto.cantidad).toFixed(2); // Precio total según gramaje
-                li.innerHTML = `
-                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad}g)
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            } else {
-                // Calcular el precio normal para productos por unidad
-                precioPorCantidad = (producto.precio * producto.cantidad).toFixed(2);
-                li.innerHTML = `
-                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad} unidades)
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            }
-
-            listaProductos.appendChild(li);
-            total += parseFloat(precioPorCantidad); // Sumar al total general
-        });
-    }
-
-    totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
-}
-    
+// Función para restar la cantidad de un producto
 function restarProducto(index, event) {
     event.stopPropagation(); // Evita interferencias con el contenedor del carrito
 
@@ -159,8 +119,13 @@ function restarProducto(index, event) {
         }
     }
 
-    // Mostrar el formulario (modal)
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
+    actualizarCarrito(); // Refrescar la vista del carrito
+}
+
+// Mostrar el formulario (modal)
 function mostrarFormulario() {
+    console.log("El botón 'Enviar' fue presionado"); // Debug
     const modal = document.getElementById("formulario-modal");
     modal.style.display = "block"; // Hace visible el modal
 }
@@ -178,9 +143,6 @@ window.onclick = function(event) {
         modal.style.display = "none"; // Cierra el modal si se hace clic fuera
     }
 };
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
-    actualizarCarrito(); // Refrescar la vista del carrito
-}
 
 // Función dinámica para agregar producto desde el HTML
 function agregarProductoDesdeHTML(boton) {
