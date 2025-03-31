@@ -141,8 +141,8 @@ window.onclick = function(event) {
     const modal = document.getElementById("formulario-modal");
     const modalContent = document.querySelector(".modal-content");
 
-    // Cierra el modal solo si haces clic fuera del contenido del modal
-    if (event.target === modal) {
+    // Solo cierra el modal si el clic ocurre fuera del contenido del modal
+    if (event.target === modal && !modalContent.contains(event.target)) {
         modal.style.display = "none";
     }
 };
