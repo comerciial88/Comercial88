@@ -212,33 +212,30 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
 /* Estilo del modal (formulario emergente) */
 .modal {
     display: none; /* Oculto por defecto */
-    position: fixed; /* Posicionado relativo a la pantalla */
+    position: fixed; /* Fijo relativo a toda la pantalla */
     top: 50%; /* Centrado verticalmente */
     left: 50%; /* Centrado horizontalmente */
     transform: translate(-50%, -50%); /* Centro exacto */
-    width: 90%; /* Ancho adaptable para celulares */
-    max-width: 400px; /* Máximo ancho en pantallas grandes */
-    max-height: 90%; /* Máxima altura en pantallas pequeñas */
+    width: 90%; /* Ancho flexible para móviles */
+    max-width: 400px; /* Máximo ancho */
+    max-height: 90%; /* Máxima altura */
     background-color: white; /* Fondo blanco */
     border: 2px solid green; /* Borde verde */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
     z-index: 1000; /* Encima de otros elementos */
-    overflow-y: auto; /* Desplazamiento vertical si el contenido excede */
+    overflow-y: auto; /* Scroll vertical si el contenido excede */
     padding: 20px; /* Espaciado interno */
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
     .modal {
-        top: 50%; /* Centrado más preciso */
-        transform: translate(-50%, -50%); /* Ajuste para pantallas pequeñas */
         max-height: 80%; /* Reducir altura en móviles */
-        overflow-y: auto; /* Agregar scroll si el contenido excede */
     }
 
     .modal-content {
-        font-size: 14px; /* Texto más pequeño para pantallas pequeñas */
+        font-size: 14px; /* Ajuste de tamaño del texto */
     }
 }
 
@@ -250,4 +247,5 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     position: absolute;
     top: 10px; /* Ajustar posición */
     right: 10px; /* Ajustar posición */
+    z-index: 1010; /* Asegura que esté encima del modal */
 }
