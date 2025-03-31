@@ -93,8 +93,8 @@ h1 {
     position: fixed; /* Flotante en la pantalla */
     bottom: 20px; /* Separación desde abajo */
     right: 20px; /* Separación desde la derecha */
-    width: 80px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%; /* Forma circular */
     background-color: #FBC02D; /* Fondo azul vibrante */
     color: white; /* Texto/blanco */
@@ -117,7 +117,7 @@ h1 {
     position: absolute;
     bottom: 70px;
     right: 0;
-    width: 300px;
+    width: 600px;
     max-height: 400px;
     background-color: white; /* Fondo blanco para el contenido */
     color: black; /* Texto negro */
