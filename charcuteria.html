@@ -14,10 +14,17 @@
 
     <!-- Detalles del carrito (ocultos por defecto) -->
     <div class="cart-details">
-        <h3>Tu Carrito</h3>
-        <ul id="lista-productos">
-            <!-- Aquí se agregarán los productos dinámicamente -->
-        </ul>
+    <!-- Aquí está la lista de productos del carrito -->
+    <ul id="lista-productos">
+        <!-- Productos agregados se muestran aquí -->
+    </ul>
+    
+    <!-- Botón y formulario -->
+    <button class="btn-enviar" onclick="mostrarFormulario()">Enviar</button>
+    <div id="formulario-modal" class="modal">
+        <!-- Modal del formulario -->
+    </div>
+    </div>
         <p>Total: $<span id="total">0.00</span></p>
         <!-- Botón "Enviar" -->
 <button class="btn-enviar" onclick="mostrarFormulario()">Enviar</button>
