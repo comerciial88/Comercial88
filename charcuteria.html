@@ -19,6 +19,25 @@
             <!-- Aquí se agregarán los productos dinámicamente -->
         </ul>
         <p>Total: $<span id="total">0.00</span></p>
+        <!-- Botón "Enviar" -->
+<button class="btn-enviar" onclick="mostrarFormulario()">Enviar</button>
+
+<!-- Modal para el formulario -->
+<div id="formulario-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarFormulario()">&times;</span>
+        <h2>Complete la información</h2>
+        <form id="formulario-envio">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <button type="button" class="btn-enviar" onclick="enviarWhatsApp()">Enviar</button>
+        </form>
+    </div>
+</div>
     </div>
 </div>
     <header>
