@@ -6,42 +6,42 @@
     <title>Búsqueda de Productos</title>
     <link rel="stylesheet" href="charcuteria.css">
 </head>
-<body>
+body>
     <!-- Cartica flotante -->
-<div id="carrito" class="cart">
-    <!-- Icono del carrito -->
-    <div class="cart-icon">🛒</div>
+    <div id="carrito" class="cart">
+        <!-- Icono del carrito -->
+        <div class="cart-icon">🛒</div>
 
-    <!-- Detalles del carrito (ocultos por defecto) -->
-    <div class="cart-details">
-    <!-- Aquí está la lista de productos del carrito -->
-    <ul id="lista-productos">
-        <!-- Productos agregados se muestran aquí -->
-    </ul>
-    
-    <!-- Botón y formulario -->
-    <button class="btn-enviar" onclick="mostrarFormulario()">Enviar</button>
-    <div id="formulario-modal" class="modal">
-        <!-- Modal del formulario -->
-        <div class="modal-content">
-    </div>
-    </div>
-        <p>Total: $<span id="total">0.00</span></p>         
-        <span class="close" onclick="cerrarFormulario()">&times;</span>
-        <h2>Complete la información</h2>
-        <form id="formulario-envio">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <!-- Detalles del carrito (ocultos por defecto) -->
+        <div class="cart-details">
+            <!-- Aquí está la lista de productos del carrito -->
+            <ul id="lista-productos">
+                <!-- Productos agregados se muestran aquí -->
+            </ul>
+            <p>Total: $<span id="total">0.00</span></p>
 
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion" required>
+            <!-- Botón "Enviar" -->
+            <button class="btn-enviar" onclick="mostrarFormulario()">Enviar</button>
 
-            <button type="button" class="btn-enviar" onclick="enviarWhatsApp()">Enviar</button>
-        </form>
+            <!-- Modal para el formulario -->
+            <div id="formulario-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="cerrarFormulario()">&times;</span>
+                    <h2>Complete la información</h2>
+                    <form id="formulario-envio">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" required>
+
+                        <button type="button" class="btn-enviar" onclick="enviarWhatsApp()">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-    </div>
-</div>
+
     <header>
         <h1>Búsqueda de Productos</h1>
     </header>
