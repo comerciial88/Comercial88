@@ -159,6 +159,25 @@ function restarProducto(index, event) {
         }
     }
 
+    // Mostrar el formulario (modal)
+function mostrarFormulario() {
+    const modal = document.getElementById("formulario-modal");
+    modal.style.display = "block"; // Hace visible el modal
+}
+
+// Cerrar el formulario (modal)
+function cerrarFormulario() {
+    const modal = document.getElementById("formulario-modal");
+    modal.style.display = "none"; // Oculta el modal
+}
+
+// Cerrar el modal haciendo clic fuera de él
+window.onclick = function(event) {
+    const modal = document.getElementById("formulario-modal");
+    if (event.target === modal) {
+        modal.style.display = "none"; // Cierra el modal si se hace clic fuera
+    }
+};
     localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
     actualizarCarrito(); // Refrescar la vista del carrito
 }
