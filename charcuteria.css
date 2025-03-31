@@ -216,30 +216,38 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     top: 50%; /* Centrado verticalmente */
     left: 50%; /* Centrado horizontalmente */
     transform: translate(-50%, -50%); /* Ajuste para centrar */
-    width: 90%; /* Ancho flexible para celulares */
-    max-width: 400px; /* Ancho máximo en pantallas más grandes */
+    width: 90%; /* Ancho adaptable para celulares */
+    max-width: 400px; /* Ancho máximo para pantallas grandes */
     background-color: white; /* Fondo blanco */
     border: 2px solid green; /* Borde verde */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
     padding: 20px; /* Espaciado interno */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
-    overflow: auto; /* Scroll si el contenido excede */
+    overflow-y: auto; /* Scroll vertical si el contenido excede */
+    max-height: 90%; /* Limitar altura del modal en móviles */
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
     .modal {
-        top: 40%; /* Ajustar posición para celulares */
-        transform: translate(-50%, -40%); /* Centrado más dinámico */
+        top: 50%; /* Centrado más preciso */
+        transform: translate(-50%, -50%); /* Ajuste para pantallas pequeñas */
+        max-height: 80%; /* Reducir altura en móviles */
+        overflow-y: auto; /* Agregar scroll si el contenido excede */
     }
 
     .modal-content {
         font-size: 14px; /* Texto más pequeño para pantallas pequeñas */
     }
+}
+
 /* Botón de cierre del modal */
 .close {
     color: red;
     font-size: 20px;
     cursor: pointer; /* Cursor de mano */
+    position: absolute;
+    top: 10px; /* Ajustar posición */
+    right: 10px; /* Ajustar posición */
 }
