@@ -125,11 +125,9 @@ function restarProducto(index, event) {
 
 // Mostrar el formulario (modal)
 function mostrarFormulario() {
-    console.log("El botón 'Enviar' fue presionado"); // Debug
     const modal = document.getElementById("formulario-modal");
-    modal.style.display = "block"; // Hace visible el modal
+    modal.style.display = "block"; // Asegura que solo cambia el display
 }
-
 // Cerrar el formulario (modal)
 function cerrarFormulario() {
     const modal = document.getElementById("formulario-modal");
