@@ -189,3 +189,50 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     color: white; /* Texto blanco */
     transform: scale(1.05); /* Aumenta ligeramente el tamaño */
 }
+
+/* Estilo para el botón "Enviar" */
+.btn-enviar {
+    border: 2px solid green; /* Borde verde */
+    background-color: green; /* Fondo verde */
+    color: white; /* Letras blancas */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negritas */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia a cursor de mano al pasar el mouse */
+    transition: all 0.3s ease; /* Efecto suave */
+}
+
+/* Efecto hover para el botón "Enviar" */
+.btn-enviar:hover {
+    background-color: darkgreen; /* Fondo más oscuro */
+    transform: scale(1.05); /* Efecto de zoom ligero */
+}
+
+/* Estilo del modal (formulario emergente) */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Ancho del modal */
+    background-color: white; /* Fondo blanco */
+    border: 2px solid green; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    padding: 20px; /* Espaciado interno */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Contenido dentro del modal */
+.modal-content {
+    text-align: center; /* Centra el texto */
+}
+
+/* Botón de cierre del modal */
+.close {
+    color: red;
+    font-size: 20px;
+    cursor: pointer; /* Cursor de mano */
+}
