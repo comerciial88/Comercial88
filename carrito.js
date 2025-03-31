@@ -137,15 +137,19 @@ function cerrarFormulario() {
 }
 
 // Cerrar el modal haciendo clic fuera de él
-window.onclick = function(event) {
+window.addEventListener("click", function(event) {
     const modal = document.getElementById("formulario-modal");
     const modalContent = document.querySelector(".modal-content");
 
-    // Solo cierra el modal si el clic ocurre fuera del contenido del modal
-    if (event.target === modal && !modalContent.contains(event.target)) {
-        modal.style.display = "none";
+    if (modal && modalContent) {
+        // Cierra el modal solo si se hace clic en el fondo (fuera del contenido)
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    } else {
+        console.error("Error: Modal o contenido del modal no encontrado.");
     }
-};
+});
 
 // Función dinámica para agregar producto desde el HTML
 function agregarProductoDesdeHTML(boton) {
