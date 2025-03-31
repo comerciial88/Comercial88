@@ -126,7 +126,13 @@ function restarProducto(index, event) {
 // Mostrar el formulario (modal)
 function mostrarFormulario() {
     const modal = document.getElementById("formulario-modal");
-    modal.style.display = "block"; // Asegura que solo cambia el display
+    modal.style.display = "block"; // Muestra el modal
+    modal.style.position = "fixed"; // Asegura que el modal sea fijo
+    modal.style.top = "50%"; // Centrado verticalmente
+    modal.style.left = "50%"; // Centrado horizontalmente
+    modal.style.transform = "translate(-50%, -50%)"; // Perfectamente centrado
+    modal.style.zIndex = "1000"; // Prioridad visual
+    modal.style.backgroundColor = "white"; // Fondo blanco para claridad
 }
 // Cerrar el formulario (modal)
 function cerrarFormulario() {
