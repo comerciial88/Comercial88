@@ -227,18 +227,6 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     overflow-y: auto; /* Scroll vertical si el contenido excede */
     padding: 20px; /* Espaciado interno */
 }
-
-/* Media query para pantallas pequeñas */
-@media (max-width: 768px) {
-    .modal {
-        max-height: 80%; /* Reducir altura en móviles */
-    }
-
-    .modal-content {
-        font-size: 14px; /* Ajuste de tamaño del texto */
-    }
-}
-
 /* Botón de cierre del modal */
 .close {
     color: red;
