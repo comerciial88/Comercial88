@@ -212,20 +212,20 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
 /* Estilo del modal (formulario emergente) */
 .modal {
     display: none; /* Oculto por defecto */
-    position: fixed; /* Posición fija en toda la pantalla */
+    position: fixed; /* Posicionado relativo a la pantalla */
     top: 50%; /* Centrado verticalmente */
     left: 50%; /* Centrado horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste para centrar */
+    transform: translate(-50%, -50%); /* Centro exacto */
     width: 90%; /* Ancho adaptable para celulares */
-    max-width: 400px; /* Ancho máximo para pantallas grandes */
+    max-width: 400px; /* Máximo ancho en pantallas grandes */
+    max-height: 90%; /* Máxima altura en pantallas pequeñas */
     background-color: white; /* Fondo blanco */
     border: 2px solid green; /* Borde verde */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1000; /* Encima de otros elementos */
+    overflow-y: auto; /* Desplazamiento vertical si el contenido excede */
     padding: 20px; /* Espaciado interno */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
-    overflow-y: auto; /* Scroll vertical si el contenido excede */
-    max-height: 90%; /* Limitar altura del modal en móviles */
 }
 
 /* Media query para pantallas pequeñas */
