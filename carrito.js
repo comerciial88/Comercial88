@@ -139,8 +139,11 @@ function cerrarFormulario() {
 // Cerrar el modal haciendo clic fuera de él
 window.onclick = function(event) {
     const modal = document.getElementById("formulario-modal");
+    const modalContent = document.querySelector(".modal-content");
+
+    // Cierra el modal solo si haces clic fuera del contenido del modal
     if (event.target === modal) {
-        modal.style.display = "none"; // Cierra el modal si se hace clic fuera
+        modal.style.display = "none";
     }
 };
 
