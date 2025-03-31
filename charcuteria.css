@@ -212,10 +212,10 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
 /* Estilo del modal (formulario emergente) */
 .modal {
     display: none; /* Oculto por defecto */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: fixed; /* Se posiciona relativo a la pantalla */
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centrar */
     width: 400px; /* Ancho del modal */
     background-color: white; /* Fondo blanco */
     border: 2px solid green; /* Borde verde */
@@ -223,6 +223,7 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
     padding: 20px; /* Espaciado interno */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
+    overflow: auto; /* Permite desplazamiento si el contenido excede */
 }
 
 /* Contenido dentro del modal */
