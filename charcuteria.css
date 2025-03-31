@@ -211,7 +211,7 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
 
 /* Estilo del modal (formulario emergente) */
 .modal {
-    display: none; /* Oculto por defecto */
+    display: block; /* Oculto por defecto */
     position: fixed; /* Fijo relativo a toda la pantalla */
     top: 50%; /* Centrado verticalmente */
     left: 50%; /* Centrado horizontalmente */
