@@ -96,7 +96,7 @@ h1 {
     width: 50px;
     height: 50px;
     border-radius: 50%; /* Forma circular */
-    background-color: #007BFF; /* Fondo azul vibrante */
+    background-color: #FFFF00; /* Fondo azul vibrante */
     color: white; /* Texto/blanco */
     display: flex;
     justify-content: center;
