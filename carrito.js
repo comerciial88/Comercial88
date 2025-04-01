@@ -93,10 +93,9 @@ function abrirFormularioCarrito() {
     const formulario = document.getElementById("form-carrito");
     const listaPedido = document.getElementById("lista-pedido");
 
-    formulario.style.display = "block";
+    formulario.style.display = "block"; // Mostrar el formulario
 
-    // Precargar los elementos del carrito en el formulario
-    listaPedido.innerHTML = '';
+    listaPedido.innerHTML = ''; // Precargar los elementos del carrito
     carritoProductos.forEach(producto => {
         const divProducto = document.createElement('div');
         divProducto.textContent = `${producto.nombre} - ${producto.cantidad} ${producto.tipo}`;
@@ -110,7 +109,7 @@ function cerrarFormularioCarrito() {
 
 function procesarPedido() {
     alert("Pedido confirmado. ¡Gracias por tu compra!");
-    cerrarFormularioCarrito();
+    cerrarFormularioCarrito(); // Cerrar el formulario tras confirmar
 }
 
 // Asociar el botón "Enviar" al evento de abrir el formulario
