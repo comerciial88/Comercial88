@@ -113,4 +113,13 @@ function procesarPedido() {
 }
 
 // Asociar el botón "Enviar" al evento de abrir el formulario
-document.getElementById("open-formulario").addEventListener("click", abrirFormularioCarrito);
+document.getElementById("open-formulario").addEventListener("click", () => {
+    cerrarCarrito(); // Cierra el carrito
+    abrirFormularioCarrito(); // Abre el formulario
+});
+
+// Función para cerrar el carrito
+function cerrarCarrito() {
+    const carrito = document.getElementById("carrito");
+    carrito.classList.remove("active"); // Oculta los detalles del carrito
+}
