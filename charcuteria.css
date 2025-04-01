@@ -208,34 +208,3 @@ button[onclick*="agregarProductoDesdeHTML"]:hover {
     background-color: darkgreen; /* Fondo más oscuro */
     transform: scale(1.05); /* Efecto de zoom ligero */
 }
-
-/* Estilo del modal (formulario emergente) */
-.modal {
-    display: none; /* Oculto por defecto */
-    position: fixed; /* Fijo relativo al viewport */
-    top: 50%; /* Centrado verticalmente */
-    left: 50%; /* Centrado horizontalmente */
-    transform: translate(-50%, -50%); /* Perfectamente centrado */
-    z-index: 1000; /* Encima de otros elementos */
-    width: 90%; /* Ancho flexible para móviles */
-    max-width: 400px; /* Limita el ancho máximo */
-    max-height: 90%; /* Limita la altura máxima */
-    min-width: 300px; /* Tamaño mínimo para evitar desbordes */
-    min-height: 200px;
-    background-color: white; /* Fondo blanco */
-    border: 2px solid green; /* Borde verde */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-    overflow-y: auto; /* Scroll interno si el contenido excede */
-    padding: 20px; /* Espaciado interno */
-}
-/* Botón de cierre del modal */
-.close {
-    color: red;
-    font-size: 20px;
-    cursor: pointer; /* Cursor de mano */
-    position: absolute;
-    top: 10px; /* Ajustar posición */
-    right: 10px; /* Ajustar posición */
-    z-index: 1010; /* Asegura que esté encima del modal */
-}
