@@ -123,40 +123,6 @@ function restarProducto(index, event) {
     actualizarCarrito(); // Refrescar la vista del carrito
 }
 
-// Mostrar el formulario (modal)
-function mostrarFormulario() {
-    const modal = document.getElementById("formulario-modal");
-    modal.style.display = "block"; // Muestra el modal
-    modal.style.position = "fixed"; // Asegura que el modal sea fijo
-    modal.style.top = "50%"; // Centrado verticalmente
-    modal.style.left = "50%"; // Centrado horizontalmente
-    modal.style.transform = "translate(-50%, -50%)"; // Perfectamente centrado
-    modal.style.zIndex = "1000"; // Prioridad visual
-    modal.style.backgroundColor = "white"; // Fondo blanco para claridad
-}
-// Cerrar el formulario (modal)
-function cerrarFormulario() {
-    const modal = document.getElementById("formulario-modal");
-    modal.style.display = "none"; // Oculta el modal
-}
-
-// Cerrar el modal haciendo clic fuera de él
-window.addEventListener("click", function(event) {
-    const modal = document.getElementById("formulario-modal");
-    const modalContent = document.querySelector(".modal-content");
-
-    if (modal && modalContent) {
-        // Cierra el modal solo si el clic ocurre en el fondo oscuro (modal)
-        if (event.target === modal) {
-            modal.style.display = "none"; // Oculta el modal
-        }
-    }
-});
-
-// Evitar que el clic en el contenido del formulario cierre el modal
-document.querySelector(".modal-content").addEventListener("click", function(event) {
-    event.stopPropagation(); // Detiene la propagación del clic al fondo
-});
 // Función dinámica para agregar producto desde el HTML
 function agregarProductoDesdeHTML(boton) {
     const producto = boton.parentElement; // Contenedor del producto
