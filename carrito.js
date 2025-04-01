@@ -18,22 +18,14 @@ function agregarProducto(nombre, precio, tipo) {
     const productoExistente = carritoProductos.find(producto => producto.nombre === nombre);
 
     if (productoExistente) {
-        if (tipo === "gramos") {
-            // Incrementar en bloques de 50g si el producto es por gramaje
-            productoExistente.cantidad += 50;
-        } else {
-            // Incrementar en 1 si el producto es por unidad
-            productoExistente.cantidad += 1;
-        }
+        productoExistente.cantidad += tipo === "gramos" ? 50 : 1; // Incremento según tipo
     } else {
-        // Agregar nuevo producto
-        const cantidadInicial = tipo === "gramos" ? 100 : 1; // 100g para gramaje, 1 para unidad
+        const cantidadInicial = tipo === "gramos" ? 100 : 1;
         carritoProductos.push({ nombre, precio, cantidad: cantidadInicial, tipo });
     }
 
-    // Guardar el carrito en localStorage
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-    actualizarCarrito(); // Refrescar visualización
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar en localStorage
+    actualizarCarrito();
 }
 
 // Función para mostrar el carrito
@@ -42,92 +34,84 @@ function actualizarCarrito() {
     let total = 0;
 
     if (carritoProductos.length === 0) {
-        // Mostrar mensaje si el carrito está vacío
         const li = document.createElement('li');
         li.textContent = 'Tu carrito está vacío.';
         listaProductos.appendChild(li);
     } else {
         carritoProductos.forEach((producto, index) => {
             const li = document.createElement('li');
-            let precioPorCantidad;
+            const precioPorCantidad = (producto.tipo === "gramos"
+                ? producto.precio / 1000 * producto.cantidad
+                : producto.precio * producto.cantidad).toFixed(2);
 
-            if (producto.tipo === "gramos") {
-                // Calcular el precio por gramos dinámicamente
-                const precioPorGramo = producto.precio / 1000; // Precio por gramo (precio por kg / 1000)
-                precioPorCantidad = (precioPorGramo * producto.cantidad).toFixed(2); // Precio total según gramaje
-                li.innerHTML = `
-                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad}g)
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            } else {
-                // Calcular el precio normal para productos por unidad
-                precioPorCantidad = (producto.precio * producto.cantidad).toFixed(2);
-                li.innerHTML = `
-                    ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad} unidades)
-                    <button onclick="restarProducto(${index}, event)">-</button>
-                    <button onclick="sumarProducto(${index}, event)">+</button>
-                `;
-            }
+            li.innerHTML = `
+                ${producto.nombre} - $${precioPorCantidad} (${producto.cantidad} ${producto.tipo})
+                <button onclick="restarProducto(${index}, event)">-</button>
+                <button onclick="sumarProducto(${index}, event)">+</button>
+            `;
 
             listaProductos.appendChild(li);
-            total += parseFloat(precioPorCantidad); // Sumar al total general
+            total += parseFloat(precioPorCantidad);
         });
     }
 
     totalSpan.textContent = total.toFixed(2); // Mostrar el total actualizado
 }
 
-// Función para sumar la cantidad de un producto
+// Funciones para sumar/restar productos
 function sumarProducto(index, event) {
-    event.stopPropagation(); // Evita interferencias con el contenedor del carrito
-
-    const producto = carritoProductos[index];
-
-    if (producto.tipo === "gramos") {
-        // Incrementar en bloques de 50g si el producto es por gramaje
-        producto.cantidad += 50;
-    } else {
-        // Incrementar en 1 unidad si el producto es por unidad
-        producto.cantidad += 1;
-    }
-
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
-    actualizarCarrito(); // Refrescar la vista del carrito
+    event.stopPropagation();
+    carritoProductos[index].cantidad += carritoProductos[index].tipo === "gramos" ? 50 : 1;
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+    actualizarCarrito();
 }
 
-// Función para restar la cantidad de un producto
 function restarProducto(index, event) {
-    event.stopPropagation(); // Evita interferencias con el contenedor del carrito
-
+    event.stopPropagation();
     const producto = carritoProductos[index];
+    producto.cantidad -= producto.tipo === "gramos" ? 50 : 1;
 
-    if (producto.tipo === "gramos") {
-        // Reducir en bloques de 50g si el producto es por gramaje
-        producto.cantidad -= 50;
-
-        // Eliminar el producto si la cantidad baja de 100g
-        if (producto.cantidad < 100) {
-            carritoProductos.splice(index, 1); // Remover del carrito
-        }
-    } else {
-        // Reducir en 1 unidad si el producto es por unidad
-        if (producto.cantidad > 1) {
-            producto.cantidad -= 1;
-        } else {
-            carritoProductos.splice(index, 1); // Remover del carrito
-        }
+    if ((producto.tipo === "gramos" && producto.cantidad < 100) || (producto.tipo !== "gramos" && producto.cantidad < 1)) {
+        carritoProductos.splice(index, 1); // Eliminar si la cantidad es insuficiente
     }
 
-    localStorage.setItem('carrito', JSON.stringify(carritoProductos)); // Guardar cambios
-    actualizarCarrito(); // Refrescar la vista del carrito
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+    actualizarCarrito();
 }
 
-// Función dinámica para agregar producto desde el HTML
+// Función dinámica para agregar productos desde el HTML
 function agregarProductoDesdeHTML(boton) {
-    const producto = boton.parentElement; // Contenedor del producto
-    const nombre = producto.getAttribute('data-nombre'); // Leer nombre
-    const precio = parseFloat(producto.getAttribute('data-precio')); // Leer precio
-    const tipo = producto.getAttribute('data-tipo'); // Leer tipo (gramos o unidad)
-    agregarProducto(nombre, precio, tipo); // Pasar el tipo al agregar producto
+    const producto = boton.parentElement;
+    const nombre = producto.getAttribute('data-nombre');
+    const precio = parseFloat(producto.getAttribute('data-precio'));
+    const tipo = producto.getAttribute('data-tipo');
+    agregarProducto(nombre, precio, tipo);
 }
+
+// Funciones relacionadas con el formulario
+function abrirFormularioCarrito() {
+    const formulario = document.getElementById("form-carrito");
+    const listaPedido = document.getElementById("lista-pedido");
+
+    formulario.style.display = "block";
+
+    // Precargar los elementos del carrito en el formulario
+    listaPedido.innerHTML = '';
+    carritoProductos.forEach(producto => {
+        const divProducto = document.createElement('div');
+        divProducto.textContent = `${producto.nombre} - ${producto.cantidad} ${producto.tipo}`;
+        listaPedido.appendChild(divProducto);
+    });
+}
+
+function cerrarFormularioCarrito() {
+    document.getElementById("form-carrito").style.display = "none";
+}
+
+function procesarPedido() {
+    alert("Pedido confirmado. ¡Gracias por tu compra!");
+    cerrarFormularioCarrito();
+}
+
+// Asociar el botón "Enviar" al evento de abrir el formulario
+document.getElementById("open-formulario").addEventListener("click", abrirFormularioCarrito);
