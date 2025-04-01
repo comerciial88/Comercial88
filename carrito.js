@@ -90,7 +90,7 @@ function agregarProductoDesdeHTML(boton) {
 
 // Funciones relacionadas con el formulario
 function abrirFormularioCarrito() {
-    const formulario = document.getElementById("form-carrito");
+    const formulario = document.getElementById("form-cars");
     const listaPedido = document.getElementById("lista-pedido");
 
     formulario.style.display = "block"; // Mostrar el formulario
@@ -104,7 +104,7 @@ function abrirFormularioCarrito() {
 }
 
 function cerrarFormularioCarrito() {
-    document.getElementById("form-carrito").style.display = "none";
+    document.getElementById("form-cars").style.display = "none";
 }
 
 function procesarPedido() {
