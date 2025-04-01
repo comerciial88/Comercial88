@@ -91,7 +91,7 @@ function agregarProductoDesdeHTML(boton) {
 // Funciones relacionadas con el formulario
 function abrirFormularioCarrito() {
     const formulario = document.getElementById("form-cars");
-    const listaPedido = document.getElementById("lista-pedido");
+    const listaPedido = document.getElementById("");
 
     formulario.style.display = "block"; // Mostrar el formulario
 
