@@ -94,12 +94,12 @@ function copiarListaCarrito() {
     const total = document.getElementById("total").innerText;
 
     // Crear el texto para copiar
-    const mensaje = `¡Hola! Aquí está mi pedido:\n${productos}\n\nTotal: $${total}`;
+    const mensaje = `Hola quiero lo siguiente:\n${productos}\n\nTotal: $${total}`;
 
     // Copiar al portapapeles
     navigator.clipboard.writeText(mensaje).then(() => {
         // Mostrar un mensaje en pantalla
-        alert("Lista copiada");
+        alert("Lista copiada, dele pegar a cualquier chat, gracias por venir");
     }).catch(err => {
         // En caso de error
         alert("Hubo un problema al copiar la lista");
