@@ -87,39 +87,3 @@ function agregarProductoDesdeHTML(boton) {
     const tipo = producto.getAttribute('data-tipo');
     agregarProducto(nombre, precio, tipo);
 }
-
-// Funciones relacionadas con el formulario
-function abrirFormularioCarrito() {
-    const formulario = document.getElementById("form-cars");
-    const listaPedido = document.getElementById("");
-
-    formulario.style.display = "block"; // Mostrar el formulario
-
-    listaPedido.innerHTML = ''; // Precargar los elementos del carrito
-    carritoProductos.forEach(producto => {
-        const divProducto = document.createElement('div');
-        divProducto.textContent = `${producto.nombre} - ${producto.cantidad} ${producto.tipo}`;
-        listaPedido.appendChild(divProducto);
-    });
-}
-
-function cerrarFormularioCarrito() {
-    document.getElementById("form-cars").style.display = "none";
-}
-
-function procesarPedido() {
-    alert("Pedido confirmado. ¡Gracias por tu compra!");
-    cerrarFormularioCarrito(); // Cerrar el formulario tras confirmar
-}
-
-// Asociar el botón "Enviar" al evento de abrir el formulario
-document.getElementById("open-formulario").addEventListener("click", () => {
-    cerrarCarrito(); // Cierra el carrito
-    abrirFormularioCarrito(); // Abre el formulario
-});
-
-// Función para cerrar el carrito
-function cerrarCarrito() {
-    const carrito = document.getElementById("carrito");
-    carrito.classList.remove("active"); // Oculta los detalles del carrito
-}
