@@ -99,7 +99,7 @@ function copiarListaCarrito() {
     // Copiar al portapapeles
     navigator.clipboard.writeText(mensaje).then(() => {
         // Mostrar un mensaje en pantalla
-        alert("Su Lista a sido Copiada");
+        alert("Lista Copiada");
     }).catch(err => {
         // En caso de error
         alert("Hubo un problema al copiar la lista");
