@@ -87,3 +87,22 @@ function agregarProductoDesdeHTML(boton) {
     const tipo = producto.getAttribute('data-tipo');
     agregarProducto(nombre, precio, tipo);
 }
+
+function copiarListaCarrito() {
+    // Obtener la lista de productos y el total
+    const productos = document.getElementById("lista-productos").innerText;
+    const total = document.getElementById("total").innerText;
+
+    // Crear el texto para copiar
+    const mensaje = `¡Hola! Aquí está mi pedido:\n${productos}\n\nTotal: $${total}`;
+
+    // Copiar al portapapeles
+    navigator.clipboard.writeText(mensaje).then(() => {
+        // Mostrar un mensaje en pantalla
+        alert("Lista copiada");
+    }).catch(err => {
+        // En caso de error
+        alert("Hubo un problema al copiar la lista");
+        console.error(err);
+    });
+}
