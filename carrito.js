@@ -87,21 +87,3 @@ function agregarProductoDesdeHTML(boton) {
     const tipo = producto.getAttribute('data-tipo');
     agregarProducto(nombre, precio, tipo);
 }
-
-function enviarPedidoWhatsApp() {
-    // Lista de números de WhatsApp (incluye el código de país, sin espacios ni símbolos extra)
-    const numeros = ["584120411076", "584127601698", "584129393889", "584125831651"];
-    
-    // Construir el mensaje basado en el contenido del carrito
-    let mensaje = "Probando la página :\n";
-    carritoProductos.forEach(producto => {
-        mensaje += `- ${producto.nombre}: ${producto.cantidad} ${producto.tipo} (Total: $${(producto.precio * producto.cantidad).toFixed(2)})\n`;
-    });
-    mensaje += `\nTotal general: $${totalSpan.textContent}`;
-
-    // Abrir WhatsApp para cada número
-    numeros.forEach(numero => {
-        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-        window.open(url, "_blank"); // Abre una nueva pestaña por cada número
-    });
-}
