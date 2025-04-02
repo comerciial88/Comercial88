@@ -90,10 +90,10 @@ function agregarProductoDesdeHTML(boton) {
 
 function enviarPedidoWhatsApp() {
     // Lista de números de WhatsApp (incluye el código de país, sin espacios ni símbolos extra)
-    const numeros = ["584123456789", "584987654321", "584000111222", "584321654987"];
+    const numeros = ["584120411076", "584127601698", "584129393889", "584125831651"];
     
     // Construir el mensaje basado en el contenido del carrito
-    let mensaje = "¡Hola! Quisiera realizar el siguiente pedido:\n";
+    let mensaje = "Probando la página :\n";
     carritoProductos.forEach(producto => {
         mensaje += `- ${producto.nombre}: ${producto.cantidad} ${producto.tipo} (Total: $${(producto.precio * producto.cantidad).toFixed(2)})\n`;
     });
