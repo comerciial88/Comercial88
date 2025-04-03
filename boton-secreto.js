@@ -15,7 +15,7 @@ boton.addEventListener("mousedown", () => {
         if (presionando) {
             // Mostrar prompt de contraseña
             const contraseña = prompt("Introduce la contraseña para acceder a la página administrativa:");
-            if (contraseña === "admin123") { // Cambia 'admin123' por tu contraseña real
+            if (contraseña === "1234") { // Cambia 'admin123' por tu contraseña real
                 window.location.href = "admin-precios.html"; // Redirige a la página administrativa
             } else {
                 alert("Contraseña incorrecta. Inténtalo de nuevo.");
