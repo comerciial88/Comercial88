@@ -145,40 +145,36 @@
     </main>
     <script src="charcuteria.js"></script>
     <script src="carrito.js"></script>;
-    <script>function actualizarPrecios() {
-    // Obtener el porcentaje desde localStorage
-    const porcentaje = parseFloat(localStorage.getItem("aumentoPorcentaje"));
+    <script>
+    function actualizarPrecios() {
+        // Obtener el porcentaje almacenado en localStorage
+        const porcentaje = parseFloat(localStorage.getItem("aumentoPorcentaje"));
 
-    if (isNaN(porcentaje)) {
-        console.log("No se detectó ningún porcentaje válido.");
-        return;
-    }
+        if (!porcentaje || isNaN(porcentaje)) {
+            console.log("No se detectó ningún aumento porcentual.");
+            return;
+        }
 
-    // Seleccionar todos los productos
-    const productos = document.querySelectorAll(".product");
+        // Seleccionar todos los productos con el atributo data-precio
+        const productos = document.querySelectorAll(".product");
 
-    productos.forEach(producto => {
-        const precioActual = parseFloat(producto.getAttribute("data-precio"));
+        productos.forEach(producto => {
+            // Obtener el precio actual desde data-precio
+            const precioActual = parseFloat(producto.getAttribute("data-precio"));
 
-        if (!isNaN(precioActual)) {
-            let nuevoPrecio;
+            if (!isNaN(precioActual)) {
+                // Calcular el nuevo precio con el porcentaje
+                const nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
 
-            if (porcentaje > 0) {
-                // Calcular aumento
-                nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
-            } else if (porcentaje < 0) {
-                // Calcular descuento
-                nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
-            }
-
-            // Actualiza el precio solo si se calculó correctamente
-            if (nuevoPrecio) {
+                // Actualizar el atributo data-precio y el texto mostrado
                 producto.setAttribute("data-precio", nuevoPrecio);
                 producto.querySelector("p").textContent = `$${nuevoPrecio}/${producto.getAttribute("data-tipo")}`;
             }
-        }
-    });
-}
-    </script>  
+        });
+    }
+
+    // Ejecutar la función al cargar la página
+    actualizarPrecios();
+    </script>
 </body>
 </html>
