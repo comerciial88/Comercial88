@@ -49,25 +49,47 @@
 <body>
     <h1 style="text-align: center;">Panel Administrativo</h1>
     <div class="formulario">
-        <label for="porcentaje">Aumento porcentual:</label>
+        <label for="porcentaje">Porcentaje:</label>
         <input type="number" id="porcentaje" placeholder="Ej. 5" />
         <button onclick="aplicarAumento()">Aplicar Aumento</button>
+        <button onclick="aplicarDescuento()">Aplicar Descuento</button>
+        <button onclick="reiniciarPorcentaje()">Reiniciar Porcentaje</button>
 
         <!-- Botón con enlace -->
         <a href="index.html" target="_blank">Ir a Página Principal</a>
     </div>
 
     <script>
+        // Función para aplicar un aumento
         function aplicarAumento() {
-            const porcentaje = document.getElementById("porcentaje").value;
+            const porcentaje = parseFloat(document.getElementById("porcentaje").value);
 
-            if (!porcentaje || porcentaje <= 0) {
+            if (!porcentaje || isNaN(porcentaje)) {
                 alert("Por favor, ingresa un porcentaje válido.");
                 return;
             }
 
-            console.log(`Aplicando un aumento del ${porcentaje}% a los precios de las 13 o 14 páginas.`);
-            alert("¡Precios actualizados correctamente!");
+            localStorage.setItem("aumentoPorcentaje", porcentaje);
+            alert(`¡Aumento del ${porcentaje}% aplicado a las subpáginas!`);
+        }
+
+        // Función para aplicar un descuento
+        function aplicarDescuento() {
+            const porcentaje = parseFloat(document.getElementById("porcentaje").value);
+
+            if (!porcentaje || isNaN(porcentaje)) {
+                alert("Por favor, ingresa un porcentaje válido.");
+                return;
+            }
+
+            localStorage.setItem("aumentoPorcentaje", -porcentaje);
+            alert(`¡Descuento del ${porcentaje}% aplicado a las subpáginas!`);
+        }
+
+        // Función para reiniciar el porcentaje
+        function reiniciarPorcentaje() {
+            localStorage.removeItem("aumentoPorcentaje");
+            alert("¡Porcentaje reiniciado! Los precios volverán al valor original en las subpáginas.");
         }
     </script>
 </body>
