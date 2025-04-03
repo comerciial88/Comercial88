@@ -145,5 +145,36 @@
     </main>
     <script src="charcuteria.js"></script>
     <script src="carrito.js"></script>
+    <script>
+    function actualizarPrecios() {
+        // Obtener el porcentaje almacenado en localStorage
+        const porcentaje = parseFloat(localStorage.getItem("aumentoPorcentaje"));
+
+        if (!porcentaje || isNaN(porcentaje)) {
+            console.log("No se detectó ningún aumento porcentual.");
+            return;
+        }
+
+        // Seleccionar todos los productos con el atributo data-precio
+        const productos = document.querySelectorAll(".product");
+
+        productos.forEach(producto => {
+            // Obtener el precio actual desde data-precio
+            const precioActual = parseFloat(producto.getAttribute("data-precio"));
+
+            if (!isNaN(precioActual)) {
+                // Calcular el nuevo precio con el porcentaje
+                const nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
+
+                // Actualizar el atributo data-precio y el texto mostrado
+                producto.setAttribute("data-precio", nuevoPrecio);
+                producto.querySelector("p").textContent = `$${nuevoPrecio}/${producto.getAttribute("data-tipo")}`;
+            }
+        });
+    }
+
+    // Ejecutar la función al cargar la página
+    actualizarPrecios();
+    </script>
 </body>
 </html>
