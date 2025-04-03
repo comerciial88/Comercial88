@@ -1,53 +1,24 @@
 // Tiempo que el botón está siendo presionado
-let presionando = false; // Para rastrear si está presionado
-let tiempoInicio; // Guardar el tiempo en que se presiona el botón
+let contadorToques = 0; // Contador de toques consecutivos
+const imagenLogo = document.getElementById("logo-inicio"); // Selecciona la imagen
 
-// Selecciona el botón por su ID
-const boton = document.getElementById("boton-entrada");
+// Evento para detectar toques (incluido clicks)
+imagenLogo.addEventListener("click", () => {
+    contadorToques++; // Incrementa el contador cada vez que se toca
 
-// Evento cuando el botón empieza a ser presionado (mouse)
-boton.addEventListener("mousedown", () => {
-    presionando = true;
-    tiempoInicio = new Date().getTime();
-
-    // Monitorea si se mantiene presionado durante 5s
-    setTimeout(() => {
-        if (presionando) {
-            // Mostrar prompt de contraseña
-            const contraseña = prompt("Introduce la contraseña para acceder a la página administrativa:");
-            if (contraseña === "1234") { // Cambia 'admin123' por tu contraseña real
-                window.location.href = "admin-precios.html"; // Redirige a la página administrativa
-            } else {
-                alert("Contraseña incorrecta. Inténtalo de nuevo.");
-            }
+    // Si se alcanzan 6 toques consecutivos, activa la función de contraseña
+    if (contadorToques === 6) {
+        const contraseña = prompt("Introduce la contraseña para acceder a la página administrativa:");
+        if (contraseña === "1234") { // Cambia 'admin123' por tu contraseña real
+            window.location.href = "admin-precios.html"; // Redirige a la página administrativa
+        } else {
+            alert("Contraseña incorrecta. Inténtalo de nuevo.");
         }
-    }, 5000); // 5000ms = 5 segundos
-});
+        contadorToques = 0; // Resetea el contador después de activarse la función
+    }
 
-// Evento cuando se suelta el botón (mouse)
-boton.addEventListener("mouseup", () => {
-    presionando = false; // Resetea el estado
-});
-
-// Evento cuando se empieza a tocar el botón (pantallas táctiles)
-boton.addEventListener("touchstart", () => {
-    presionando = true;
-    tiempoInicio = new Date().getTime();
-
-    // Igual que el evento de mousedown
+    // Reinicia el contador si pasan más de 3 segundos entre toques
     setTimeout(() => {
-        if (presionando) {
-            const contraseña = prompt("Introduce la contraseña para acceder a la página administrativa:");
-            if (contraseña === "admin123") { // Cambia 'admin123' por tu contraseña real
-                window.location.href = "admin-precios.html";
-            } else {
-                alert("Contraseña incorrecta. Inténtalo de nuevo.");
-            }
-        }
-    }, 5000);
-});
-
-// Evento cuando se deja de tocar el botón (pantallas táctiles)
-boton.addEventListener("touchend", () => {
-    presionando = false;
+        contadorToques = 0;
+    }, 3000);
 });
