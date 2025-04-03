@@ -144,45 +144,43 @@
         </section>
     </main>
     <script src="charcuteria.js"></script>
-    <script src="carrito.js"></script>
-    <script>
-    function actualizarPrecios() {
-        // Obtener el porcentaje desde localStorage
-        const porcentaje = parseFloat(localStorage.getItem("aumentoPorcentaje"));
+    <script src="carrito.js"></script>;
+    <script>function actualizarPrecios() {
+    // Obtener el porcentaje almacenado en localStorage
+    const porcentaje = parseFloat(localStorage.getItem("aumentoPorcentaje"));
 
-        if (isNaN(porcentaje)) {
-            console.log("No se detectó ningún porcentaje válido.");
-            return;
-        }
-
-        // Seleccionar todos los productos
-        const productos = document.querySelectorAll(".product");
-
-        productos.forEach(producto => {
-            const precioActual = parseFloat(producto.getAttribute("data-precio"));
-
-            if (!isNaN(precioActual)) {
-                let nuevoPrecio;
-
-                if (porcentaje > 0) {
-                    // Calcular aumento
-                    nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
-                } else if (porcentaje < 0) {
-                    // Calcular descuento
-                    nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
-                }
-
-                // Actualiza el precio solo si se calculó correctamente
-                if (nuevoPrecio) {
-                    producto.setAttribute("data-precio", nuevoPrecio);
-                    producto.querySelector("p").textContent = `$${nuevoPrecio}/${producto.getAttribute("data-tipo")}`;
-                }
-            }
-        });
+    if (isNaN(porcentaje)) {
+        console.log("No se detectó ningún porcentaje válido.");
+        return;
     }
 
-    // Ejecutar la función al cargar la página
-    actualizarPrecios();
-    </script>
+    // Seleccionar todos los productos
+    const productos = document.querySelectorAll(".product");
+
+    productos.forEach(producto => {
+        // Obtener el precio actual desde data-precio
+        const precioActual = parseFloat(producto.getAttribute("data-precio"));
+
+        if (!isNaN(precioActual)) {
+            let nuevoPrecio;
+
+            if (porcentaje > 0) {
+                // Calcular aumento
+                nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
+            } else if (porcentaje < 0) {
+                // Calcular descuento
+                nuevoPrecio = (precioActual * (1 + porcentaje / 100)).toFixed(2);
+            }
+
+            // Actualiza solo el precio y el texto visible, sin tocar el atributo data-tipo
+            if (nuevoPrecio) {
+                producto.setAttribute("data-precio", nuevoPrecio);
+                const tipo = producto.getAttribute("data-tipo"); // Leer el tipo existente
+                producto.querySelector("p").textContent = `$${nuevoPrecio}/${tipo}`;
+            }
+        }
+    });
+}
+    </script>  
 </body>
 </html>
