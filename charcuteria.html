@@ -177,10 +177,14 @@
 
             // Actualizar `<p>` como imagen visible del precio
             const tipo = producto.getAttribute("data-tipo"); // Obtener el valor de data-tipo
-            producto.querySelector("p").textContent = `$${nuevoPrecio}/${tipo}`;
+            const textoPrecio = `$${nuevoPrecio}/${tipo}`;
 
-            // Asegurarse de que `<p>` sea visible
-            producto.querySelector("p").style.visibility = "visible";
+            // Actualizar el contenido visible de `<p>` y garantizar su visibilidad
+            const precioElemento = producto.querySelector("p");
+            if (precioElemento) {
+                precioElemento.textContent = textoPrecio;
+                precioElemento.style.visibility = "visible";
+            }
         }
     });
 }
