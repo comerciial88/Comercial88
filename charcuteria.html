@@ -168,7 +168,7 @@
 
                 // Actualizar data-precio y el texto de `<p>`
                 producto.setAttribute("data-precio", nuevoPrecio);
-                producto.querySelector("p").textContent = `$${nuevoPrecio}/${producto.getAttribute("data-tipo")}`;
+                producto.querySelector("p").textContent = `$${nuevoPrecio}/${producto.getAttribute("")}`;
                 console.log(`Producto ${index + 1}: Precio actualizado a ${nuevoPrecio}`);
             } else {
                 console.log(`Producto ${index + 1}: Precio no válido (data-precio está vacío).`);
