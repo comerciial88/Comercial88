@@ -60,37 +60,34 @@
     </div>
 
     <script>
-        // Función para aplicar un aumento
-        function aplicarAumento() {
-            const porcentaje = parseFloat(document.getElementById("porcentaje").value);
+    function aplicarAumento() {
+        const porcentaje = parseFloat(document.getElementById("porcentaje").value);
 
-            if (!porcentaje || isNaN(porcentaje)) {
-                alert("Por favor, ingresa un porcentaje válido.");
-                return;
-            }
-
-            localStorage.setItem("aumentoPorcentaje", porcentaje);
-            alert(`¡Aumento del ${porcentaje}% aplicado a las subpáginas!`);
+        if (isNaN(porcentaje) || porcentaje === 0) {
+            alert("Por favor, ingresa un porcentaje válido (distinto de 0).");
+            return;
         }
 
-        // Función para aplicar un descuento
-        function aplicarDescuento() {
-            const porcentaje = parseFloat(document.getElementById("porcentaje").value);
+        localStorage.setItem("aumentoPorcentaje", porcentaje);
+        alert(`¡Aumento del ${porcentaje}% aplicado a las subpáginas!`);
+    }
 
-            if (!porcentaje || isNaN(porcentaje)) {
-                alert("Por favor, ingresa un porcentaje válido.");
-                return;
-            }
+    function aplicarDescuento() {
+        const porcentaje = parseFloat(document.getElementById("porcentaje").value);
 
-            localStorage.setItem("aumentoPorcentaje", -porcentaje);
-            alert(`¡Descuento del ${porcentaje}% aplicado a las subpáginas!`);
+        if (isNaN(porcentaje) || porcentaje === 0) {
+            alert("Por favor, ingresa un porcentaje válido (distinto de 0).");
+            return;
         }
 
-        // Función para reiniciar el porcentaje
-        function reiniciarPorcentaje() {
-            localStorage.removeItem("aumentoPorcentaje");
-            alert("¡Porcentaje reiniciado! Los precios volverán al valor original en las subpáginas.");
-        }
+        localStorage.setItem("aumentoPorcentaje", -porcentaje);
+        alert(`¡Descuento del ${porcentaje}% aplicado a las subpáginas!`);
+    }
+
+    function reiniciarPorcentaje() {
+        localStorage.removeItem("aumentoPorcentaje");
+        alert("¡Porcentaje reiniciado! Los precios volverán a su valor original en las subpáginas.");
+    }
     </script>
 </body>
 </html>
