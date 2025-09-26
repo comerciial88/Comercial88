@@ -31,4 +31,14 @@
     "precio": 3.60,
     "codigo": "4567891234567"
   }
+  {
+    "nombre": "Cafe Osole 200g",
+    "precio": 4.18,
+    "codigo": "4567891234567"
+  }
+  {
+    "nombre": "none",
+    "precio": 0,
+    "codigo": "4567891234567"
+  }
 ]
