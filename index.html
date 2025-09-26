@@ -39,7 +39,17 @@
     let productos = [];
     let tasa = 35.00;
 
+    // 🕒 Mostrar fecha actual
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
+
+    // 🔁 Cargar productos guardados al iniciar
+    window.addEventListener("DOMContentLoaded", () => {
+      const guardados = localStorage.getItem("productos");
+      if (guardados) {
+        productos = JSON.parse(guardados);
+        mostrarResultados(productos);
+      }
+    });
 
     function buscarProducto() {
       const query = document.getElementById("search").value.toLowerCase();
@@ -72,10 +82,16 @@
       const nombre = document.getElementById("nombre").value;
       const precio = parseFloat(document.getElementById("precio").value);
       const codigo = document.getElementById("codigo").value;
-      productos.push({ nombre, precio, codigo });
+
+      const nuevo = { nombre, precio, codigo };
+      productos.push(nuevo);
+
+      // 💾 Guardar en localStorage
+      localStorage.setItem("productos", JSON.stringify(productos));
+
       document.getElementById("formulario").reset();
       document.getElementById("formulario").style.display = "none";
-      buscarProducto();
+      mostrarResultados(productos);
     }
 
     function escanearCodigo() {
