@@ -1,35 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comercial 88</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>Sistema de Caja</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    .top-bar, .product-form { margin-bottom: 20px; }
+    input, button, select { margin: 5px; }
+    #product-list div { margin: 5px 0; }
+  </style>
 </head>
 <body>
-    <!-- Cartica flotante -->
-<div id="carrito" class="cart">
-    <!-- Icono del carrito -->
-    <div class="cart-icon">🛒</div>
 
-    <!-- Detalles del carrito (ocultos por defecto) -->
-    <div class="cart-details">
-        <h3>Tu Carrito</h3>
-        <ul id="lista-productos">
-            <!-- Aquí se agregarán los productos dinámicamente -->
-        </ul>
-        <p>Total: $<span id="total">0.00</span></p>
-    </div>
-</div>
-    
-    <div class="container">
-        <h1>Comercial 88</h1>
-        <div class="logo">
-    <img src="comercial 88.jpg" alt="Logo de Comercial 88" id="logo-inicio">
-        </div>
-        <a href="indice.html" class="button">ENTRAR</a>
-    </div>
-    <script src="carrito.js"></script>
-    <script src="boton-secreto.js"></script>
+  <!-- 🔝 Barra superior -->
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Buscar producto..." oninput="buscarProducto()">
+    <button onclick="escanearCodigo()">📷 Escanear</button>
+    <span id="fecha"></span>
+    <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">35.00</span></button>
+    <button onclick="mostrarFormulario()">➕ Agregar producto</button>
+  </div>
+
+  <!-- 📦 Lista de productos -->
+  <div id="product-list"></div>
+
+  <!-- 📝 Formulario de producto -->
+  <div class="product-form" id="formulario" style="display:none;">
+    <input type="text" id="nombre" placeholder="Nombre del producto">
+    <input type="number" id="precio" placeholder="Precio en USD">
+    <input type="file" id="imagen">
+    <input type="text" id="codigo" placeholder="Código de barras">
+    <button onclick="escanearParaFormulario()">📷 Escanear código</button>
+    <button onclick="registrarProducto()">Guardar</button>
+  </div>
+
+  <!-- 📜 Script principal -->
+  <script>
+    let productos = [];
+    let tasa = 35.00;
+
+    document.getElementById("fecha").textContent = new Date().toLocaleDateString();
+
+    function buscarProducto() {
+      const query = document.getElementById("search").value.toLowerCase();
+      const resultados = productos.filter(p => p.nombre.toLowerCase().includes(query));
+      mostrarResultados(resultados);
+    }
+
+    function mostrarResultados(lista) {
+      const contenedor = document.getElementById("product-list");
+      contenedor.innerHTML = "";
+      lista.forEach(p => {
+        contenedor.innerHTML += `<div>${p.nombre} - $${p.precio} / Bs ${(p.precio * tasa).toFixed(2)}</div>`;
+      });
+    }
+
+    function configurarTasa() {
+      const nuevaTasa = prompt("Ingrese nueva tasa de cambio:", tasa);
+      if (nuevaTasa) {
+        tasa = parseFloat(nuevaTasa);
+        document.getElementById("tasa").textContent = tasa.toFixed(2);
+        buscarProducto();
+      }
+    }
+
+    function mostrarFormulario() {
+      document.getElementById("formulario").style.display = "block";
+    }
+
+    function registrarProducto() {
+      const nombre = document.getElementById("nombre").value;
+      const precio = parseFloat(document.getElementById("precio").value);
+      const codigo = document.getElementById("codigo").value;
+      productos.push({ nombre, precio, codigo });
+      document.getElementById("formulario").reset();
+      document.getElementById("formulario").style.display = "none";
+      buscarProducto();
+    }
+
+    function escanearCodigo() {
+      alert("Aquí se abriría la cámara para escanear y buscar el producto.");
+      // Integrar librería como QuaggaJS o ZXing para escaneo real
+    }
+
+    function escanearParaFormulario() {
+      alert("Aquí se abriría la cámara para escanear y llenar el campo de código.");
+      // Integrar escaneo y asignar a document.getElementById("codigo").value
+    }
+  </script>
+
 </body>
 </html>
