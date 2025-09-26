@@ -15,11 +15,11 @@
     "nombre": "Mortadela",
     "precio": 4.25,
     "codigo": "4567891234567"
-  }
+  },
   {
     "nombre": "Rolda Gelatina",
     "precio": 7,
     "codigo": "7592871002762",
     "imagen": "https://example.com/queso.jpg"
-  },
+  }
 ]
