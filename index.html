@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Sistema de Caja</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode"></script>
   <style>
     body { font-family: sans-serif; padding: 10px; }
     .top-bar { margin-bottom: 20px; }
@@ -11,20 +11,11 @@
     #product-list div { margin: 10px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
     img { max-width: 100px; display: block; margin-top: 5px; }
 
-    /* 📷 Área de escaneo pequeña */
+    /* 📷 Área de escaneo */
     #scanner-container {
-      position: relative;
       width: 300px;
-      height: 200px;
       margin: auto;
-      border: 2px solid #444;
-      overflow: hidden;
       display: none;
-    }
-    #scanner-preview {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
     }
   </style>
 </head>
@@ -40,7 +31,7 @@
 
   <!-- 📷 Área de escaneo -->
   <div id="scanner-container">
-    <video id="scanner-preview"></video>
+    <div id="reader" style="width: 100%;"></div>
   </div>
 
   <!-- 🔊 Sonido de escaneo -->
@@ -84,58 +75,30 @@
       }
     }
 
-    // 📷 Escaneo con cámara (EAN-13)
+    // 📷 Escaneo con Html5-qrcode
     function escanearCodigo() {
       const contenedor = document.getElementById("scanner-container");
       contenedor.style.display = "block";
 
-      if (Quagga.initialized) {
-        Quagga.stop();
-        Quagga.initialized = false;
-      }
-
-      Quagga.init({
-        inputStream: {
-          name: "Live",
-          type: "LiveStream",
-          target: document.querySelector("#scanner-preview"),
-          constraints: {
-            facingMode: "environment",
-            width: { ideal: 640 },
-            height: { ideal: 480 }
-          }
+      const html5QrCode = new Html5Qrcode("reader");
+      html5QrCode.start(
+        { facingMode: "environment" },
+        {
+          fps: 10,
+          qrbox: { width: 250, height: 100 }
         },
-        decoder: {
-          readers: ["ean_reader"]
-        },
-        locate: true,
-        area: {
-          top: "30%",
-          right: "20%",
-          left: "20%",
-          bottom: "30%"
-        }
-      }, err => {
-        if (err) {
-          console.error("Error al iniciar Quagga:", err);
-          alert("No se pudo iniciar la cámara. Intenta cerrar otras apps o reiniciar el navegador.");
+        (codigo) => {
+          document.getElementById("beep").play();
+          document.getElementById("search").value = codigo;
+          buscarProducto();
+          html5QrCode.stop();
           contenedor.style.display = "none";
-          return;
+        },
+        (error) => {
+          // Ignorar errores de escaneo
         }
-        Quagga.initialized = true;
-        Quagga.start();
-      });
-
-      Quagga.onDetected(data => {
-        const codigo = data.codeResult.code;
-        document.getElementById("beep").play();
-
-        // 🧠 Escribir el código en el buscador
-        document.getElementById("search").value = codigo;
-        buscarProducto();
-
-        Quagga.stop();
-        Quagga.initialized = false;
+      ).catch(err => {
+        alert("No se pudo iniciar la cámara: " + err);
         contenedor.style.display = "none";
       });
     }
