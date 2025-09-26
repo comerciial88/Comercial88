@@ -3,12 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Sistema de Caja</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
   <style>
     body { font-family: sans-serif; padding: 10px; }
     .top-bar { margin-bottom: 20px; }
     input, button { margin: 5px; }
     #product-list div { margin: 10px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
     img { max-width: 100px; display: block; margin-top: 5px; }
+
+    /* 📷 Área de escaneo pequeña */
+    #scanner-container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      margin: auto;
+      border: 2px solid #444;
+      overflow: hidden;
+      display: none;
+    }
+    #scanner-preview {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
@@ -20,6 +37,14 @@
     <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">35.00</span></button>
     <span id="fecha"></span>
   </div>
+
+  <!-- 📷 Área de escaneo -->
+  <div id="scanner-container">
+    <video id="scanner-preview"></video>
+  </div>
+
+  <!-- 🔊 Sonido de escaneo -->
+  <audio id="beep" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
 
   <!-- 📦 Resultados -->
   <div id="product-list"></div>
@@ -37,8 +62,7 @@
         .then(data => {
           productos = data;
           mostrarResultados(productos);
-        })
-        .catch(err => console.error("Error al cargar productos:", err));
+        });
     });
 
     // 🔍 Buscar por nombre en tiempo real
@@ -54,33 +78,63 @@
       if (nuevaTasa) {
         tasa = parseFloat(nuevaTasa);
         document.getElementById("tasa").textContent = tasa.toFixed(2);
-        buscarProducto(); // Actualiza precios en Bs
+        buscarProducto();
       }
     }
 
-    // 📷 Simulación de escaneo
+    // 📷 Escaneo con cámara (EAN-13)
     function escanearCodigo() {
-      const codigo = prompt("Escanea o ingresa el código de barras:");
-      if (!codigo) return;
+      const contenedor = document.getElementById("scanner-container");
+      contenedor.style.display = "block";
 
-      const producto = productos.find(p => p.codigo === codigo);
-      const contenedor = document.getElementById("product-list");
-      contenedor.innerHTML = "";
+      Quagga.init({
+        inputStream: {
+          name: "Live",
+          type: "LiveStream",
+          target: document.querySelector("#scanner-preview"),
+          constraints: {
+            facingMode: "environment"
+          }
+        },
+        decoder: {
+          readers: ["ean_reader"]
+        },
+        locate: true,
+        area: { // 📦 Área pequeña centrada
+          top: "30%",
+          right: "20%",
+          left: "20%",
+          bottom: "30%"
+        }
+      }, err => {
+        if (err) {
+          console.error("Error al iniciar escáner:", err);
+          return;
+        }
+        Quagga.start();
+      });
 
-      if (producto) {
-        contenedor.innerHTML = renderProducto(producto);
-      } else {
-        contenedor.innerHTML = `<div>Producto no encontrado para el código: ${codigo}</div>`;
-      }
+      Quagga.onDetected(data => {
+        const codigo = data.codeResult.code;
+        const producto = productos.find(p => p.codigo === codigo);
+        const beep = document.getElementById("beep");
+        beep.play();
+
+        Quagga.stop();
+        contenedor.style.display = "none";
+
+        const resultado = document.getElementById("product-list");
+        resultado.innerHTML = producto
+          ? renderProducto(producto)
+          : `<div>Producto no encontrado para el código: ${codigo}</div>`;
+      });
     }
 
     // 🧱 Mostrar productos
     function mostrarResultados(lista) {
       const contenedor = document.getElementById("product-list");
       contenedor.innerHTML = "";
-      lista.forEach(p => {
-        contenedor.innerHTML += renderProducto(p);
-      });
+      lista.forEach(p => contenedor.innerHTML += renderProducto(p));
     }
 
     // 🧩 Render modular
