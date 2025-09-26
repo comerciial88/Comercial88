@@ -32,9 +32,9 @@
 
   <!-- 🔝 Barra superior -->
   <div class="top-bar">
-    <input type="text" id="search" placeholder="Buscar producto por nombre..." oninput="buscarProducto()">
+    <input type="text" id="search" placeholder="Buscar producto por nombre o código..." oninput="buscarProducto()">
     <button onclick="escanearCodigo()">📷 Escanear producto</button>
-    <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">35.00</span></button>
+    <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">38.90</span></button>
     <span id="fecha"></span>
   </div>
 
@@ -51,7 +51,7 @@
 
   <script>
     let productos = [];
-    let tasa = 35.00;
+    let tasa = 38.90;
 
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
 
@@ -65,10 +65,12 @@
         });
     });
 
-    // 🔍 Buscar por nombre en tiempo real
+    // 🔍 Buscar por nombre o código
     function buscarProducto() {
       const query = document.getElementById("search").value.toLowerCase();
-      const resultados = productos.filter(p => p.nombre.toLowerCase().includes(query));
+      const resultados = productos.filter(p =>
+        p.nombre.toLowerCase().includes(query) || p.codigo.includes(query)
+      );
       mostrarResultados(resultados);
     }
 
@@ -87,20 +89,27 @@
       const contenedor = document.getElementById("scanner-container");
       contenedor.style.display = "block";
 
+      if (Quagga.initialized) {
+        Quagga.stop();
+        Quagga.initialized = false;
+      }
+
       Quagga.init({
         inputStream: {
           name: "Live",
           type: "LiveStream",
           target: document.querySelector("#scanner-preview"),
           constraints: {
-            facingMode: "environment"
+            facingMode: "environment",
+            width: { ideal: 640 },
+            height: { ideal: 480 }
           }
         },
         decoder: {
           readers: ["ean_reader"]
         },
         locate: true,
-        area: { // 📦 Área pequeña centrada
+        area: {
           top: "30%",
           right: "20%",
           left: "20%",
@@ -108,25 +117,26 @@
         }
       }, err => {
         if (err) {
-          console.error("Error al iniciar escáner:", err);
+          console.error("Error al iniciar Quagga:", err);
+          alert("No se pudo iniciar la cámara. Intenta cerrar otras apps o reiniciar el navegador.");
+          contenedor.style.display = "none";
           return;
         }
+        Quagga.initialized = true;
         Quagga.start();
       });
 
       Quagga.onDetected(data => {
         const codigo = data.codeResult.code;
-        const producto = productos.find(p => p.codigo === codigo);
-        const beep = document.getElementById("beep");
-        beep.play();
+        document.getElementById("beep").play();
+
+        // 🧠 Escribir el código en el buscador
+        document.getElementById("search").value = codigo;
+        buscarProducto();
 
         Quagga.stop();
+        Quagga.initialized = false;
         contenedor.style.display = "none";
-
-        const resultado = document.getElementById("product-list");
-        resultado.innerHTML = producto
-          ? renderProducto(producto)
-          : `<div>Producto no encontrado para el código: ${codigo}</div>`;
       });
     }
 
