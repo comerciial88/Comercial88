@@ -15,19 +15,19 @@
 
   <!-- 🔝 Barra superior -->
   <div class="top-bar">
+    <input type="text" id="search" placeholder="Buscar producto por nombre..." oninput="buscarProducto()">
     <button onclick="escanearCodigo()">📷 Escanear producto</button>
     <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">35.00</span></button>
     <span id="fecha"></span>
   </div>
 
-  <!-- 📦 Resultado del escaneo -->
+  <!-- 📦 Resultados -->
   <div id="product-list"></div>
 
   <script>
     let productos = [];
     let tasa = 35.00;
 
-    // 🕒 Mostrar fecha actual
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
 
     // 📥 Cargar productos desde JSON
@@ -36,9 +36,17 @@
         .then(res => res.json())
         .then(data => {
           productos = data;
+          mostrarResultados(productos);
         })
         .catch(err => console.error("Error al cargar productos:", err));
     });
+
+    // 🔍 Buscar por nombre en tiempo real
+    function buscarProducto() {
+      const query = document.getElementById("search").value.toLowerCase();
+      const resultados = productos.filter(p => p.nombre.toLowerCase().includes(query));
+      mostrarResultados(resultados);
+    }
 
     // 💱 Configurar tasa
     function configurarTasa() {
@@ -46,6 +54,7 @@
       if (nuevaTasa) {
         tasa = parseFloat(nuevaTasa);
         document.getElementById("tasa").textContent = tasa.toFixed(2);
+        buscarProducto(); // Actualiza precios en Bs
       }
     }
 
@@ -59,17 +68,31 @@
       contenedor.innerHTML = "";
 
       if (producto) {
-        const precioBs = (producto.precio * tasa).toFixed(2);
-        contenedor.innerHTML = `
-          <div>
-            <strong>${producto.nombre}</strong><br>
-            Precio: $${producto.precio.toFixed(2)} / Bs ${precioBs}
-            ${producto.imagen ? `<img src="${producto.imagen}" alt="${producto.nombre}">` : ""}
-          </div>
-        `;
+        contenedor.innerHTML = renderProducto(producto);
       } else {
         contenedor.innerHTML = `<div>Producto no encontrado para el código: ${codigo}</div>`;
       }
+    }
+
+    // 🧱 Mostrar productos
+    function mostrarResultados(lista) {
+      const contenedor = document.getElementById("product-list");
+      contenedor.innerHTML = "";
+      lista.forEach(p => {
+        contenedor.innerHTML += renderProducto(p);
+      });
+    }
+
+    // 🧩 Render modular
+    function renderProducto(p) {
+      const precioBs = (p.precio * tasa).toFixed(2);
+      return `
+        <div>
+          <strong>${p.nombre}</strong><br>
+          Precio: $${p.precio.toFixed(2)} / Bs ${precioBs}
+          ${p.imagen ? `<img src="${p.imagen}" alt="${p.nombre}">` : ""}
+        </div>
+      `;
     }
   </script>
 
