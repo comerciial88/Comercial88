@@ -1,19 +1,29 @@
 [
   {
-    "nombre": "Jamón Cocido",
-    "precio": 5.00,
+    "nombre": "Cafe amanecer 200g",
+    "precio": 3.53,
     "codigo": "7502271001789",
     "imagen": "https://example.com/jamon.jpg"
   },
   {
-    "nombre": "Queso Blanco",
-    "precio": 3.50,
+    "nombre": "Amanecer 100G",
+    "precio": 1.79,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
-    "nombre": "Mortadela",
-    "precio": 4.25,
+    "nombre": "Cafe Cerezo 100g",
+    "precio": 1.71,
+    "codigo": "4567891234567"
+  },
+  {
+    "nombre": "Cafe Cerezo 100g",
+    "precio": 1.71,
+    "codigo": "4567891234567"
+  },
+  {
+    "nombre": "Cafe Cerezo 200g",
+    "precio": 3.53,
     "codigo": "4567891234567"
   }
 ]
