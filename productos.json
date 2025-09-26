@@ -51,4 +51,19 @@
     "precio": 2,
     "codigo": "4567891234567"
   }
+  {
+    "nombre": "Mavesa Mayonesa 445g",
+    "precio": 5.35,
+    "codigo": "4567891234567"
+  } 
+  {
+    "nombre": "Kraft Mayonesa 445g",
+    "precio": 5.03,
+    "codigo": "4567891234567"
+  }
+  {
+    "nombre": "Mavesa mayonesa 175g",
+    "precio": 2.74,
+    "codigo": "4567891234567"
+  }
 ]
