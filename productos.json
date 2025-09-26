@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Harina Pan 1Kg",
+    "precio": 1,
+    "codigo": "jfiduehjdl",
+    "imagen": "https://example.com/jamon.jpg"
+  },
+  {
+    "nombre": "Queso Blanco",
+    "precio": 3.50,
+    "codigo": "9876543210987",
+    "imagen": "https://example.com/queso.jpg"
+  },
+  {
+    "nombre": "Mortadela",
+    "precio": 4.25,
+    "codigo": "4567891234567"
+  }
+]
