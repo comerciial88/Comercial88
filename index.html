@@ -5,36 +5,24 @@
   <title>Sistema de Caja</title>
   <style>
     body { font-family: sans-serif; padding: 10px; }
-    .top-bar, .product-form { margin-bottom: 20px; }
-    input, button, select { margin: 5px; }
-    #product-list div { margin: 5px 0; }
+    .top-bar { margin-bottom: 20px; }
+    input, button { margin: 5px; }
+    #product-list div { margin: 10px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    img { max-width: 100px; display: block; margin-top: 5px; }
   </style>
 </head>
 <body>
 
   <!-- 🔝 Barra superior -->
   <div class="top-bar">
-    <input type="text" id="search" placeholder="Buscar producto..." oninput="buscarProducto()">
-    <button onclick="escanearCodigo()">📷 Escanear</button>
-    <span id="fecha"></span>
+    <button onclick="escanearCodigo()">📷 Escanear producto</button>
     <button onclick="configurarTasa()">💱 Tasa: <span id="tasa">35.00</span></button>
-    <button onclick="mostrarFormulario()">➕ Agregar producto</button>
+    <span id="fecha"></span>
   </div>
 
-  <!-- 📦 Lista de productos -->
+  <!-- 📦 Resultado del escaneo -->
   <div id="product-list"></div>
 
-  <!-- 📝 Formulario de producto -->
-  <div class="product-form" id="formulario" style="display:none;">
-    <input type="text" id="nombre" placeholder="Nombre del producto">
-    <input type="number" id="precio" placeholder="Precio en USD">
-    <input type="file" id="imagen">
-    <input type="text" id="codigo" placeholder="Código de barras">
-    <button onclick="escanearParaFormulario()">📷 Escanear código</button>
-    <button onclick="registrarProducto()">Guardar</button>
-  </div>
-
-  <!-- 📜 Script principal -->
   <script>
     let productos = [];
     let tasa = 35.00;
@@ -42,66 +30,46 @@
     // 🕒 Mostrar fecha actual
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
 
-    // 🔁 Cargar productos guardados al iniciar
+    // 📥 Cargar productos desde JSON
     window.addEventListener("DOMContentLoaded", () => {
-      const guardados = localStorage.getItem("productos");
-      if (guardados) {
-        productos = JSON.parse(guardados);
-        mostrarResultados(productos);
-      }
+      fetch("productos.json")
+        .then(res => res.json())
+        .then(data => {
+          productos = data;
+        })
+        .catch(err => console.error("Error al cargar productos:", err));
     });
 
-    function buscarProducto() {
-      const query = document.getElementById("search").value.toLowerCase();
-      const resultados = productos.filter(p => p.nombre.toLowerCase().includes(query));
-      mostrarResultados(resultados);
-    }
-
-    function mostrarResultados(lista) {
-      const contenedor = document.getElementById("product-list");
-      contenedor.innerHTML = "";
-      lista.forEach(p => {
-        contenedor.innerHTML += `<div>${p.nombre} - $${p.precio} / Bs ${(p.precio * tasa).toFixed(2)}</div>`;
-      });
-    }
-
+    // 💱 Configurar tasa
     function configurarTasa() {
       const nuevaTasa = prompt("Ingrese nueva tasa de cambio:", tasa);
       if (nuevaTasa) {
         tasa = parseFloat(nuevaTasa);
         document.getElementById("tasa").textContent = tasa.toFixed(2);
-        buscarProducto();
       }
     }
 
-    function mostrarFormulario() {
-      document.getElementById("formulario").style.display = "block";
-    }
-
-    function registrarProducto() {
-      const nombre = document.getElementById("nombre").value;
-      const precio = parseFloat(document.getElementById("precio").value);
-      const codigo = document.getElementById("codigo").value;
-
-      const nuevo = { nombre, precio, codigo };
-      productos.push(nuevo);
-
-      // 💾 Guardar en localStorage
-      localStorage.setItem("productos", JSON.stringify(productos));
-
-      document.getElementById("formulario").reset();
-      document.getElementById("formulario").style.display = "none";
-      mostrarResultados(productos);
-    }
-
+    // 📷 Simulación de escaneo
     function escanearCodigo() {
-      alert("Aquí se abriría la cámara para escanear y buscar el producto.");
-      // Integrar librería como QuaggaJS o ZXing para escaneo real
-    }
+      const codigo = prompt("Escanea o ingresa el código de barras:");
+      if (!codigo) return;
 
-    function escanearParaFormulario() {
-      alert("Aquí se abriría la cámara para escanear y llenar el campo de código.");
-      // Integrar escaneo y asignar a document.getElementById("codigo").value
+      const producto = productos.find(p => p.codigo === codigo);
+      const contenedor = document.getElementById("product-list");
+      contenedor.innerHTML = "";
+
+      if (producto) {
+        const precioBs = (producto.precio * tasa).toFixed(2);
+        contenedor.innerHTML = `
+          <div>
+            <strong>${producto.nombre}</strong><br>
+            Precio: $${producto.precio.toFixed(2)} / Bs ${precioBs}
+            ${producto.imagen ? `<img src="${producto.imagen}" alt="${producto.nombre}">` : ""}
+          </div>
+        `;
+      } else {
+        contenedor.innerHTML = `<div>Producto no encontrado para el código: ${codigo}</div>`;
+      }
     }
   </script>
 
