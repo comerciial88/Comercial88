@@ -17,13 +17,18 @@
     "codigo": "4567891234567"
   },
   {
-    "nombre": "Cafe Cerezo 100g",
-    "precio": 1.71,
+    "nombre": "Cafe Favorito 100g",
+    "precio": 1.67,
     "codigo": "4567891234567"
   },
   {
     "nombre": "Cafe Cerezo 200g",
     "precio": 3.53,
+    "codigo": "4567891234567"
+  },
+  {
+    "nombre": "Cafe Damasco 200g",
+    "precio": 3.60,
     "codigo": "4567891234567"
   }
 ]
