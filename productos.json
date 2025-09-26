@@ -1,25 +1,71 @@
 [
-  {
-    "nombre": "Harina Pan 1Kg",
-    "precio": 1,
-    "codigo": "7591002200145",
-    "imagen": "https://example.com/jamon.jpg"
-  },
-  {
-    "nombre": "Queso Blanco",
-    "precio": 3.50,
-    "codigo": "9876543210987",
-    "imagen": "https://example.com/queso.jpg"
-  },
-  {
-    "nombre": "Mortadela",
-    "precio": 4.25,
-    "codigo": "4567891234567"
-  },
-  {
-    "nombre": "Rolda Gelatina",
-    "precio": 7,
-    "codigo": "7592871002762",
-    "imagen": "https://example.com/queso.jpg"
-  }
+  // harinas y arroz //
+  { "nombre": "Harina Pan 1.32 lb", "precio": 1.85, "codigo": "", "imagen": "" },
+  { "nombre": "Harina Arroz 2.2 lb ALL TASTE", "precio": 1.75, "codigo": "", "imagen": "" },
+  { "nombre": "Harina Maíz 2.2 lb ALL TASTE", "precio": 1.75, "codigo": "", "imagen": "" },
+  { "nombre": "Harina Pan 1 lb", "precio": 1.65, "codigo": "", "imagen": "" },
+  { "nombre": "Arroz Sabrozado 2 lb HARINA FINA", "precio": 2.75, "codigo": "", "imagen": "" },
+  { "nombre": "Adoro 2 lb HERBA", "precio": 2.75, "codigo": "", "imagen": "" },
+  { "nombre": "Roby 1 lb TODO USO", "precio": 2.75, "codigo": "", "imagen": "" },
+  { "nombre": "Ludanto 1 lb TODO USO", "precio": 2.75, "codigo": "", "imagen": "" },
+  { "nombre": "Masa Bahia 1 lb TODO USO", "precio": 2.75, "codigo": "", "imagen": "" },
+  { "nombre": "Mary Torrino 2.2 lb SUPERIOR", "precio": 3.85, "codigo": "", "imagen": "" },
+  { "nombre": "Rojo Vermicelli 2.2 lb PASTICHO", "precio": 3.85, "codigo": "", "imagen": "" },
+  { "nombre": "Arroz Verde 1.9 lb LIMA VERDE", "precio": 2.65, "codigo": "", "imagen": "" },
+  { "nombre": "Sardina 0.49 lb", "precio": 1.65, "codigo": "", "imagen": "" },
+
+  // salsas y condimentos //
+  { "nombre": "Heinz Tomato Ketchup 397g", "precio": 3.18, "codigo": "", "imagen": "" },
+  { "nombre": "Heinz Purée Flore 1.06L", "precio": 3.18, "codigo": "", "imagen": "" },
+  { "nombre": "Heinz 397g", "precio": 0.82, "codigo": "", "imagen": "" },
+  { "nombre": "Goya Salsa Tomate 227g", "precio": 1.14, "codigo": "", "imagen": "" },
+  { "nombre": "Goya Salsa La Abuela 227g", "precio": 1.14, "codigo": "", "imagen": "" },
+  { "nombre": "Ají Salsa Licuar 500ml", "precio": 2.14, "codigo": "", "imagen": "" },
+  { "nombre": "Tejin Ohishi 300ml", "precio": 2.14, "codigo": "", "imagen": "" },
+  { "nombre": "Heinz Mostaza 1.89L", "precio": 4.14, "codigo": "", "imagen": "" },
+  { "nombre": "Goya Dikillo 1.89L", "precio": 4.14, "codigo": "", "imagen": "" },
+  { "nombre": "Heinz Salsa Mostaza 397g", "precio": 3.18, "codigo": "", "imagen": "" },
+  { "nombre": "Goya Pasta Tomate 227ml", "precio": 1.14, "codigo": "", "imagen": "" },
+  { "nombre": "Osole Pasta Tomate 227ml", "precio": 1.14, "codigo": "", "imagen": "" },
+  { "nombre": "Osole Albahaca 300ml", "precio": 1.96, "codigo": "", "imagen": "" },
+
+  // café //
+  { "nombre": "Amarro 200", "precio": 2.45, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro 100", "precio": 1.45, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro 50", "precio": 0.85, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro 25", "precio": 0.45, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro 10", "precio": 0.25, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro Casa", "precio": 1.45, "codigo": "562885", "imagen": "" },
+  { "nombre": "Amarro Maveca", "precio": 1.45, "codigo": "562885", "imagen": "" },
+  { "nombre": "Kraft", "precio": 1.95, "codigo": "562885", "imagen": "" },
+  { "nombre": "Maveca 200", "precio": 2.45, "codigo": "562885", "imagen": "" },
+
+  // refrescos //
+  { "nombre": "Limón Durazno 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Cola 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Fresa 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Malta 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Coco 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Fresa 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Durazno 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Guayaba 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Mora 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Vainilla 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+  { "nombre": "Yogurt Natural 500ml", "precio": 1.25, "codigo": "130785", "imagen": "" },
+
+  // cigarrillos //
+  { "nombre": "Belmont P", "precio": 3.14, "codigo": "", "imagen": "" },
+  { "nombre": "Belmont G", "precio": 3.94, "codigo": "", "imagen": "" },
+  { "nombre": "Universal", "precio": 3.94, "codigo": "", "imagen": "" },
+  { "nombre": "Pall Mall", "precio": 3.94, "codigo": "", "imagen": "" },
+  { "nombre": "Lucky Br", "precio": 3.84, "codigo": "", "imagen": "" },
+  { "nombre": "Lucky C", "precio": 3.87, "codigo": "", "imagen": "" },
+
+  // shampoo //
+  { "nombre": "Shampoo Margarita", "precio": 6.28, "codigo": "", "imagen": "" },
+  { "nombre": "Shampoo Gilmaria 300", "precio": 6.28, "codigo": "", "imagen": "" },
+  { "nombre": "Shampoo Renovad", "precio": 6.28, "codigo": "", "imagen": "" },
+  { "nombre": "Shampoo H&S Protección", "precio": 6.28, "codigo": "", "imagen": "" },
+  { "nombre": "Shampoo Dove Reconstrucción", "precio": 6.28, "codigo": "", "imagen": "" },
+  { "nombre": "Shampoo Palmolive Optimis", "precio": 6.01, "codigo": "", "imagen": "" }
 ]
