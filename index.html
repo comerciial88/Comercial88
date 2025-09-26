@@ -5,13 +5,39 @@
   <title>Sistema de Caja</title>
   <script src="https://unpkg.com/html5-qrcode"></script>
   <style>
-    body { font-family: sans-serif; padding: 10px; }
-    .top-bar { margin-bottom: 20px; }
-    input, button { margin: 5px; }
-    #product-list div { margin: 10px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
-    img { max-width: 100px; display: block; margin-top: 5px; }
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+      font-size: 1.2em;
+    }
 
-    /* 📷 Área de escaneo */
+    input, button {
+      margin: 8px;
+      padding: 10px;
+      font-size: 1em;
+    }
+
+    .top-bar {
+      margin-bottom: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    #product-list div {
+      margin: 15px 0;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    img {
+      max-width: 120px;
+      display: block;
+      margin-top: 8px;
+      border-radius: 6px;
+    }
+
     #scanner-container {
       width: 300px;
       margin: auto;
@@ -21,7 +47,6 @@
 </head>
 <body>
 
-  <!-- 🔝 Barra superior -->
   <div class="top-bar">
     <input type="text" id="search" placeholder="Buscar producto por nombre o código..." oninput="buscarProducto()">
     <button onclick="escanearCodigo()">📷 Escanear producto</button>
@@ -29,15 +54,12 @@
     <span id="fecha"></span>
   </div>
 
-  <!-- 📷 Área de escaneo -->
   <div id="scanner-container">
     <div id="reader" style="width: 100%;"></div>
   </div>
 
-  <!-- 🔊 Sonido de escaneo -->
   <audio id="beep" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
 
-  <!-- 📦 Resultados -->
   <div id="product-list"></div>
 
   <script>
@@ -46,7 +68,6 @@
 
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
 
-    // 📥 Cargar productos desde JSON
     window.addEventListener("DOMContentLoaded", () => {
       fetch("productos.json")
         .then(res => res.json())
@@ -56,7 +77,6 @@
         });
     });
 
-    // 🔍 Buscar por nombre o código
     function buscarProducto() {
       const query = document.getElementById("search").value.toLowerCase();
       const resultados = productos.filter(p =>
@@ -65,7 +85,6 @@
       mostrarResultados(resultados);
     }
 
-    // 💱 Configurar tasa
     function configurarTasa() {
       const nuevaTasa = prompt("Ingrese nueva tasa de cambio:", tasa);
       if (nuevaTasa) {
@@ -75,7 +94,6 @@
       }
     }
 
-    // 📷 Escaneo con Html5-qrcode
     function escanearCodigo() {
       const contenedor = document.getElementById("scanner-container");
       contenedor.style.display = "block";
@@ -103,14 +121,12 @@
       });
     }
 
-    // 🧱 Mostrar productos
     function mostrarResultados(lista) {
       const contenedor = document.getElementById("product-list");
       contenedor.innerHTML = "";
       lista.forEach(p => contenedor.innerHTML += renderProducto(p));
     }
 
-    // 🧩 Render modular
     function renderProducto(p) {
       const precioBs = (p.precio * tasa).toFixed(2);
       return `
