@@ -10,5 +10,11 @@
     "precio": 1.79,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
+  },
+  {
+    "nombre": " Cafe cerezo 100g"
+    "precio": 1.67,
+    "codigo":  "543894348466",
+    "imagen": ""
   }
 ]
