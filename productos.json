@@ -28,6 +28,12 @@
     "precio": 4.08,
     "codigo": "7595826004576",
     "imagen": "https://example.com/cafeoso2.jpg"
+  },
+  {
+    "nombre": "Cafe favorito 100g",
+    "precio": 0.00,
+    "codigo": "7595461000292",
+    "imagen": "https://example.com/cafefa1.jpg"
   }
 ]
 
