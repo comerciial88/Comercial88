@@ -34,6 +34,12 @@
     "precio": 0.00,
     "codigo": "7595461000292",
     "imagen": "https://example.com/cafefa1.jpg"
+  },
+  {
+    "nombre": "Mavesa margarina 250g",
+    "precio": 1.95,
+    "codigo": "75930868",
+    "imagen": "https://example.com/MavesaM25.jpg"
   }
 ]
 
