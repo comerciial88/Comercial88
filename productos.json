@@ -10,5 +10,11 @@
     "precio": 1.79,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
+  },
+  {
+    "nombre": "None",
+    "precio": 5,
+    "codigo": "7502271001700",
+    "imagen": "https://example.com/jayon.jpg"
   }
 ]
