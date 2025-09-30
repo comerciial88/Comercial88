@@ -12,9 +12,15 @@
     "imagen": "https://example.com/queso.jpg"
   },
   {
+    "nombre": "Cafe cerezo 200g",
+    "precio": 3.45,
+    "codigo": "7598688000021",
+    "imagen": "https://example.com/cafec2.jpg"
+  },
+  {
     "nombre": "None",
     "precio": 5,
     "codigo": "7502271001700",
-    "imagen": "https://example.com/jayon.jpg"
+    "imagen": "https://example.com/jamoyn.jpg"
   }
 ]
