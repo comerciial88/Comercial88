@@ -118,7 +118,13 @@
     "precio": 1.37,
     "codigo": "000000000000",
     "imagen": "https://example.com/05.jpg"
-  }
+  },
+  {
+    "nombre": "Te crystal 1.5Lt",
+    "precio": 2.94,
+    "codigo": "000000000012",
+    "imagen": "https://example.com/Te0.jpg"
+  },
 ]
 
 
