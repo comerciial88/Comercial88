@@ -37,13 +37,13 @@
   },
   {
     "nombre": "Mavesa margarina 250g",
-    "precio": 1.95,
+    "precio": 2,
     "codigo": "75930868",
     "imagen": "https://example.com/MavesaM25.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 445g",
-    "precio": 5.22,
+    "precio": 5.34,
     "codigo": "719503030123",
     "imagen": "https://example.com/nada1.jpg"
   }
