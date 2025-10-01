@@ -94,6 +94,12 @@
     "precio": 1.07,
     "codigo": "75918729",
     "imagen": "https://example.com/nad2a.jpg"
+  },
+  {
+    "nombre": "Maltin Retornable 222ml",
+    "precio": 0.75,
+    "codigo": "7591446000660",
+    "imagen": "https://example.com/nadaml.jpg"
   }
 ]
 
