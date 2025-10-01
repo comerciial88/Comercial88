@@ -89,6 +89,12 @@
     "codigo": "7591031012511",
     "imagen": "https://example.com/nad1a.jpg"
   },
+  {
+    "nombre": "Maltin botella 250ml",
+    "precio": 1.07,
+    "codigo": "75918729",
+    "imagen": "https://example.com/nad2a.jpg"
+  }
 ]
 
 
