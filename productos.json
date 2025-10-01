@@ -76,6 +76,12 @@
     "precio": 2.35,
     "codigo": "7502475001700",
     "imagen": "https://example.com/na46da.jpg"
+  },
+  {
+    "nombre": "Lipton durazno 500ml",
+    "precio": 2.24,
+    "codigo": "7561031011347",
+    "imagen": "https://example.com/nada09.jpg"
   }
 ]
 
