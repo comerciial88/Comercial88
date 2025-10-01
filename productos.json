@@ -106,6 +106,12 @@
     "precio": 1.28,
     "codigo": "7591446001568",
     "imagen": "https://example.com/nadamlt.jpg"
+  },
+  {
+    "nombre": "Green spot",
+    "precio": 1.50,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0green.jpg"
   }
 ]
 
