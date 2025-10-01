@@ -57,7 +57,19 @@
     "nombre": "Mayonesa Kraft 175g",
     "precio": 2.46,
     "codigo": "7622201512279",
-    "imagen": "https://example.com/nada.jpg"
+    "imagen": "https://example.com/nad2a.jpg"
+  },
+  {
+    "nombre": "Azucar zuka 1kg",
+    "precio": 1.96,
+    "codigo": "7596939000141",
+    "imagen": "https://example.com/nad2a.jpg"
+  },
+  {
+    "nombre": "Azucar kristal 1Kg",
+    "precio": 2.14,
+    "codigo": "7590850247005",
+    "imagen": "https://example.com/nad3a.jpg"
   }
 ]
 
