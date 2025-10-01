@@ -136,6 +136,12 @@
     "precio": 2.78,
     "codigo": "7597569001065",
     "imagen": "https://example.com/Lech.jpg"
+  },
+  {
+    "nombre": "Glup 2Lt",
+    "precio": 1.46,
+    "codigo": "7592661000015",
+    "imagen": "https://example.com/Glup.jpg"
   }
 ]
 
