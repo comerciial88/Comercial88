@@ -130,7 +130,13 @@
     "precio": 1.66,
     "codigo": "7591127503527",
     "imagen": "https://example.com/delvalle.jpg"
-  } 
+  },
+  {
+    "nombre": "Leche Lalo 1Lt",
+    "precio": 2.78,
+    "codigo": "7597569001065",
+    "imagen": "https://example.com/Lech.jpg"
+  }
 ]
 
 
