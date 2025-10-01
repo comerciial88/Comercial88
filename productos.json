@@ -40,6 +40,12 @@
     "precio": 1.95,
     "codigo": "75930868",
     "imagen": "https://example.com/MavesaM25.jpg"
+  },
+  {
+    "nombre": "Mavesa mayonesa 445g",
+    "precio": 5.22,
+    "codigo": "719503030123",
+    "imagen": "https://example.com/nada1.jpg"
   }
 ]
 
