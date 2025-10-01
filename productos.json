@@ -82,7 +82,13 @@
     "precio": 2.24,
     "codigo": "7561031011347",
     "imagen": "https://example.com/nada09.jpg"
-  }
+  },
+  {
+    "nombre": "Lipton te verde 500ml",
+    "precio": 2.24,
+    "codigo": "7591031012511",
+    "imagen": "https://example.com/nad1a.jpg"
+  },
 ]
 
 
