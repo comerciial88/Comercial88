@@ -52,7 +52,13 @@
     "precio": 2.74,
     "codigo": "0000000002",
     "imagen": "https://example.com/nada2.jpg"
-  } 
+  },
+  {
+    "nombre": "Mayonesa Kraft 175g",
+    "precio": 2.46,
+    "codigo": "7622201512279",
+    "imagen": "https://example.com/nada.jpg"
+  }
 ]
 
 
