@@ -7,19 +7,19 @@
   },
   {
     "nombre": "Amanecer 100G",
-    "precio": 1.79,
+    "precio": 1.83,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.45,
+    "precio": 3.53,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
   {
     "nombre": "Cafe cerezo 100g",
-    "precio": 1.67,
+    "precio": 1.70,
     "codigo": "7598688000014",
     "imagen": "https://example.com/cafec1.jpg"
   },
@@ -31,7 +31,7 @@
   },
   {
     "nombre": "Cafe favorito 100g",
-    "precio": 0.00,
+    "precio": 1.67,
     "codigo": "7595461000292",
     "imagen": "https://example.com/cafefa1.jpg"
   },
