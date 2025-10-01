@@ -124,7 +124,13 @@
     "precio": 2.94,
     "codigo": "000000000012",
     "imagen": "https://example.com/Te0.jpg"
-  }
+  },
+ {
+    "nombre": "Del valle Jugo 1.5Lt",
+    "precio": 1.66,
+    "codigo": "7591127503527",
+    "imagen": "https://example.com/delvalle.jpg"
+  } 
 ]
 
 
