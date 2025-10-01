@@ -100,6 +100,12 @@
     "precio": 0.75,
     "codigo": "7591446000660",
     "imagen": "https://example.com/nadaml.jpg"
+  },
+  {
+    "nombre": "Maltin lata 355ml",
+    "precio": 1.28,
+    "codigo": "7591446001568",
+    "imagen": "https://example.com/nadamlt.jpg"
   }
 ]
 
