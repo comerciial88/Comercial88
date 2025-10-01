@@ -70,6 +70,12 @@
     "precio": 2.14,
     "codigo": "7590850247005",
     "imagen": "https://example.com/nad3a.jpg"
+  },
+  {
+    "nombre": "",
+    "precio": 5,
+    "codigo": "7502271001700",
+    "imagen": "https://example.com/nada.jpg"
   }
 ]
 
