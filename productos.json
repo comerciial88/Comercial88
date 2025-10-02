@@ -167,4 +167,10 @@
     "codigo": "7591031102052",
     "imagen": "https://example.com/pep125.jpg"
   },
+  {
+    "nombre": "Fanta 1Lt",
+    "precio": 1.29,
+    "codigo": "7591127623324",
+    "imagen": "https://example.com/fanta1l.jpg"
+  }
 ]
