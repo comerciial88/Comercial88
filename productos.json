@@ -316,5 +316,11 @@
     "precio": 2.69,
     "codigo": "759167500370",
     "imagen": "https://example.com/cN.jpg"
+  },
+  {
+    "nombre": "Toma 2 galletas 45g",
+    "precio": 0.63,
+    "codigo": "000000000900",
+    "imagen": "https://example.com/T2g.jpg"
   }
 ]
