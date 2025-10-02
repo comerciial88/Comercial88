@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Oreo 6pack",
+    "precio": 4.30,
+    "codigo": "7622202213731",
+    "imagen": "https://example.com/o6p0.jpg"
+  },
+  {
     "nombre": "oreo tubo 96g",
     "precio": 2.04,
     "codigo": "000000000000",
