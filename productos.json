@@ -304,5 +304,11 @@
     "precio": 0.59,
     "codigo": "000000d00000",
     "imagen": "https://example.com/fc.jpg"
+  },
+  {
+    "nombre": "Polvorones 75g",
+    "precio": 1.08,
+    "codigo": "7591167022514",
+    "imagen": "https://example.com/polv.jpg"
   }
 ]
