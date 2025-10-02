@@ -322,5 +322,17 @@
     "precio": 0.63,
     "codigo": "000000000900",
     "imagen": "https://example.com/T2g.jpg"
+  },
+  {
+    "nombre": "Mini brown puig",
+    "precio": 0.00,
+    "codigo": "00000t000000",
+    "imagen": "https://example.com/d.jpg"
+  }
+  {
+    "nombre": "Panchi guayaba 27g",
+    "precio": 0.84,
+    "codigo": "7596278000130",
+    "imagen": "https://example.com/panch.jpg"
   }
 ]
