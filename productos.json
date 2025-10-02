@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "wafer renata 115g",
+    "precio": 1.29,
+    "codigo": "000050000000",
+    "imagen": "https://example.com/wr.jpg"
+  },
+  {
+    "nombre": "Osole compota 100g",
+    "precio": 0.97,
+    "codigo": "000004000000",
+    "imagen": "https://example.com/oc.jpg"
+  },
+  {
     "nombre": "Chocoking 90g",
     "precio": 1.10,
     "codigo": "7596278000338",
