@@ -235,8 +235,14 @@
   },
   {
     "nombre": "Mausi",
-    "precio": 0.00,
+    "precio": 0.97,
     "codigo": "7592647000190",
     "imagen": "https://example.com/Mausi.jpg"
+  },
+  {
+    "nombre": "Cono chicle",
+    "precio": 0.97,
+    "codigo": "7592647000718",
+    "imagen": "https://example.com/cono.jpg"
   }
 ]
