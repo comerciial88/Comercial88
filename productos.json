@@ -310,5 +310,11 @@
     "precio": 1.08,
     "codigo": "7591167022514",
     "imagen": "https://example.com/polv.jpg"
+  },
+  {
+    "nombre": "Crunch nucita 120g",
+    "precio": 2.69,
+    "codigo": "759167500370",
+    "imagen": "https://example.com/cN.jpg"
   }
 ]
