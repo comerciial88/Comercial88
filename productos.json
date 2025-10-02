@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Maria selecta 9und 250g",
+    "precio": 2.37,
+    "codigo": "7591082000307",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Natys zoo 90g",
     "precio": 1.08,
     "codigo": "7596278000505",
