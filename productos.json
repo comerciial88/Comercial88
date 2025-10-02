@@ -208,5 +208,11 @@
     "precio": 0.75,
     "codigo": "7592565000111",
     "imagen": "https://example.com/aguacry330.jpg"
+  },
+  {
+    "nombre": "Jugo lalo 900ml",
+    "precio": 0.00,
+    "codigo": "7597569000075",
+    "imagen": "https://example.com/laloj.jpg"
   }
 ]
