@@ -1,97 +1,97 @@
 [
   {
     "nombre": "Cafe amanecer 200g",
-    "precio": 3.53,
+    "precio": 3.55,
     "codigo": "7502271001789",
     "imagen": "https://example.com/jamon.jpg"
   },
   {
     "nombre": "Cafe amanecer 100G",
-    "precio": 1.83,
+    "precio": 1.84,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.55,
+    "precio": 3.57,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
   {
     "nombre": "Cafe cerezo 100g",
-    "precio": 1.79,
+    "precio": 1.80,
     "codigo": "7598688000014",
     "imagen": "https://example.com/cafec1.jpg"
   },
   {
     "nombre": "Cafe osole 200g",
-    "precio": 4.17,
+    "precio": 4.20,
     "codigo": "7595826004576",
     "imagen": "https://example.com/cafeoso2.jpg"
   },
   {
     "nombre": "Cafe favorito 100g",
-    "precio": 1.67,
+    "precio": 1.68,
     "codigo": "7595461000292",
     "imagen": "https://example.com/cafefa1.jpg"
   },
   {
     "nombre": "Mavesa margarina 250g",
-    "precio": 2,
+    "precio": 2.01,
     "codigo": "75930868",
     "imagen": "https://example.com/MavesaM25.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 445g",
-    "precio": 5.34,
+    "precio": 5.37,
     "codigo": "719503030123",
     "imagen": "https://example.com/nada1.jpg"
   },
- {
+  {
     "nombre": "Mavesa mayonesa 175g",
-    "precio": 2.75,
+    "precio": 2.76,
     "codigo": "0000000002",
     "imagen": "https://example.com/nada2.jpg"
   },
   {
     "nombre": "Mayonesa Kraft 175g",
-    "precio": 2.46,
+    "precio": 2.47,
     "codigo": "7622201512279",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar zuka 1kg",
-    "precio": 1.96,
+    "precio": 1.97,
     "codigo": "7596939000141",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar kristal 1Kg",
-    "precio": 2.14,
+    "precio": 2.15,
     "codigo": "7590850247005",
     "imagen": "https://example.com/nad3a.jpg"
   },
   {
     "nombre": "Azúcar 100% 1Kg",
-    "precio": 2.35,
+    "precio": 2.36,
     "codigo": "7502475001700",
     "imagen": "https://example.com/na46da.jpg"
   },
   {
     "nombre": "Lipton durazno 500ml",
-    "precio": 2.24,
+    "precio": 2.25,
     "codigo": "7561031011347",
     "imagen": "https://example.com/nada09.jpg"
   },
   {
     "nombre": "Lipton te verde 500ml",
-    "precio": 2.24,
+    "precio": 2.25,
     "codigo": "7591031012511",
     "imagen": "https://example.com/nad1a.jpg"
   },
   {
     "nombre": "Maltin botella 250ml",
-    "precio": 1.07,
+    "precio": 1.08,
     "codigo": "75918729",
     "imagen": "https://example.com/nad2a.jpg"
   },
@@ -103,61 +103,44 @@
   },
   {
     "nombre": "Maltin lata 355ml",
-    "precio": 1.28,
+    "precio": 1.29,
     "codigo": "7591446001568",
     "imagen": "https://example.com/nadamlt.jpg"
   },
   {
     "nombre": "Green spot 360ml",
-    "precio": 1.50,
+    "precio": 1.51,
     "codigo": "7594003630133",
     "imagen": "https://example.com/0green.jpg"
   },
   {
     "nombre": "Te crystal 500ml",
-    "precio": 1.37,
+    "precio": 1.38,
     "codigo": "000000000000",
     "imagen": "https://example.com/05.jpg"
   },
   {
     "nombre": "Te crystal 1.5Lt",
-    "precio": 2.94,
+    "precio": 2.96,
     "codigo": "000000000012",
     "imagen": "https://example.com/Te0.jpg"
   },
- {
+  {
     "nombre": "Del valle Jugo 1.5Lt",
-    "precio": 1.67,
+    "precio": 1.68,
     "codigo": "7591127503527",
     "imagen": "https://example.com/delvalle.jpg"
   },
   {
     "nombre": "Leche Lalo 1Lt",
-    "precio": 2.78,
+    "precio": 2.80,
     "codigo": "7597569001065",
     "imagen": "https://example.com/Lech.jpg"
   },
   {
     "nombre": "Glup 2Lt",
-    "precio": 1.46,
+    "precio": 1.47,
     "codigo": "7592661000015",
     "imagen": "https://example.com/Glup.jpg"
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
