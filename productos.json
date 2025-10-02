@@ -279,6 +279,12 @@
     "nombre": "Polet Crunch white",
     "precio": 1.77,
     "codigo": "000000000000",
-    "imagen": "https://example.com/0.jpg"
+    "imagen": "https://example.com/pcw.jpg"
+  },
+  {
+    "nombre": "Tinita cali",
+    "precio": 0.97,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/tc.jpg"
   }
 ]
