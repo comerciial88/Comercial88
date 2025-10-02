@@ -269,4 +269,10 @@
     "codigo": "000000000014",
     "imagen": "https://example.com/spc.jpg"
   },
+  {
+    "nombre": "Pasion Yogurt",
+    "precio": 0.65,
+    "codigo": "000000000150",
+    "imagen": "https://example.com/psy.jpg"
+  }
 ]
