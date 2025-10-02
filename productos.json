@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Belvita Hony 9paq",
+    "precio": 4.41,
+    "codigo": "7590011890910",
+    "imagen": "https://example.com/hnb.jpg"
+  },
+  {
     "nombre": "Renata tubo 112g",
     "precio": 0.85,
     "codigo": "000000000000",
