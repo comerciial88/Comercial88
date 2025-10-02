@@ -172,5 +172,17 @@
     "precio": 1.29,
     "codigo": "7591127623324",
     "imagen": "https://example.com/fanta1l.jpg"
-  }
+  },
+  {
+    "nombre": "7up 1Lt",
+    "precio": 1.29,
+    "codigo": "7591031001003",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Frescolita 1Lt",
+    "precio": 1.29,
+    "codigo": "7591127853387",
+    "imagen": "https://example.com/fresc.jpg"
+  },
 ]
