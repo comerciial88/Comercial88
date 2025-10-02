@@ -160,7 +160,7 @@
     "precio": 3.69,
     "codigo": "7599485000016",
     "imagen": "https://example.com/yogurt.jpg"
-  }
+  },
   {
     "nombre": "Pepsi 1.25Lt",
     "precio": 1.18,
@@ -184,5 +184,5 @@
     "precio": 1.29,
     "codigo": "7591127853387",
     "imagen": "https://example.com/fresc.jpg"
-  }
+  } 
 ]
