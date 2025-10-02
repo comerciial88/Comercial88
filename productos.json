@@ -154,5 +154,11 @@
     "precio": 1.03,
     "codigo": "7593520000634",
     "imagen": "https://example.com/Crystalagua.jpg"
+  },
+  {
+    "nombre": "Yogurt Cereal 150g",
+    "precio": 3.69,
+    "codigo": "7599485000016",
+    "imagen": "https://example.com/yogurt.jpg"
   }
 ]
