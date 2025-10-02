@@ -292,5 +292,17 @@
     "precio": 1.40,
     "codigo": "0000000000p0",
     "imagen": "https://example.com/ms.jpg"
+  },
+  {
+    "nombre": "Drac helado cali",
+    "precio": 0.97,
+    "codigo": "000000000d00",
+    "imagen": "https://example.com/dhc.jpg"
+  },
+  {
+    "nombre": "Fres Cali",
+    "precio": 0.59,
+    "codigo": "000000d00000",
+    "imagen": "https://example.com/fc.jpg"
   }
 ]
