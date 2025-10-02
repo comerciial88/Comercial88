@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Oreo tipo americano 48g",
+    "precio": 0.97,
+    "codigo": "7622202229466",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "club social 6und",
     "precio": 2.69,
     "codigo": "7622210610652",
