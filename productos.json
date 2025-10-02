@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "oreo tubo 96g",
+    "precio": 2.04,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/ot.jpg"
+  },
+  {
     "nombre": "Belvita Kraker 9und",
     "precio": 4.41,
     "codigo": "7590011890866",
