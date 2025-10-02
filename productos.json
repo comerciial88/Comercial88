@@ -220,5 +220,11 @@
     "precio": 1.29,
     "codigo": "7591127104403",
     "imagen": "https://example.com/coca.jpg"
+  },
+  {
+    "nombre": "Arizona 340ml",
+    "precio": 2.08,
+    "codigo": "000000000011",
+    "imagen": "https://example.com/ar.jpg"
   }
 ]
