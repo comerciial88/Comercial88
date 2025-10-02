@@ -256,5 +256,17 @@
     "precio": 0.97,
     "codigo": "000000000111",
     "imagen": "https://example.com/0.jpg"
-  }
+  },
+  {
+    "nombre": "Choco mani arequipe",
+    "precio": 0.97,
+    "codigo": "000000000012",
+    "imagen": "https://example.com/25.jpg"
+  },
+  {
+    "nombre": "Super cono",
+    "precio": 1.40,
+    "codigo": "000000000014",
+    "imagen": "https://example.com/spc.jpg"
+  },
 ]
