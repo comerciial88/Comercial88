@@ -214,5 +214,11 @@
     "precio": 3.44,
     "codigo": "7597569000075",
     "imagen": "https://example.com/laloj.jpg"
+  },
+  {
+    "nombre": "Coca cola lata 355ml",
+    "precio": 1.29,
+    "codigo": "7591127104403",
+    "imagen": "https://example.com/coca.jpg"
   }
 ]
