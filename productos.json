@@ -250,5 +250,11 @@
     "precio": 0.97,
     "codigo": "7592647005676",
     "imagen": "https://example.com/paw.jpg"
+  },
+  {
+    "nombre": "wonder",
+    "precio": 0.97,
+    "codigo": "000000000111",
+    "imagen": "https://example.com/0.jpg"
   }
 ]
