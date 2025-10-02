@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "club social 6und",
+    "precio": 2.69,
+    "codigo": "7622210610652",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Oreo 6pack",
     "precio": 4.30,
     "codigo": "7622202213731",
