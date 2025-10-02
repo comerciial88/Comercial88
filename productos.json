@@ -196,5 +196,11 @@
     "precio": 0.92,
     "codigo": "000000500000",
     "imagen": "https://example.com/42.jpg"
+  },
+  {
+    "nombre": "Agua Heleal 500ml",
+    "precio": 0.54,
+    "codigo": "7595950000024",
+    "imagen": "https://example.com/aguahele.jpg"
   }
 ]
