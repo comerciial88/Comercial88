@@ -13,13 +13,13 @@
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.53,
+    "precio": 3.55,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
   {
     "nombre": "Cafe cerezo 100g",
-    "precio": 1.78,
+    "precio": 1.79,
     "codigo": "7598688000014",
     "imagen": "https://example.com/cafec1.jpg"
   },
