@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Chocoking 90g",
+    "precio": 1.10,
+    "codigo": "7596278000338",
+    "imagen": "https://example.com/hfkd.jpg"
+  },
+  {
     "nombre": "Cafe amanecer 200g",
     "precio": 3.55,
     "codigo": "7502271001789",
