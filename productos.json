@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Marilu 216g",
+    "precio": 3.23,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Maria selecta 9und 250g",
     "precio": 2.37,
     "codigo": "7591082000307",
