@@ -7,13 +7,13 @@
   },
   {
     "nombre": "Cafe amanecer 100G",
-    "precio": 1.84,
+    "precio": 1.79,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.57,
+    "precio": 3.55,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
