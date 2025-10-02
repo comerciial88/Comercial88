@@ -1,6 +1,12 @@
 [
   {
-    "nombre": "Belvita Hony 9paq",
+    "nombre": "Belvita Kraker 9und",
+    "precio": 4.41,
+    "codigo": "7590011890866",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Belvita Hony 9und",
     "precio": 4.41,
     "codigo": "7590011890910",
     "imagen": "https://example.com/hnb.jpg"
