@@ -184,5 +184,11 @@
     "precio": 1.29,
     "codigo": "7591127853387",
     "imagen": "https://example.com/fresc.jpg"
-  } 
+  },
+  {
+    "nombre": "Refres caTe 500ml",
+    "precio": 1.72,
+    "codigo": "0791466999785",
+    "imagen": "https://example.com/caTe.jpg"
+  },
 ]
