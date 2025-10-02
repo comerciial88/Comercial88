@@ -202,5 +202,11 @@
     "precio": 0.54,
     "codigo": "7595950000024",
     "imagen": "https://example.com/aguahele.jpg"
+  },
+  {
+    "nombre": "Agua crystal 330cm",
+    "precio": 0.75,
+    "codigo": "7592565000111",
+    "imagen": "https://example.com/aguacry330.jpg"
   }
 ]
