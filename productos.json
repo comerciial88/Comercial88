@@ -148,5 +148,11 @@
     "precio": 1.83,
     "codigo": "7597569000099",
     "imagen": "https://example.com/laloj0.jpg"
+  },
+  {
+    "nombre": "Agua crystal 600cm",
+    "precio": 1.03,
+    "codigo": "7593520000634",
+    "imagen": "https://example.com/Crystalagua.jpg"
   }
 ]
