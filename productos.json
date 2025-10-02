@@ -226,5 +226,11 @@
     "precio": 2.08,
     "codigo": "000000000011",
     "imagen": "https://example.com/ar.jpg"
+  },
+  {
+    "nombre": "Donut sorpresa",
+    "precio": 1.18,
+    "codigo": "7592647004549",
+    "imagen": "https://example.com/donut.jpg"
   }
 ]
