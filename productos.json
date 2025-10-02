@@ -286,5 +286,11 @@
     "precio": 0.97,
     "codigo": "000000000000",
     "imagen": "https://example.com/tc.jpg"
+  },
+  {
+    "nombre": "Maxi sandwich",
+    "precio": 1.40,
+    "codigo": "0000000000p0",
+    "imagen": "https://example.com/ms.jpg"
   }
 ]
