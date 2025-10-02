@@ -142,5 +142,11 @@
     "precio": 1.47,
     "codigo": "7592661000015",
     "imagen": "https://example.com/Glup.jpg"
+  },
+  {
+    "nombre": "Jugo Lalo 400ml",
+    "precio": 1.83,
+    "codigo": "7597569000099",
+    "imagen": "https://example.com/laloj0.jpg"
   }
 ]
