@@ -232,5 +232,11 @@
     "precio": 1.18,
     "codigo": "7592647004549",
     "imagen": "https://example.com/donut.jpg"
+  },
+  {
+    "nombre": "Mausi",
+    "precio": 0.00,
+    "codigo": "7592647000190",
+    "imagen": "https://example.com/Mausi.jpg"
   }
 ]
