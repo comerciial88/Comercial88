@@ -244,5 +244,11 @@
     "precio": 0.97,
     "codigo": "7592647000718",
     "imagen": "https://example.com/cono.jpg"
-  }
+  },
+  {
+    "nombre": "Paw patrol",
+    "precio": 0.97,
+    "codigo": "7592647005676",
+    "imagen": "https://example.com/paw.jpg"
+  },
 ]
