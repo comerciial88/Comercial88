@@ -1,5 +1,11 @@
 [
     {
+    "nombre": "Salmas 144g",
+    "precio": 0.00,
+    "codigo": "7591133000614",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Jack Chicharon 60g",
     "precio": 3.07,
     "codigo": "7591206001210",
