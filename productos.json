@@ -1,5 +1,65 @@
 [
     {
+    "nombre": "none",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "samba 32g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Botecito once once 35g",
+    "precio": 0.00,
+    "codigo": "7591316001391",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "pinguino 20g",
+    "precio": 0.00,
+    "codigo": "770326080660",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Panque mini 30g",
+    "precio": 0.00,
+    "codigo": "7591316000660",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Tubito galak 16g",
+    "precio": 0.00,
+    "codigo": "78939394",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Pirulin 16g",
+    "precio": 0.00,
+    "codigo": "7591675013042",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Prestigio",
+    "precio": 0.00,
+    "codigo": "7891000460207",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Boca pq",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Boca G",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Café Damasco 200gr",
     "precio": 3.66,
     "codigo": "7598259000092",
