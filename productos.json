@@ -1,79 +1,79 @@
 [
     {
     "nombre": "Cheetos Crunch 140g",
-    "precio": 0.00,
+    "precio": 2.26,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Cheetos Boliqueso 80g",
-    "precio": 0.00,
+    "precio": 1.54,
     "codigo": "7591206003863",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Pepito 80g ",
-    "precio": 0.00,
+    "precio": 1.58,
     "codigo": "7591206285269",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Natuchips 150g",
-    "precio": 0.00,
+    "precio": 3.77,
     "codigo": "7591206006505",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Pepito Marino 25g",
-    "precio": 0.00,
+    "precio": 0.75,
     "codigo": "7591206016214",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Pepito 25g",
-    "precio": 0.00,
+    "precio": 0.75,
     "codigo": "7591206285252",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Natuchips 42g",
-    "precio": 0.00,
+    "precio": 1.18,
     "codigo": "7591206006925",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Jack chicharron picante 20g",
-    "precio": 0.00,
+    "precio": 1.18,
     "codigo": "7591206000770",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Raquety 18g",
-    "precio": 0.00,
+    "precio": 0.65,
     "codigo": "7591206001272",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Rquety picante 18g",
-    "precio": 0.00,
+    "precio": 0.65,
     "codigo": "7591206001296",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "De todito 40g",
-    "precio": 0.00,
+    "precio": 1.18,
     "codigo": "7591206285498",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Ruffle natural 36g",
-    "precio": 0.00,
+    "precio": 1.61,
     "codigo": "7591206114347",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Ruffle queso 36g",
-    "precio": 0.00,
+    "precio": 1.61,
     "codigo": "7591206114361",
     "imagen": "https://example.com/0.jpg"
   },
