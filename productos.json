@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Belmont P",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Belmont G",
     "precio": 0.00,
     "codigo": "000000000000",
