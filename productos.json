@@ -1,5 +1,53 @@
 [
   {
+    "nombre": "Belmont G",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Universal cigarrillo",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Pall Mall",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Consul cigarrillo",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Viceroy",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Lucky Eclipse",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Lucky Cosmic",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Lucky Nova",
+    "precio": 0.00,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Marilu 216g",
     "precio": 3.23,
     "codigo": "000000000000",
