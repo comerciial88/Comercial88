@@ -1,5 +1,47 @@
 [
     {
+    "nombre": "Dorito Dinamita limon tanquero 40g",
+    "precio": 0.00,
+    "codigo": "7591206285603",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Dorito flamin hot 140g",
+    "precio": 0.00,
+    "codigo": "7591206003498",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Dorito Dinamita 150g",
+    "precio": 0.00,
+    "codigo": "7591206285634",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Dorito Dinamita 40g",
+    "precio": 0.00,
+    "codigo": "7591206285627",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Dorito 45g",
+    "precio": 0.00,
+    "codigo": "7591206002521",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Dorito 150g",
+    "precio": 0.00,
+    "codigo": "7591206003252",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Azucar amanecer 1Kg",
+    "precio": 0.00,
+    "codigo": "7599450000102",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Pasta China roja",
     "precio": 2.15,
     "codigo": "6900873059010",
