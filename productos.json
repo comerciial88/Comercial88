@@ -1,25 +1,25 @@
 [
     {
     "nombre": "Cheetos FH 38g",
-    "precio": 0.00,
+    "precio": 1.08,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
-    "nombre": "Cheetos 28g",
-    "precio": 0.00,
+    "nombre": "Cheeto mega puff 28g",
+    "precio": 0.97,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
-    "nombre": "Cheese tris 50g",
-    "precio": 0.00,
+    "nombre": "Cheese tris 54g",
+    "precio": 1.08,
     "codigo": "7591206003924",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Cheese tris 150g",
-    "precio": 0.00,
+    "precio": 2.37,
     "codigo": "7591206000381",
     "imagen": "https://example.com/0.jpg"
   },
