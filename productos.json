@@ -1,8 +1,20 @@
 [
     {
-    "nombre": "Pepito ",
+    "nombre": "Cheetos Crunch 140g",
     "precio": 0.00,
     "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Cheetos Boliqueso 80g",
+    "precio": 0.00,
+    "codigo": "7591206003863",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Pepito 80g ",
+    "precio": 0.00,
+    "codigo": "7591206285269",
     "imagen": "https://example.com/0.jpg"
   },
     {
