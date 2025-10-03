@@ -1,4 +1,22 @@
-[    
+[
+    {
+    "nombre": "Pasta China roja",
+    "precio": 2.15,
+    "codigo": "6900873059010",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Divertix renata 40g",
+    "precio": 0.75,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Coco ranch galletas 250g",
+    "precio": 1.61,
+    "codigo": "7596278000499",
+    "imagen": "https://example.com/0.jpg"
+    },
 {
     "nombre": "Galleta soda puig 240g",
     "precio": 2.51,
