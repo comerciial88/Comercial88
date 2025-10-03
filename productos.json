@@ -1,5 +1,35 @@
 [
     {
+    "nombre": "Raquety 18g",
+    "precio": 0.00,
+    "codigo": "7591206001272",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Rquety picante 18g",
+    "precio": 0.00,
+    "codigo": "7591206001296",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "De todito 40g",
+    "precio": 0.00,
+    "codigo": "7591206285498",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Ruffle natural 36g",
+    "precio": 0.00,
+    "codigo": "7591206114347",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Ruffle queso 36g",
+    "precio": 0.00,
+    "codigo": "7591206114361",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Cheetos FH 38g",
     "precio": 1.08,
     "codigo": "7591206003467",
