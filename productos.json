@@ -1,6 +1,36 @@
 [
     {
-    "nombre": "none",
+    "nombre": "Savoy galak 30g",
+    "precio": 0.00,
+    "codigo": "7591016854976",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Cricri 27g",
+    "precio": 0.00,
+    "codigo": "75910168515555",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Savoy 30g",
+    "precio": 0.00,
+    "codigo": "7591016851135",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Halls",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Mr brown",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Toronto",
     "precio": 0.00,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
