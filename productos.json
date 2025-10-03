@@ -1,5 +1,29 @@
 [
     {
+    "nombre": "Pepito Marino 25g",
+    "precio": 0.00,
+    "codigo": "7591206016214",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Pepito 25g",
+    "precio": 0.00,
+    "codigo": "7591206285252",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Natuchips 42g",
+    "precio": 0.00,
+    "codigo": "7591206006925",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Jack chicharron picante 20g",
+    "precio": 0.00,
+    "codigo": "7591206000770",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Raquety 18g",
     "precio": 0.00,
     "codigo": "7591206001272",
