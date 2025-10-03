@@ -79,7 +79,7 @@
   },
   {
     "nombre": "Pinguino 12und",
-    "precio": 8.60,
+    "precio": 8.61,
     "codigo": "7591133001307",
     "imagen": "https://example.com/0.jpg"
   },
@@ -145,19 +145,19 @@
   },
   {
     "nombre": "Cafe amanecer 200g",
-    "precio": 3.55,
+    "precio": 3.56,
     "codigo": "7502271001789",
     "imagen": "https://example.com/jamon.jpg"
   },
   {
     "nombre": "Cafe amanecer 100G",
-    "precio": 1.79,
+    "precio": 1.80,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.55,
+    "precio": 3.56,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
@@ -169,7 +169,7 @@
   },
   {
     "nombre": "Cafe osole 200g",
-    "precio": 4.20,
+    "precio": 4.21,
     "codigo": "7595826004576",
     "imagen": "https://example.com/cafeoso2.jpg"
   },
@@ -187,7 +187,7 @@
   },
   {
     "nombre": "Mavesa mayonesa 445g",
-    "precio": 5.37,
+    "precio": 5.38,
     "codigo": "719503030123",
     "imagen": "https://example.com/nada1.jpg"
   },
