@@ -1,55 +1,61 @@
 [
   {
+    "nombre": "Lucky Blanco con rojo",
+    "precio": 3.91,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Belmont P",
-    "precio": 0.00,
+    "precio": 2.15,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont G",
-    "precio": 0.00,
+    "precio": 3.52,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Universal cigarrillo",
-    "precio": 0.00,
+    "precio": 2.05,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pall Mall",
-    "precio": 0.00,
+    "precio": 3.52,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Consul cigarrillo",
-    "precio": 0.00,
+    "precio": 1.86,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Viceroy",
-    "precio": 0.00,
+    "precio": 2.10,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Eclipse",
-    "precio": 0.00,
+    "precio": 4.01,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Cosmic",
-    "precio": 0.00,
+    "precio": 4.06,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Nova",
-    "precio": 0.00,
+    "precio": 4.01,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
