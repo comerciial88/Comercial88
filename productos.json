@@ -1,37 +1,37 @@
 [
     {
     "nombre": "TOM 140G",
-    "precio": 0.00,
+    "precio": 1.83,
     "codigo": "7591874000508",
     "imagen": "https://example.com/0.jpg"
   },
     {
-    "nombre": "Alfajores",
-    "precio": 0.00,
+    "nombre": "Alfajores ARG",
+    "precio": 1.83,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
-    "nombre": "Bronw surtidos",
-    "precio": 0.00,
+    "nombre": "Brownies",
+    "precio": 1.29,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Brusli gomitas",
-    "precio": 0.00,
+    "precio": 0.59,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "Jeancake",
-    "precio": 0.00,
+    "precio": 1.45,
     "codigo": "7592126000017",
     "imagen": "https://example.com/0.jpg"
   },
     {
     "nombre": "twinkied 33g",
-    "precio": 0.00,
+    "precio": 0.65,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
