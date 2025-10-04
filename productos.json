@@ -1,5 +1,29 @@
 [
   {
+    "nombre": "Bimbo pan molido 300g",
+    "precio": 0.00,
+    "codigo": "7591133023187",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Pan cotillon 410g",
+    "precio": 0.00,
+    "codigo": "7599068000129",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Holsum integral 420g",
+    "precio": 0.00,
+    "codigo": "7591133000751",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Holsum mantequilla 420g",
+    "precio": 0.00,
+    "codigo": "7591133001000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Holsum hamburguesas 360g 6und",
     "precio": 0.00,
     "codigo": "7591133001345",
