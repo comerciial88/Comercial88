@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "Bimbo multi cereal 600g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bombo cero cero 500g",
+    "precio": 0.00,
+    "codigo": "7591133001260",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Bimbo Diet 500g",
     "precio": 0.00,
     "codigo": "7591133001130",
