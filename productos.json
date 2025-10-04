@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Holsum jumbo 500g",
+    "precio": 0.00,
+    "codigo": "7591133000775",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Bimbo artesano 500g",
     "precio": 0.00,
     "codigo": "7591133451539",
