@@ -1,811 +1,811 @@
 [
-    {
+  {
     "nombre": "TOM 140G",
-    "precio": 1.83,
+    "precio": 1.81,
     "codigo": "7591874000508",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Alfajores ARG",
-    "precio": 1.83,
+    "precio": 1.81,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Brownies",
-    "precio": 1.29,
+    "precio": 1.27,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Brusli gomitas",
-    "precio": 0.59,
+    "precio": 0.58,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Jeancake",
-    "precio": 1.45,
+    "precio": 1.43,
     "codigo": "7592126000017",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "twinkied 33g",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Susy 50g",
-    "precio": 1.40,
+    "precio": 1.38,
     "codigo": "7591016871065",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Savoy galak 30g",
-    "precio": 1.61,
+    "precio": 1.59,
     "codigo": "7591016854976",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cricri 27g",
-    "precio": 1.36,
+    "precio": 1.34,
     "codigo": "75910168515555",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Savoy 30g",
-    "precio": 1.64,
+    "precio": 1.62,
     "codigo": "7591016851135",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Halls",
-    "precio": 1.08,
+    "precio": 1.06,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Mr brown",
-    "precio": 1.72,
+    "precio": 1.70,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Toronto",
-    "precio": 0.70,
+    "precio": 0.69,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "samba 32g",
-    "precio": 1.08,
+    "precio": 1.06,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Botecito once once 35g",
-    "precio": 1.24,
+    "precio": 1.22,
     "codigo": "7591316001391",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "pinguino 20g",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "770326080660",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Panque mini 30g",
-    "precio": 0.79,
+    "precio": 0.78,
     "codigo": "7591316000660",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Tubito galak 16g",
-    "precio": 0.48,
+    "precio": 0.47,
     "codigo": "78939394",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pirulin 16g",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "7591675013042",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Prestigio",
-    "precio": 0.93,
+    "precio": 0.92,
     "codigo": "7891000460207",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Boca pq",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Boca G",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Café Damasco 200gr",
-    "precio": 3.66,
+    "precio": 3.61,
     "codigo": "7598259000092",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Salmas 144g",
-    "precio": 4.94,
+    "precio": 4.88,
     "codigo": "7591133000614",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Jack Chicharon 60g",
-    "precio": 3.07,
+    "precio": 3.03,
     "codigo": "7591206001210",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Raquety picante 36g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7591206285429",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Raquety 36g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7591206285412",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pepito marino 80g",
-    "precio": 1.61,
+    "precio": 1.59,
     "codigo": "7591206285641",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheetos Fh Crunch 140g",
-    "precio": 2.26,
+    "precio": 2.23,
     "codigo": "7591206003474",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheetos Boliqueso 80g",
-    "precio": 1.54,
+    "precio": 1.52,
     "codigo": "7591206003863",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pepito 80g ",
-    "precio": 1.58,
+    "precio": 1.56,
     "codigo": "7591206285269",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Natuchips 150g",
-    "precio": 3.77,
+    "precio": 3.72,
     "codigo": "7591206006505",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pepito Marino 25g",
-    "precio": 0.75,
+    "precio": 0.74,
     "codigo": "7591206016214",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pepito 25g",
-    "precio": 0.75,
+    "precio": 0.74,
     "codigo": "7591206285252",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Natuchips 42g",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591206006925",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Jack chicharron picante 20g",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591206000770",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Raquety 18g",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "7591206001272",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Rquety picante 18g",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "7591206001296",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "De todito 40g",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591206285498",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Ruffle natural 36g",
-    "precio": 1.61,
+    "precio": 1.59,
     "codigo": "7591206114347",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Ruffle queso 36g",
-    "precio": 1.61,
+    "precio": 1.59,
     "codigo": "7591206114361",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheetos FH 38g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7591206003467",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheeto mega puff 28g",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "7591206114668",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheese tris 54g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7591206003924",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Cheese tris 150g",
-    "precio": 2.37,
+    "precio": 2.34,
     "codigo": "7591206000381",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito Dinamita limon tanquero 40g",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591206285603",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito flamin hot 140g",
-    "precio": 3.33,
+    "precio": 3.29,
     "codigo": "7591206003498",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito Dinamita 150g",
-    "precio": 3.33,
+    "precio": 3.29,
     "codigo": "7591206285634",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito Dinamita 40g",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591206285627",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito 45g",
-    "precio": 1.30,
+    "precio": 1.28,
     "codigo": "7591206002521",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Dorito 150g",
-    "precio": 3.77,
+    "precio": 3.72,
     "codigo": "7591206003252",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Azucar amanecer 1Kg",
-    "precio": 2.69,
+    "precio": 2.66,
     "codigo": "7599450000102",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Pasta China roja",
-    "precio": 2.15,
+    "precio": 2.12,
     "codigo": "6900873059010",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Divertix renata 40g",
-    "precio": 0.75,
+    "precio": 0.74,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
-    {
+  {
     "nombre": "Coco ranch galletas 250g",
-    "precio": 1.61,
+    "precio": 1.59,
     "codigo": "7596278000499",
     "imagen": "https://example.com/0.jpg"
-    },
-{
+  },
+  {
     "nombre": "Galleta soda puig 240g",
-    "precio": 2.51,
+    "precio": 2.48,
     "codigo": "7591082000048",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Mini marilu 100g",
-    "precio": 1.47,
+    "precio": 1.45,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Blanco con rojo",
-    "precio": 3.91,
+    "precio": 3.86,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont P",
-    "precio": 2.15,
+    "precio": 2.12,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont G",
-    "precio": 3.52,
+    "precio": 3.47,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Universal cigarrillo",
-    "precio": 2.05,
+    "precio": 2.02,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pall Mall",
-    "precio": 3.52,
+    "precio": 3.47,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Consul cigarrillo",
-    "precio": 1.86,
+    "precio": 1.84,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Viceroy",
-    "precio": 2.10,
+    "precio": 2.07,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Eclipse",
-    "precio": 4.01,
+    "precio": 3.96,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Cosmic",
-    "precio": 4.06,
-    "codigo": "000000000000",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Lucky Nova",
     "precio": 4.01,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
+    "nombre": "Lucky Nova",
+    "precio": 3.96,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Marilu 216g",
-    "precio": 3.23,
+    "precio": 3.19,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Maria selecta 9und 250g",
-    "precio": 2.37,
+    "precio": 2.34,
     "codigo": "7591082000307",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Natys zoo 90g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7596278000505",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pinguino 12und",
-    "precio": 8.61,
+    "precio": 8.50,
     "codigo": "7591133001307",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oreo tipo americano 48g",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "7622202229466",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "club social 6und",
-    "precio": 2.69,
+    "precio": 2.65,
     "codigo": "7622210610652",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oreo 6pack",
-    "precio": 4.30,
+    "precio": 4.25,
     "codigo": "7622202213731",
     "imagen": "https://example.com/o6p0.jpg"
   },
   {
     "nombre": "oreo tubo 96g",
-    "precio": 2.04,
+    "precio": 2.02,
     "codigo": "000000000000",
     "imagen": "https://example.com/ot.jpg"
   },
   {
     "nombre": "Belvita Kraker 9und",
-    "precio": 4.41,
+    "precio": 4.36,
     "codigo": "7590011890866",
     "imagen": "https://example.com/bk.jpg"
   },
   {
     "nombre": "Belvita Hony 9und",
-    "precio": 4.41,
+    "precio": 4.36,
     "codigo": "7590011890910",
     "imagen": "https://example.com/hnb.jpg"
   },
   {
     "nombre": "Renata tubo 112g",
-    "precio": 0.90,
+    "precio": 0.89,
     "codigo": "000000000000",
     "imagen": "https://example.com/rt.jpg"
   },
   {
     "nombre": "wafer renata 115g",
-    "precio": 1.29,
+    "precio": 1.27,
     "codigo": "000050000000",
     "imagen": "https://example.com/wr.jpg"
   },
   {
     "nombre": "Osole compota 100g",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "000004000000",
     "imagen": "https://example.com/oc.jpg"
   },
   {
     "nombre": "Chocoking 90g",
-    "precio": 1.10,
+    "precio": 1.09,
     "codigo": "7596278000338",
     "imagen": "https://example.com/hfkd.jpg"
   },
   {
     "nombre": "Cafe amanecer 200g",
-    "precio": 4.20,
+    "precio": 4.15,
     "codigo": "7502271001789",
     "imagen": "https://example.com/jamon.jpg"
   },
   {
     "nombre": "Cafe amanecer 100G",
-    "precio": 1.80,
+    "precio": 1.77,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.56,
+    "precio": 3.51,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
   {
     "nombre": "Cafe cerezo 100g",
-    "precio": 1.80,
+    "precio": 1.77,
     "codigo": "7598688000014",
     "imagen": "https://example.com/cafec1.jpg"
   },
   {
     "nombre": "Cafe osole 200g",
-    "precio": 4.21,
+    "precio": 4.16,
     "codigo": "7595826004576",
     "imagen": "https://example.com/cafeoso2.jpg"
   },
   {
     "nombre": "Cafe favorito 100g",
-    "precio": 1.68,
+    "precio": 1.66,
     "codigo": "7595461000292",
     "imagen": "https://example.com/cafefa1.jpg"
   },
   {
     "nombre": "Mavesa margarina 250g",
-    "precio": 2.01,
+    "precio": 1.98,
     "codigo": "75930868",
     "imagen": "https://example.com/MavesaM25.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 445g",
-    "precio": 5.38,
+    "precio": 5.31,
     "codigo": "719503030123",
     "imagen": "https://example.com/nada1.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 175g",
-    "precio": 2.75,
+    "precio": 2.71,
     "codigo": "0000000002",
     "imagen": "https://example.com/nada2.jpg"
   },
   {
     "nombre": "Mayonesa Kraft 175g",
-    "precio": 2.47,
+    "precio": 2.44,
     "codigo": "7622201512279",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar zuka 1kg",
-    "precio": 1.97,
+    "precio": 1.95,
     "codigo": "7596939000141",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar kristal 1Kg",
-    "precio": 2.15,
+    "precio": 2.12,
     "codigo": "7590850247005",
     "imagen": "https://example.com/nad3a.jpg"
   },
   {
     "nombre": "Azúcar 100% 1Kg",
-    "precio": 2.36,
+    "precio": 2.33,
     "codigo": "7502475001700",
     "imagen": "https://example.com/na46da.jpg"
   },
   {
     "nombre": "Lipton durazno 500ml",
-    "precio": 2.25,
+    "precio": 2.22,
     "codigo": "7561031011347",
     "imagen": "https://example.com/nada09.jpg"
   },
   {
     "nombre": "Lipton te verde 500ml",
-    "precio": 2.25,
+    "precio": 2.22,
     "codigo": "7591031012511",
     "imagen": "https://example.com/nad1a.jpg"
   },
   {
     "nombre": "Maltin botella 250ml",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "75918729",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Maltin Retornable 222ml",
-    "precio": 0.75,
+    "precio": 0.74,
     "codigo": "7591446000660",
     "imagen": "https://example.com/nadaml.jpg"
   },
   {
     "nombre": "Maltin lata 355ml",
-    "precio": 1.29,
+    "precio": 1.27,
     "codigo": "7591446001568",
     "imagen": "https://example.com/nadamlt.jpg"
   },
   {
     "nombre": "Green spot 360ml",
-    "precio": 1.51,
+    "precio": 1.49,
     "codigo": "7594003630133",
     "imagen": "https://example.com/0green.jpg"
   },
   {
     "nombre": "Te crystal 500ml",
-    "precio": 1.38,
+    "precio": 1.36,
     "codigo": "000000000000",
     "imagen": "https://example.com/05.jpg"
   },
   {
     "nombre": "Te crystal 1.5Lt",
-    "precio": 2.96,
+    "precio": 2.92,
     "codigo": "000000000012",
     "imagen": "https://example.com/Te0.jpg"
   },
   {
     "nombre": "Del valle Jugo 1.5Lt",
-    "precio": 1.68,
+    "precio": 1.66,
     "codigo": "7591127503527",
     "imagen": "https://example.com/delvalle.jpg"
   },
   {
     "nombre": "Leche Lalo 1Lt",
-    "precio": 2.80,
+    "precio": 2.76,
     "codigo": "7597569001065",
     "imagen": "https://example.com/Lech.jpg"
   },
   {
     "nombre": "Glup 2Lt",
-    "precio": 1.47,
+    "precio": 1.45,
     "codigo": "7592661000015",
     "imagen": "https://example.com/Glup.jpg"
   },
   {
     "nombre": "Jugo Lalo 400ml",
-    "precio": 1.83,
+    "precio": 1.81,
     "codigo": "7597569000099",
     "imagen": "https://example.com/laloj0.jpg"
   },
   {
     "nombre": "Agua crystal 600cm",
-    "precio": 1.03,
+    "precio": 1.02,
     "codigo": "7593520000634",
     "imagen": "https://example.com/Crystalagua.jpg"
   },
   {
     "nombre": "Yogurt Cereal 150g",
-    "precio": 3.69,
+    "precio": 3.64,
     "codigo": "7599485000016",
     "imagen": "https://example.com/yogurt.jpg"
   },
   {
     "nombre": "Pepsi 1.25Lt",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7591031102052",
     "imagen": "https://example.com/pep125.jpg"
   },
   {
     "nombre": "Fanta 1Lt",
-    "precio": 1.29,
+    "precio": 1.28,
     "codigo": "7591127623324",
     "imagen": "https://example.com/fanta1l.jpg"
   },
   {
     "nombre": "7up 1Lt",
-    "precio": 1.29,
+    "precio": 1.28,
     "codigo": "7591031001003",
     "imagen": "https://example.com/7up.jpg"
   },
   {
     "nombre": "Frescolita 1Lt",
-    "precio": 1.29,
+    "precio": 1.28,
     "codigo": "7591127853387",
     "imagen": "https://example.com/fresc.jpg"
   },
   {
     "nombre": "Refres caTe 500ml",
-    "precio": 1.72,
+    "precio": 1.70,
     "codigo": "0791466999785",
     "imagen": "https://example.com/caTe.jpg"
   },
   {
     "nombre": "Agua Nevada 600ml",
-    "precio": 0.92,
+    "precio": 0.91,
     "codigo": "000000500000",
     "imagen": "https://example.com/42.jpg"
   },
   {
     "nombre": "Agua Heleal 500ml",
-    "precio": 0.54,
+    "precio": 0.53,
     "codigo": "7595950000024",
     "imagen": "https://example.com/aguahele.jpg"
   },
   {
     "nombre": "Agua crystal 330cm",
-    "precio": 0.75,
+    "precio": 0.74,
     "codigo": "7592565000111",
     "imagen": "https://example.com/aguacry330.jpg"
   },
   {
     "nombre": "Jugo lalo 900ml",
-    "precio": 3.44,
+    "precio": 3.40,
     "codigo": "7597569000075",
     "imagen": "https://example.com/laloj.jpg"
   },
   {
     "nombre": "Coca cola lata 355ml",
-    "precio": 1.29,
+    "precio": 1.27,
     "codigo": "7591127104403",
     "imagen": "https://example.com/coca.jpg"
   },
   {
     "nombre": "Arizona 340ml",
-    "precio": 2.08,
+    "precio": 2.05,
     "codigo": "000000000011",
     "imagen": "https://example.com/ar.jpg"
   },
   {
     "nombre": "Donut sorpresa",
-    "precio": 1.18,
+    "precio": 1.16,
     "codigo": "7592647004549",
     "imagen": "https://example.com/donut.jpg"
   },
   {
     "nombre": "Mausi",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "7592647000190",
     "imagen": "https://example.com/Mausi.jpg"
   },
   {
     "nombre": "Cono chicle",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "7592647000718",
     "imagen": "https://example.com/cono.jpg"
   },
   {
     "nombre": "Paw patrol",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "7592647005676",
     "imagen": "https://example.com/paw.jpg"
   },
   {
     "nombre": "wonder",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "000000000111",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Choco mani arequipe",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "000000000012",
     "imagen": "https://example.com/25.jpg"
   },
   {
     "nombre": "Super cono",
-    "precio": 1.40,
+    "precio": 1.38,
     "codigo": "000000000014",
     "imagen": "https://example.com/spc.jpg"
   },
   {
     "nombre": "Pasion Yogurt",
-    "precio": 0.65,
+    "precio": 0.64,
     "codigo": "000000000150",
     "imagen": "https://example.com/psy.jpg"
   },
   {
     "nombre": "Polet Crunch white",
-    "precio": 1.77,
+    "precio": 1.75,
     "codigo": "000000000000",
     "imagen": "https://example.com/pcw.jpg"
   },
   {
     "nombre": "Tinita cali",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "000000000000",
     "imagen": "https://example.com/tc.jpg"
   },
   {
     "nombre": "Maxi sandwich",
-    "precio": 1.40,
+    "precio": 1.38,
     "codigo": "0000000000p0",
     "imagen": "https://example.com/ms.jpg"
   },
   {
     "nombre": "Drac helado cali",
-    "precio": 0.97,
+    "precio": 0.96,
     "codigo": "000000000d00",
     "imagen": "https://example.com/dhc.jpg"
   },
   {
     "nombre": "Fres Cali",
-    "precio": 0.59,
+    "precio": 0.58,
     "codigo": "000000d00000",
     "imagen": "https://example.com/fc.jpg"
   },
   {
     "nombre": "Polvorones 75g",
-    "precio": 1.08,
+    "precio": 1.07,
     "codigo": "7591167022514",
     "imagen": "https://example.com/polv.jpg"
   },
   {
     "nombre": "Crunch nucita 120g",
-    "precio": 2.69,
+    "precio": 2.66,
     "codigo": "759167500370",
     "imagen": "https://example.com/cN.jpg"
   },
   {
     "nombre": "Toma 2 galletas 45g",
-    "precio": 0.63,
+    "precio": 0.62,
     "codigo": "000000000900",
     "imagen": "https://example.com/T2g.jpg"
   },
@@ -817,7 +817,7 @@
   },
   {
     "nombre": "Panchi guayaba 27g",
-    "precio": 0.84,
+    "precio": 0.83,
     "codigo": "7596278000130",
     "imagen": "https://example.com/panch.jpg"
   }
