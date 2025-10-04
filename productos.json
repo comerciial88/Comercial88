@@ -1,5 +1,71 @@
 [
   {
+    "nombre": "Bimbo Diet 500g",
+    "precio": 0.00,
+    "codigo": "7591133001130",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo blanco",
+    "precio": 0.00,
+    "codigo": "7561133001031",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo Diet 350g",
+    "precio": 0.00,
+    "codigo": "7591133000829",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo blanco 350g",
+    "precio": 0.00,
+    "codigo": "7591133451546",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Fruxi pudin 48g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Fruxi gelatina 40g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Sonrissa pudin 58g",
+    "precio": 0.00,
+    "codigo": "7591112062183",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo pan de perro 420g 8und",
+    "precio": 0.00,
+    "codigo": "7591133001017",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo pan perro 500g 8und",
+    "precio": 0.00,
+    "codigo": "7591167000918",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Bimbo Hamburguesas 4und",
+    "precio": 0.00,
+    "codigo": "7591133000102",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Chao 350g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "TOM 140G",
     "precio": 1.81,
     "codigo": "7591874000508",
