@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "Bimbo artesano 500g",
+    "precio": 0.00,
+    "codigo": "7591133451539",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Oriweat 7granos 600g",
+    "precio": 0.00,
+    "codigo": "7561133051555",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Bimbo multi cereal 600g",
     "precio": 0.00,
     "codigo": "00000000000",
