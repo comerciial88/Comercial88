@@ -1,5 +1,23 @@
 [
   {
+    "nombre": "Rapiditas Chia y quinoa 330g",
+    "precio": 0.00,
+    "codigo": "7591133000645",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rapiditas Diet 330g",
+    "precio": 0.00,
+    "codigo": "7591167001045",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rapiditas Clasicas 330g",
+    "precio": 0.00,
+    "codigo": "7591167000895",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Bimbo pan molido 300g",
     "precio": 1.49,
     "codigo": "7591133023187",
