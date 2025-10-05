@@ -1,5 +1,23 @@
 [
   {
+    "nombre": "Merengada 3p fresa 400g",
+    "precio": 0.00,
+    "codigo": "7592212000129",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Te Negro 10unds",
+    "precio": 0.00,
+    "codigo": "7591141400109",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Kaldini Peppermint infusion 20 sachets",
+    "precio": 0.00,
+    "codigo": "0119459827",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Rapiditas Chia y quinoa 330g",
     "precio": 0.00,
     "codigo": "7591133000645",
