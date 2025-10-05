@@ -1,127 +1,127 @@
 [
   {
     "nombre": "Bimbo pan molido 300g",
-    "precio": 0.00,
+    "precio": 1.49,
     "codigo": "7591133023187",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pan cotillon 410g",
-    "precio": 0.00,
+    "precio": 1.49,
     "codigo": "7599068000129",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum integral 420g",
-    "precio": 0.00,
+    "precio": 3.61,
     "codigo": "7591133000751",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum mantequilla 420g",
-    "precio": 0.00,
+    "precio": 3.35,
     "codigo": "7591133001000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum hamburguesas 360g 6und",
-    "precio": 0.00,
+    "precio": 2.23,
     "codigo": "7591133001345",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum jumbo 500g",
-    "precio": 0.00,
+    "precio": 2.66,
     "codigo": "7591133000775",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo artesano 500g",
-    "precio": 0.00,
+    "precio": 3.51,
     "codigo": "7591133451539",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oriweat 7granos 600g",
-    "precio": 0.00,
+    "precio": 5.90,
     "codigo": "7561133051555",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo multi cereal 600g",
-    "precio": 0.00,
+    "precio": 5.31,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bombo cero cero 500g",
-    "precio": 0.00,
+    "precio": 4.46,
     "codigo": "7591133001260",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Diet 500g",
-    "precio": 0.00,
+    "precio": 4.25,
     "codigo": "7591133001130",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo blanco 500g",
-    "precio": 0.00,
+    "precio": 2.60,
     "codigo": "7561133001031",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Diet 350g",
-    "precio": 0.00,
+    "precio": 2.13,
     "codigo": "7591133000829",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo blanco 350g",
-    "precio": 0.00,
+    "precio": 2.13,
     "codigo": "7591133451546",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Fruxi pudin 48g",
-    "precio": 0.00,
+    "precio": 1.82,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Fruxi gelatina 40g",
-    "precio": 0.00,
+    "precio": 1.49,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Sonrissa pudin 58g",
-    "precio": 0.00,
+    "precio": 1.91,
     "codigo": "7591112062183",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo pan de perro 420g 8und",
-    "precio": 0.00,
+    "precio": 2.76,
     "codigo": "7591133001017",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo pan perro 500g 8und",
-    "precio": 0.00,
+    "precio": 3.40,
     "codigo": "7591167000918",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Hamburguesas 4und",
-    "precio": 0.00,
+    "precio": 2.66,
     "codigo": "7591133000102",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Chao 350g",
-    "precio": 0.00,
+    "precio": 4.25,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
