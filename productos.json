@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Golden 1.5Lt",
+    "precio": 1.59,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Frescolita 2Lt",
     "precio": 2.23,
     "codigo": "00000000000",
