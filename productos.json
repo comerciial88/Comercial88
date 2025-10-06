@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Holsum pan blanco 420g",
+    "precio": 0.00,
+    "codigo": "7591133000720",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Golden 1.5Lt",
     "precio": 1.59,
     "codigo": "00000000000",
