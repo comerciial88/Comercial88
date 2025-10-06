@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Frescolita 2Lt",
+    "precio": 2.23,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Leche lalo 1.8Lt",
     "precio": 5.21,
     "codigo": "00000000000",
