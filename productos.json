@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Glup 1l",
+    "precio": 1.19,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Merengada 3p fresa 400g",
     "precio": 0.00,
     "codigo": "7592212000129",
