@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Glup 2L",
+    "precio": 1.70,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Glup 1l",
     "precio": 1.19,
     "codigo": "00000000000",
