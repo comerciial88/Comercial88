@@ -355,5 +355,26 @@
   "codigo": "7591206285603",
   "imagen": "https://example.com/0.jpg",
   "categoria": "chucheria"
+},
+  {
+  "nombre": "Salmas Galletas 144g",
+  "precio": 4.81,
+  "codigo": "7591133000614",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Coco ranch galletas 250g",
+  "precio": 1.57,
+  "codigo": "7596278000499",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Galleta soda puig 240g",
+  "precio": 2.44,
+  "codigo": "7591082000048",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
 }
 ]
