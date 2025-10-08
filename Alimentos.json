@@ -1,0 +1,51 @@
+[
+ {
+  "nombre": "Rapiditas mantequilla 330g",
+  "precio": 3.66,
+  "codigo": "7591133000690",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Holsum Pan perro 8 und 420g",
+  "precio": 0.0,
+  "codigo": "7591133001338",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Fruxi pudin 48g",
+  "precio": 1.79,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Fruxi gelatina 40g",
+  "precio": 1.47,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Sonrissa pudin 58g",
+  "precio": 1.88,
+  "codigo": "7591112062183",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Te Negro 10unds",
+  "precio": 2.83,
+  "codigo": "7591141400109",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+},
+{
+  "nombre": "Kaldini Peppermint infusion 20 sachets",
+  "precio": 2.4,
+  "codigo": "0119459827",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "alimento"
+} 
+]
