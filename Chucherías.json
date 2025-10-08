@@ -1,0 +1,114 @@
+[
+{
+  "nombre": "Chao 350g",
+  "precio": 4.18,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "TOM 140G",
+  "precio": 1.78,
+  "codigo": "7591874000508",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Alfajores ARG",
+  "precio": 1.78,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Brownies",
+  "precio": 1.25,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Brusli gomitas",
+  "precio": 0.57,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Jeancake",
+  "precio": 1.41,
+  "codigo": "7592126000017",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "twinkied 33g",
+  "precio": 0.63,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Susy 50g",
+  "precio": 1.36,
+  "codigo": "7591016871065",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Savoy galak 30g",
+  "precio": 1.57,
+  "codigo": "7591016854976",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Cricri 27g",
+  "precio": 1.32,
+  "codigo": "75910168515555",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Savoy 30g",
+  "precio": 1.6,
+  "codigo": "7591016851135",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Halls",
+  "precio": 1.04,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Toronto",
+  "precio": 0.68,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "samba 32g",
+  "precio": 1.04,
+  "codigo": "00000000000",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "Botecito once once 35g",
+  "precio": 1.2,
+  "codigo": "7591316001391",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+},
+{
+  "nombre": "pinguino 20g",
+  "precio": 0.63,
+  "codigo": "770326080660",
+  "imagen": "https://example.com/0.jpg",
+  "categoria": "chucheria"
+}
+]
