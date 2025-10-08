@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+q<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistema de Caja</title>
+  <title>Sistema de Caja MisterTraiding</title>
   <script src="https://unpkg.com/html5-qrcode"></script>
   <style>
     body {
@@ -24,7 +24,6 @@
       margin-bottom: 25px;
       display: flex;
       flex-direction: column;
-      alingn-items: flex-start;
       gap: 10px;
     }
 
@@ -69,17 +68,31 @@
 
   <script>
     let productos = [];
-    let tasa = 1;
+    let tasa = 182.68;
 
     document.getElementById("fecha").textContent = new Date().toLocaleDateString();
 
     window.addEventListener("DOMContentLoaded", () => {
-      fetch("productos.json")
-        .then(res => res.json())
-        .then(data => {
-          productos = data;
-          mostrarResultados(productos);
-        });
+      const archivos = [
+        "productos.json",
+        "productos2.json",  // slot extra 1
+        "productos3.json",  // slot extra 2
+        "productos4.json",  // slot extra 3
+        "productos5.json",  // slot extra 4
+        "productos6.json",  // slot extra 5
+        "productos7.json"   // slot extra 6
+      ];
+
+      Promise.all(
+        archivos.map(archivo =>
+          fetch(archivo)
+            .then(res => res.ok ? res.json() : [])
+            .catch(() => [])
+        )
+      ).then(listas => {
+        productos = listas.flat(); // combina todos los productos
+        mostrarResultados(productos);
+      });
     });
 
     function buscarProducto() {
@@ -117,9 +130,7 @@
           html5QrCode.stop();
           contenedor.style.display = "none";
         },
-        (error) => {
-          // Ignorar errores de escaneo
-        }
+        (error) => {}
       ).catch(err => {
         alert("No se pudo iniciar la cámara: " + err);
         contenedor.style.display = "none";
