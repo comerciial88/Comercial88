@@ -1,31 +1,31 @@
 [
   {
     "nombre": "Universal cigarrillo",
-    "precio": 1.99,
+    "precio": 1.9,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pall Mall cigarrillo",
-    "precio": 3.42,
+    "precio": 3.3,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Consul cigarrillo",
-    "precio": 1.81,
+    "precio": 1.7,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Viceroy cigarrillo",
-    "precio": 2.04,
+    "precio": 2,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Eclipse cigarrillo",
-    "precio": 3.9,
+    "precio": 3.8,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
