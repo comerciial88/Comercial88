@@ -1,36 +1,4 @@
-[
-  {
-    "nombre": "Rapiditas mantequilla 330g",
-    "precio": 3.66,
-    "codigo": "7591133000690",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Holsum Pan perro 8 und 420g",
-    "precio": 0.0,
-    "codigo": "7591133001338",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Holsum pan blanco 420g",
-    "precio": 0.0,
-    "codigo": "7591133000720",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Te Negro 10unds",
-    "precio": 2.83,
-    "codigo": "7591141400109",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Kaldini Peppermint infusion 20 sachets",
-    "precio": 2.4,
-    "codigo": "0119459827",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Rapiditas Chia y quinoa 330g",
+ "nombre": "Rapiditas Chia y quinoa 330g",
     "precio": 3.66,
     "codigo": "7591133000645",
     "imagen": "https://example.com/0.jpg"
@@ -132,6 +100,24 @@
     "imagen": "https://example.com/0.jpg"
   },
   {
+    "nombre": "Fruxi pudin 48g",
+    "precio": 1.79,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Fruxi gelatina 40g",
+    "precio": 1.47,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Sonrissa pudin 58g",
+    "precio": 1.88,
+    "codigo": "7591112062183",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Bimbo pan de perro 420g 8und",
     "precio": 2.72,
     "codigo": "7591133001017",
@@ -149,13 +135,7 @@
     "codigo": "7591133000102",
     "imagen": "https://example.com/0.jpg"
   },
-  {
-    "nombre": "Café Damasco 200gr",
-    "precio": 3.55,
-    "codigo": "7598259000092",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
+{
     "nombre": "Cafe amanecer 200g",
     "precio": 4.09,
     "codigo": "7502271001789",
@@ -192,9 +172,45 @@
     "imagen": "https://example.com/cafefa1.jpg"
   },
   {
-    "nombre": "Pasta China roja",
+    "nombre": "Mavesa margarina 250g",
+    "precio": 1.95,
+    "codigo": "75930868",
+    "imagen": "https://example.com/MavesaM25.jpg"
+  },
+  {
+    "nombre": "Mavesa mayonesa 445g",
+    "precio": 5.23,
+    "codigo": "719503030123",
+    "imagen": "https://example.com/nada1.jpg"
+  },
+  {
+    "nombre": "Mavesa mayonesa 175g",
+    "precio": 2.67,
+    "codigo": "0000000002",
+    "imagen": "https://example.com/nada2.jpg"
+  },
+  {
+    "nombre": "Mayonesa Kraft 175g",
+    "precio": 2.4,
+    "codigo": "7622201512279",
+    "imagen": "https://example.com/nad2a.jpg"
+  },
+  {
+    "nombre": "Azucar zuka 1kg",
+    "precio": 1.92,
+    "codigo": "7596939000141",
+    "imagen": "https://example.com/nad2a.jpg"
+  },
+  {
+    "nombre": "Azucar kristal 1Kg",
     "precio": 2.09,
-    "codigo": "6900873059010",
-    "imagen": "https://example.com/0.jpg"
-  }
-]
+    "codigo": "7590850247005",
+    "imagen": "https://example.com/nad3a.jpg"
+  },
+  {
+    "nombre": "Azúcar 100% 1Kg",
+    "precio": 2.29,
+    "codigo": "7502475001700",
+    "imagen": "https://example.com/na46da.jpg"
+  },
+  
