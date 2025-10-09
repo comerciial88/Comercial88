@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Chao 350g",
-    "precio": 4.18,
+    "precio": 4.17,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
@@ -145,7 +145,7 @@
   },
   {
     "nombre": "Salmas Galletas 144g",
-    "precio": 4.81,
+    "precio": 4.8,
     "codigo": "7591133000614",
     "imagen": "https://example.com/0.jpg"
   },
@@ -373,7 +373,7 @@
   },
   {
     "nombre": "Pinguino 12und",
-    "precio": 8.37,
+    "precio": 8.36,
     "codigo": "7591133001307",
     "imagen": "https://example.com/0.jpg"
   },
@@ -391,7 +391,7 @@
   },
   {
     "nombre": "Oreo 6pack",
-    "precio": 4.18,
+    "precio": 4.17,
     "codigo": "7622202213731",
     "imagen": "https://example.com/o6p0.jpg"
   },
@@ -403,13 +403,13 @@
   },
   {
     "nombre": "Belvita Kraker 9und",
-    "precio": 4.29,
+    "precio": 4.28,
     "codigo": "7590011890866",
     "imagen": "https://example.com/bk.jpg"
   },
   {
     "nombre": "Belvita Hony 9und",
-    "precio": 4.29,
+    "precio": 4.28,
     "codigo": "7590011890910",
     "imagen": "https://example.com/hnb.jpg"
   },
@@ -437,7 +437,7 @@
     "codigo": "7596278000338",
     "imagen": "https://example.com/hfkd.jpg"
   },
- {
+  {
     "nombre": "Polvorones 75g",
     "precio": 1.05,
     "codigo": "7591167022514",
