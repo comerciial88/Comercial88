@@ -1,78 +1,78 @@
 [
    {
-    "nombre": "Donut sorpresa",
+    "nombre": "Donut sorpresa helado",
     "precio": 1.14,
     "codigo": "7592647004549",
     "imagen": "https://example.com/donut.jpg"
   },
   {
-    "nombre": "Mausi",
+    "nombre": "Mausi helado",
     "precio": 0.95,
     "codigo": "7592647000190",
     "imagen": "https://example.com/Mausi.jpg"
   },
   {
-    "nombre": "Cono chicle",
+    "nombre": "Cono chicle helado",
     "precio": 0.95,
     "codigo": "7592647000718",
     "imagen": "https://example.com/cono.jpg"
   },
   {
-    "nombre": "Paw patrol",
+    "nombre": "Paw patrol helado",
     "precio": 0.95,
     "codigo": "7592647005676",
     "imagen": "https://example.com/paw.jpg"
   },
   {
-    "nombre": "wonder",
+    "nombre": "wonder helado",
     "precio": 0.95,
     "codigo": "000000000111",
     "imagen": "https://example.com/0.jpg"
   },
   {
-    "nombre": "Choco mani arequipe",
+    "nombre": "Choco mani arequipe helado",
     "precio": 0.95,
     "codigo": "000000000012",
     "imagen": "https://example.com/25.jpg"
   },
   {
-    "nombre": "Super cono",
+    "nombre": "Super cono helado",
     "precio": 1.36,
     "codigo": "000000000014",
     "imagen": "https://example.com/spc.jpg"
   },
   {
-    "nombre": "Pasion Yogurt",
+    "nombre": "Pasion Yogurt helado",
     "precio": 0.63,
     "codigo": "000000000150",
     "imagen": "https://example.com/psy.jpg"
   },
   {
-    "nombre": "Polet Crunch white",
+    "nombre": "Polet Crunch white helado",
     "precio": 1.72,
     "codigo": "000000000000",
     "imagen": "https://example.com/pcw.jpg"
   },
   {
-    "nombre": "Tinita cali",
+    "nombre": "Tinita cali helado",
     "precio": 0.95,
     "codigo": "000000000000",
     "imagen": "https://example.com/tc.jpg"
   },
   {
-    "nombre": "Maxi sandwich",
+    "nombre": "Maxi sandwich helado",
     "precio": 1.36,
     "codigo": "0000000000p0",
     "imagen": "https://example.com/ms.jpg"
   },
   {
-    "nombre": "Drac helado cali",
+    "nombre": "Drac helado cali helado",
     "precio": 0.95,
     "codigo": "000000000d00",
     "imagen": "https://example.com/dhc.jpg"
   },
   {
-    "nombre": "Fres Cali",
+    "nombre": "Fres Cali helado",
     "precio": 0.57,
     "codigo": "000000d00000",
     "imagen": "https://example.com/fc.jpg"
