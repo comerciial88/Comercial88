@@ -1,4 +1,10 @@
 [
+   {
+    "nombre": "Yogurt Cereal 150g",
+    "precio": 3.58,
+    "codigo": "7599485000016",
+    "imagen": "https://example.com/yogurt.jpg"
+  },
  {
   "nombre": "Rapiditas Chia y quinoa 330g",
     "precio": 3.66,
