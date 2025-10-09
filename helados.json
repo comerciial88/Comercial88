@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Max polet helado",
+    "precio": 0.00,
+    "codigo": "7592647004570",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Donut sorpresa helado",
     "precio": 1.13,
     "codigo": "7592647004549",
