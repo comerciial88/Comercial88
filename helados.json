@@ -1,0 +1,80 @@
+[
+   {
+    "nombre": "Donut sorpresa",
+    "precio": 1.14,
+    "codigo": "7592647004549",
+    "imagen": "https://example.com/donut.jpg"
+  },
+  {
+    "nombre": "Mausi",
+    "precio": 0.95,
+    "codigo": "7592647000190",
+    "imagen": "https://example.com/Mausi.jpg"
+  },
+  {
+    "nombre": "Cono chicle",
+    "precio": 0.95,
+    "codigo": "7592647000718",
+    "imagen": "https://example.com/cono.jpg"
+  },
+  {
+    "nombre": "Paw patrol",
+    "precio": 0.95,
+    "codigo": "7592647005676",
+    "imagen": "https://example.com/paw.jpg"
+  },
+  {
+    "nombre": "wonder",
+    "precio": 0.95,
+    "codigo": "000000000111",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Choco mani arequipe",
+    "precio": 0.95,
+    "codigo": "000000000012",
+    "imagen": "https://example.com/25.jpg"
+  },
+  {
+    "nombre": "Super cono",
+    "precio": 1.36,
+    "codigo": "000000000014",
+    "imagen": "https://example.com/spc.jpg"
+  },
+  {
+    "nombre": "Pasion Yogurt",
+    "precio": 0.63,
+    "codigo": "000000000150",
+    "imagen": "https://example.com/psy.jpg"
+  },
+  {
+    "nombre": "Polet Crunch white",
+    "precio": 1.72,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/pcw.jpg"
+  },
+  {
+    "nombre": "Tinita cali",
+    "precio": 0.95,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/tc.jpg"
+  },
+  {
+    "nombre": "Maxi sandwich",
+    "precio": 1.36,
+    "codigo": "0000000000p0",
+    "imagen": "https://example.com/ms.jpg"
+  },
+  {
+    "nombre": "Drac helado cali",
+    "precio": 0.95,
+    "codigo": "000000000d00",
+    "imagen": "https://example.com/dhc.jpg"
+  },
+  {
+    "nombre": "Fres Cali",
+    "precio": 0.57,
+    "codigo": "000000d00000",
+    "imagen": "https://example.com/fc.jpg"
+  }
+]
