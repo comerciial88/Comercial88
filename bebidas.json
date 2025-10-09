@@ -24,13 +24,7 @@
     "imagen": "https://example.com/0.jpg"
   },
   {
-    "nombre": "Glup 2L",
-    "precio": 1.67,
-    "codigo": "00000000000",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Glup 1l",
+    "nombre": "Glup 1lt",
     "precio": 1.17,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
