@@ -31,25 +31,25 @@
   },
   {
     "nombre": "Lucky Cosmic cigarrillo",
-    "precio": 3.95,
-    "codigo": "000000000000",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Lucky Nova cigarrillo",
     "precio": 3.9,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
+    "nombre": "Lucky Nova cigarrillo",
+    "precio": 3.8,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Belmont P cigarrillo",
-    "precio": 2.09,
+    "precio": 2.,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont G cigarrillo",
-    "precio": 3.42,
+    "precio": 3.3,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   }
