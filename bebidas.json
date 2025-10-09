@@ -1,19 +1,19 @@
 [
    {
     "nombre": "Golden 1.5Lt",
-    "precio": 1.57,
+    "precio": 1.5,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Frescolita 2Lt",
-    "precio": 2.2,
+    "precio": 2.1,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche lalo 1.8Lt",
-    "precio": 5.13,
+    "precio": 5.1,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
