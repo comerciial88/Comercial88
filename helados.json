@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "Pasion yogurt helado",
+    "precio": 0.00,
+    "codigo": "7592647001364",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Exotico parchita helado",
+    "precio": 0.00,
+    "codigo": "7592647000602",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Maxi sandwich helado",
     "precio": 0.00,
     "codigo": "7592647004914",
