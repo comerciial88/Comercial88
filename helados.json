@@ -31,13 +31,13 @@
   },
   {
     "nombre": "Maxi sandwich helado",
-    "precio": 0.00,
+    "precio": 1.3,
     "codigo": "7592647004914",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Polet Coco arequipe helado",
-    "precio": 0.00,
+    "precio": 2.1,
     "codigo": "7592647005669",
     "imagen": "https://example.com/0.jpg"
   },
