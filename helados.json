@@ -19,13 +19,13 @@
   },
   {
     "nombre": "Pasion yogurt helado",
-    "precio": 0.00,
+    "precio": 0.6,
     "codigo": "7592647001364",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Exotico parchita helado",
-    "precio": 0.00,
+    "precio": 0.6,
     "codigo": "7592647000602",
     "imagen": "https://example.com/0.jpg"
   },
