@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Café Damasco 200gr",
+    "precio": 3.52,
+    "codigo": "7598259000092",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Bimbo hamburguesas 8nds 630g",
     "precio": 0.00,
     "codigo": "7591133031571",
