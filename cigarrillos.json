@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Lucky Blanco con rojo",
+    "precio": 4,
+    "codigo": "000000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Universal cigarrillo",
     "precio": 2.05,
     "codigo": "000000000000",
