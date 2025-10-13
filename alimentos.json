@@ -1,6 +1,12 @@
 [
    {
-    "nombre": "Harina de Trigo TodoUso RH 1Kg",
+    "nombre": "Harina de Triho Leudante RH 900g",
+    "precio": 0.00,
+    "codigo": "7591104000209",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Harina de Trigo TodoUso RH 900g",
     "precio": 0.00,
     "codigo": "7591104000193",
     "imagen": "https://example.com/0.jpg"
