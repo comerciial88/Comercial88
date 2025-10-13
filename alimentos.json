@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Harina de Trigo TodoUso Mary 900g",
+    "precio": 0.00,
+    "codigo": "7597417000691",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Harina de Trigo Leudante Mary 900g",
     "precio": 0.00,
     "codigo": "7597417000707",
