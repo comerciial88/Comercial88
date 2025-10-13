@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Harina de Arroz 500g",
+    "precio": 0.00,
+    "codigo": "5060104445",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Harina Pan 1kg",
     "precio": 0.00,
     "codigo": "7591002200145",
