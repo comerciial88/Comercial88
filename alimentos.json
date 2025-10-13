@@ -1,4 +1,22 @@
-[ 
+[
+   {
+    "nombre": "Crema de leche Natulac 473Cm",
+    "precio": 0.00,
+    "codigo": "7592396005736",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Crema de leche Natulac 946Cm",
+    "precio": 0.00,
+    "codigo": "7592396005743",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Leche Evaporada 354ml",
+    "precio": 0.00,
+    "codigo": "7598986000457",
+    "imagen": "https://example.com/0.jpg"
+  },
    {
     "nombre": "Crema de arroz Santoni 400g",
     "precio": 0.00,
