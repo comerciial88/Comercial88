@@ -1,19 +1,19 @@
 [
   {
     "nombre": "Toston tosti fiesta 60g",
-    "precio": 0.00,
+    "precio": 1.2,
     "codigo": "7590214000017",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Jack Chicharron Parrillero 85g",
-    "precio": 0.00,
+    "precio": 4,
     "codigo": "7591206003887",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "De todito 110g",
-    "precio": 0.00,
+    "precio": 2.9,
     "codigo": "7591206285504",
     "imagen": "https://example.com/0.jpg"
   },
@@ -36,8 +36,8 @@
     "imagen": "https://example.com/0.jpg"
   },
   {
-    "nombre": "Brownies",
-    "precio": 1.25,
+    "nombre": "Brownie De rous",
+    "precio": 1.2,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
@@ -55,7 +55,7 @@
   },
   {
     "nombre": "twinkies 33g",
-    "precio": 0.63,
+    "precio": 0.62,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
@@ -153,12 +153,6 @@
     "nombre": "Boca G",
     "precio": 0.95,
     "codigo": "00000000000",
-    "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Café Damasco 200gr",
-    "precio": 3.55,
-    "codigo": "7598259000092",
     "imagen": "https://example.com/0.jpg"
   },
   {
