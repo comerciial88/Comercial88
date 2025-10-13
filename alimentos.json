@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Harina Pan 1kg",
+    "precio": 0.00,
+    "codigo": "7591002200145",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Merengada 3p fresa 400g",
     "precio": 4.5,
     "codigo": "7592212000129",
