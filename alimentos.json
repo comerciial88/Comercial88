@@ -1,5 +1,17 @@
 [
    {
+    "nombre": "Heinz mostaza 113g",
+    "precio": 0.00,
+    "codigo": "7591112460842",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Twisti Keso 200g",
+    "precio": 0.00,
+    "codigo": "7592433001523",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Osole Napolitana",
     "precio": 0.00,
     "codigo": "7595826003982",
