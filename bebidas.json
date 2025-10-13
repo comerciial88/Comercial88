@@ -28,14 +28,7 @@
     "precio": 1.1,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Merengada 3p fresa 400g",
-    "precio": 0.0,
-    "codigo": "7592212000129",
-    "imagen": "https://example.com/0.jpg"
-  },
-  
+  },  
 {
     "nombre": "Lipton te verde 500ml",
     "precio": 2.1,
