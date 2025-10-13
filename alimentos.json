@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Harina de Trigo TodoUso RH 1Kg",
+    "precio": 0.00,
+    "codigo": "7591104000193",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Maizina Americana 90g",
     "precio": 0.00,
     "codigo": "7591039601526",
