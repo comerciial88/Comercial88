@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Harina de Garbanzo 500g",
+    "precio": 0.00,
+    "codigo": "5060104425",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Harina de Arroz 500g",
     "precio": 0.00,
     "codigo": "5060104445",
