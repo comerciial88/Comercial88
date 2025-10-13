@@ -364,13 +364,7 @@
     "precio": 1.43,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
-  },
-  {
-    "nombre": "Lucky Blanco con rojo",
-    "precio": 3.8,
-    "codigo": "000000000000",
-    "imagen": "https://example.com/0.jpg"
-  },
+  }, 
   {
     "nombre": "Marilu 216g",
     "precio": 3.14,
