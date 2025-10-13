@@ -1,5 +1,11 @@
 [ 
    {
+    "nombre": "Leche en Polvo sanSimon 400g",
+    "precio": 0.00,
+    "codigo": "759914000401",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Damasco Cacao en polvo 100g",
     "precio": 0.00,
     "codigo": "7598259000191",
