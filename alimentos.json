@@ -1,5 +1,29 @@
 [
    {
+    "nombre": "Osole Napolitana",
+    "precio": 0.00,
+    "codigo": "7595826003982",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "GardeN tomato paste 1400g",
+    "precio": 0.00,
+    "codigo": "5281029015410",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "GardeN Tomato Paste 660g",
+    "precio": 0.00,
+    "codigo": "5281029015427",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Tiquire salsa de ajo 150cm",
+    "precio": 0.00,
+    "codigo": "7591112052016",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "La abuela salsa de ajo 150cm",
     "precio": 0.00,
     "codigo": "7598346000042",
