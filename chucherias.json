@@ -1,5 +1,23 @@
 [
     {
+    "nombre": "Pinguinos 80g marinela",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Rex galletas ",
+    "precio": 0.00,
+    "codigo": "7591082000574",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
+    "nombre": "Elite Galletas  100g",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Pinguino 12und",
     "precio": 8.36,
     "codigo": "7591133001307",
