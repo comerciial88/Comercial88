@@ -1,5 +1,23 @@
 [
    {
+    "nombre": "Leche Descremada Deslactosada Natulac 946cm",
+    "precio": 0.00,
+    "codigo": "7592396005484",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Leche Descremada Natulac 946cm",
+    "precio": 0.00,
+    "codigo": "7592396005514",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Avena Gravenca Hojuela 400g",
+    "precio": 0.00,
+    "codigo": "7597957000106",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Avena Quaker Hojuelas 400g",
     "precio": 0.00,
     "codigo": "7591184002018",
