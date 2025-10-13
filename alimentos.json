@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Maizina Americana 90g",
+    "precio": 0.00,
+    "codigo": "7591039601526",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Harina de Auyama Alltaste 500g",
     "precio": 0.00,
     "codigo": "5060104335",
