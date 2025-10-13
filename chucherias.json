@@ -1,5 +1,11 @@
 [
     {
+    "nombre": "Canelitas 60g",
+    "precio": 0.00,
+    "codigo": "7591167022446",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Pinguinos 80g marinela",
     "precio": 0.00,
     "codigo": "00000000000",
