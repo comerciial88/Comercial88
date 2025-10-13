@@ -1,5 +1,11 @@
 [
    {
+    "nombre": "Osole compota 100g",
+    "precio": 1,
+    "codigo": "000004000000",
+    "imagen": "https://example.com/oc.jpg"
+  },
+   {
     "nombre": "Mayonesa Kraft 445g",
     "precio": 5,
     "codigo": "7591114040042",
