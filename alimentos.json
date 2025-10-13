@@ -1,5 +1,23 @@
 [
    {
+    "nombre": "Bimbo hamburguesas 8nds 630g",
+    "precio": 0.00,
+    "codigo": "7591133031571",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Rapiditas mediterraneas 330g",
+    "precio": 0.00,
+    "codigo": "7591133000638",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
+    "nombre": "Rapiditas Wraps 580g",
+    "precio": 0.00,
+    "codigo": "7591133001291",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Reina del campo 400g",
     "precio": 0.00,
     "codigo": "7592433002100",
