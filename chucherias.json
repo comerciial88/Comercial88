@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Toston tosti fiesta 60g",
+    "precio": 0.00,
+    "codigo": "7590214000017",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Jack Chicharron Parrillero 85g",
     "precio": 0.00,
     "codigo": "7591206003887",
