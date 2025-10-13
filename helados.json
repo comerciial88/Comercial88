@@ -1,19 +1,19 @@
 [
   {
     "nombre": "Polet Crunch white helado",
-    "precio": 0.00,
+    "precio": 1.7,
     "codigo": "7592647004563",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Chocomantecado helado",
-    "precio": 0.00,
+    "precio": 0.94,
     "codigo": "7592647000763",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Polet frambuesa helado",
-    "precio": 0.00,
+    "precio": 2.16,
     "codigo": "7592647005645",
     "imagen": "https://example.com/0.jpg"
   },
