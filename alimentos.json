@@ -1,5 +1,11 @@
 [ 
    {
+    "nombre": "Crema de arroz Mary 450g",
+    "precio": 0.00,
+    "codigo": "7591473006734",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Leche en Polvo sanSimon 400g",
     "precio": 0.00,
     "codigo": "759914000401",
