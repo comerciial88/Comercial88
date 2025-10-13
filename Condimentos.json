@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Adobo Iberia 185g",
+    "precio": 0.00,
+    "codigo": "7591221110614",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Sabroseador Iberia 180g",
     "precio": 0.00,
     "codigo": "7591221106273",
