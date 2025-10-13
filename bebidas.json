@@ -12,7 +12,7 @@
     "imagen": "https://example.com/0.jpg"
   },
   {
-    "nombre": "Leche lalo 1.8Lt",
+    "nombre": "Leche líquida lalo 1.8Lt",
     "precio": 5.1,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
@@ -85,7 +85,7 @@
     "imagen": "https://example.com/delvalle.jpg"
   },
   {
-    "nombre": "Leche Lalo 1Lt",
+    "nombre": "Leche liquida Lalo 900Ml",
     "precio": 2.7,
     "codigo": "7597569001065",
     "imagen": "https://example.com/Lech.jpg"
