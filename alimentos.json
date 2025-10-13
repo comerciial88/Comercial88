@@ -1,5 +1,11 @@
 [ 
    {
+    "nombre": "Crema de arroz Santoni 400g",
+    "precio": 0.00,
+    "codigo": "7592498001636",
+    "imagen": "https://example.com/0.jpg"
+  },
+   {
     "nombre": "Crema de arroz Mary 450g",
     "precio": 0.00,
     "codigo": "7591473006734",
