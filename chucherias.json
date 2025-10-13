@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "Jack Chicharron Parrillero 85g",
+    "precio": 0.00,
+    "codigo": "7591206003887",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "De todito 110g",
+    "precio": 0.00,
+    "codigo": "7591206285504",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Chao 350g",
     "precio": 4.17,
     "codigo": "00000000000",
