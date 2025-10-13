@@ -1,4 +1,10 @@
-[
+[ 
+   {
+    "nombre": "Damasco Cacao en polvo 100g",
+    "precio": 0.00,
+    "codigo": "7598259000191",
+    "imagen": "https://example.com/0.jpg"
+  },
    {
     "nombre": "Salt sea Atlantis Parrillera 500g",
     "precio": 2.05,
