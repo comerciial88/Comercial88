@@ -1,25 +1,25 @@
 [
    {
     "nombre": "Compota Heinz 113g",
-    "precio": 0.00,
+    "precio": 1.43,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Osole Fresa mermelada 200g",
-    "precio": 0.00,
+    "precio": 2.41,
     "codigo": "7595826004248",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Leche Liquida Completa SanSimon 1Lt",
-    "precio": 0.00,
+    "precio": 2.8,
     "codigo": "7596914000258",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Leche liquida Descremada Deslactosada Natulac 946cm",
-    "precio": 0.00,
+    "precio": 2.8,
     "codigo": "7592396005484",
     "imagen": "https://example.com/0.jpg"
   },
