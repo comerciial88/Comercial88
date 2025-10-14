@@ -1,5 +1,23 @@
 [
   {
+    "nombre": "Caraotas Fina Ideal 500g",
+    "precio": 0.00,
+    "codigo": "7591715001060",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Lentejas Amanecer 400g",
+    "precio": 0.00,
+    "codigo": "7599450000072",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Lentejas Mary 400g",
+    "precio": 0.00,
+    "codigo": "7591473005034",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Sal Meru Gruesa 1Kg",
     "precio": 0.00,
     "codigo": "7592200000063",
