@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Huevos 1/2",
+    "precio": 5.36,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Tigo Champiñones enteros 425g",
     "precio": 3.78,
     "codigo": "7598986002369",
