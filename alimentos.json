@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Aceituna VerdesRellenas 180g",
+    "precio": 0.00,
+    "codigo": "7595826005269",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Osole Aceitunas Verdes Deshuesadas 240g",
     "precio": 0.00,
     "codigo": "7595826005252",
