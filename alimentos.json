@@ -1,4 +1,10 @@
 [
+  {
+    "nombre": "Jugo Natulac 1Lt",
+    "precio": 0.00,
+    "codigo": "7592396002117",
+    "imagen": "https://example.com/0.jpg"
+  }, 
    {
     "nombre": "Arroz LlanoVerde 800g",
     "precio": 1.54,
