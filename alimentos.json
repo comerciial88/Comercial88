@@ -1,5 +1,17 @@
 [
   {
+    "nombre": "Sal Meru Gruesa 1Kg",
+    "precio": 0.00,
+    "codigo": "7592200000063",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Sal BAHIA 1Kg",
+    "precio": 0.00,
+    "codigo": "7595159000351",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Heinz Tomato ketchup 397g",
     "precio": 0.00,
     "codigo": "75916107",
