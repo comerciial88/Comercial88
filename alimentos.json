@@ -43,61 +43,61 @@
   },
    {
     "nombre": "La abuela salsa inglesa 150cm",
-    "precio": 0.00,
+    "precio": ,
     "codigo": "759834000011",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Oishi salsa teriyaki 150ml",
-    "precio": 0.00,
+    "precio": 2.2,
     "codigo": "6939945115811",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Oishi salsa de ostras 280g",
-    "precio": 0.00,
+    "precio": 2.55,
     "codigo": "6939945115828",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Tiquire ketchup salsa 198g",
-    "precio": 0.00,
+    "precio": 1.45,
     "codigo": "75920531",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Heinz tomaton ketchup 198g",
-    "precio": 0.00,
+    "precio": 1.85,
     "codigo": "75916220",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Tiquire Salsa Ketchup 397g",
-    "precio": 0.00,
+    "precio": 2.25,
     "codigo": "75919740",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Heinz 57 salsa 378g",
-    "precio": 0.00,
+    "precio": 2.55,
     "codigo": "75916176",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Marbonita sardinas 170g",
-    "precio": 0.00,
+    "precio": 1,
     "codigo": "7595122001927",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Osole Albahaca 340g",
-    "precio": 0.00,
+    "precio": 1.98,
     "codigo": "7595826006747",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Osole pizza 340g",
-    "precio": 0.00,
+    "precio": 1.98,
     "codigo": "7595826003968",
     "imagen": "https://example.com/0.jpg"
   },
