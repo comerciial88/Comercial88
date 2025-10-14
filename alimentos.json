@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Heinz Tomato ketchup 397g",
+    "precio": 0.00,
+    "codigo": "75916107",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Jugo Natulac 1Lt",
     "precio": 3.50,
     "codigo": "7592396002117",
