@@ -1,5 +1,11 @@
 [
     {
+    "nombre": "Natuchips Maduritos 150g",
+    "precio": 0.00,
+    "codigo": "7591206007540",
+    "imagen": "https://example.com/0.jpg"
+  },
+    {
     "nombre": "Canelitas 60g",
     "precio": 1,
     "codigo": "7591167022446",
