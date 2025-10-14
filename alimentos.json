@@ -1,43 +1,43 @@
 [
    {
     "nombre": "Heinz mostaza 113g",
-    "precio": 0.00,
+    "precio": ,
     "codigo": "7591112460842",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Twisti Keso 200g",
-    "precio": 0.00,
+    "precio": 4.38,
     "codigo": "7592433001523",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Osole Napolitana",
-    "precio": 0.00,
+    "precio": 1.85,
     "codigo": "7595826003982",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "GardeN tomato paste 1400g",
-    "precio": 0.00,
+    "precio": 13.70,
     "codigo": "5281029015410",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "GardeN Tomato Paste 660g",
-    "precio": 0.00,
+    "precio": 6.1,
     "codigo": "5281029015427",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Tiquire salsa de ajo 150cm",
-    "precio": 0.00,
+    "precio": 1.65,
     "codigo": "7591112052016",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "La abuela salsa de ajo 150cm",
-    "precio": 0.00,
+    "precio": 1.01,
     "codigo": "7598346000042",
     "imagen": "https://example.com/0.jpg"
   },
