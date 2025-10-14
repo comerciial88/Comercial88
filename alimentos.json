@@ -1,74 +1,74 @@
 [
    {
     "nombre": "Arroz LlanoVerde 800g",
-    "precio": 0.00,
+    "precio": 1.54,
     "codigo": "7594000370292",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Arroz Mary Tradicional 900g",
-    "precio": 0.00,
+    "precio": 2.14,
     "codigo": "7591473005362",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Arroz Mary Superior 900g",
-    "precio": 0.00,
+    "precio": 2.24,
     "codigo": "7591473005355",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Arroz Mary Esmeralda 900g",
-    "precio": 0.00,
+    "precio": 3.35,
     "codigo": "7591473005232",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Arroz Mary Premiun 900g",
-    "precio": 0.00,
+    "precio": 2.92,
     "codigo": "7591473005249",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Vermicelli Horizonte 1Kg",
-    "precio": 0.00,
+    "precio": 2.24,
     "codigo": "7591181019118",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Pasta Horizonte Plumas 1Kg",
-    "precio": 0.00,
+    "precio": 2.35,
     "codigo": "7591181000406",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Vermicelli Ronco 1Kg",
-    "precio": 0.00,
+    "precio": 2.85,
     "codigo": "7591049220618",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Ronco Pasticho 250g",
-    "precio": 0.00,
+    "precio": 2.05,
     "codigo": "7591123000341",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Pasta Ronco Pluma 500g",
-    "precio": 0.00,
+    "precio": 1.52,
     "codigo": "7591123000570",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Pasta Ronco Tornillo 1Kg",
-    "precio": 0.00,
+    "precio": 2.90,
     "codigo": "7591049220663",
     "imagen": "https://example.com/0.jpg"
   },
    {
     "nombre": "Pasta Mary Superior tornillos 1Kh ",
-    "precio": 0.00,
-    "codigo": "7567417000134",
+    "precio": 2.34,
+    "codigo": "7597417000134",
     "imagen": "https://example.com/0.jpg"
   },
    {
