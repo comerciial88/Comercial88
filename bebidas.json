@@ -1,189 +1,188 @@
 [
-   {
+  {
     "nombre": "3Tea 400g",
-    "precio": 4.9,
+    "precio": 5.96,
     "codigo": "7592212000679",
     "imagen": "https://example.com/0.jpg"
   },
-   {
+  {
     "nombre": "Nestea 90g",
-    "precio": 1.85,
+    "precio": 2.25,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
-   {
+  {
     "nombre": "Golden 1.5Lt",
-    "precio": 1.5,
+    "precio": 1.82,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Frescolita 2Lt",
-    "precio": 2.1,
+    "precio": 2.55,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche líquida lalo 1.8Lt",
-    "precio": 5.1,
+    "precio": 6.2,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Coca cola 2Lt",
-    "precio": 2.5,
+    "precio": 3.04,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Glup 1lt",
-    "precio": 1.1,
+    "precio": 1.34,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
-  },  
-{
+  },
+  {
     "nombre": "Lipton te verde 500ml",
-    "precio": 2.1,
+    "precio": 2.55,
     "codigo": "7591031012511",
     "imagen": "https://example.com/nad1a.jpg"
   },
   {
     "nombre": "Maltin botella 250ml",
-    "precio": 1,
+    "precio": 1.22,
     "codigo": "75918729",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Maltin Retornable 222ml",
-    "precio": 0.7,
+    "precio": 0.85,
     "codigo": "7591446000660",
     "imagen": "https://example.com/nadaml.jpg"
   },
   {
     "nombre": "Maltin lata 355ml",
-    "precio": 1.2,
+    "precio": 1.46,
     "codigo": "7591446001568",
     "imagen": "https://example.com/nadamlt.jpg"
   },
   {
     "nombre": "Green spot 360ml",
-    "precio": 1.4,
+    "precio": 1.7,
     "codigo": "7594003630133",
     "imagen": "https://example.com/0green.jpg"
   },
   {
     "nombre": "Te crystal 500ml",
-    "precio": 1.4,
+    "precio": 1.7,
     "codigo": "000000000000",
     "imagen": "https://example.com/05.jpg"
   },
   {
     "nombre": "Te crystal 1.5Lt",
-    "precio": 2.8,
+    "precio": 3.4,
     "codigo": "000000000012",
     "imagen": "https://example.com/Te0.jpg"
   },
   {
     "nombre": "Del valle Jugo 1.5Lt",
-    "precio": 1.6,
+    "precio": 1.95,
     "codigo": "7591127503527",
     "imagen": "https://example.com/delvalle.jpg"
   },
   {
     "nombre": "Leche liquida Lalo 900Ml",
-    "precio": 2.7,
+    "precio": 3.28,
     "codigo": "7597569001065",
     "imagen": "https://example.com/Lech.jpg"
   },
   {
     "nombre": "Glup 2Lt",
-    "precio": 1.9,
+    "precio": 2.31,
     "codigo": "7592661000015",
     "imagen": "https://example.com/Glup.jpg"
   },
   {
     "nombre": "Jugo Lalo 400ml",
-    "precio": 2,
+    "precio": 2.43,
     "codigo": "7597569000099",
     "imagen": "https://example.com/laloj0.jpg"
   },
   {
     "nombre": "Agua crystal 600cm",
-    "precio": 1.3,
+    "precio": 1.58,
     "codigo": "7593520000634",
     "imagen": "https://example.com/Crystalagua.jpg"
   },
   {
     "nombre": "Pepsi 1.25Lt",
-    "precio": 1.3,
+    "precio": 1.58,
     "codigo": "7591031102052",
     "imagen": "https://example.com/pep125.jpg"
   },
   {
     "nombre": "Fanta 1Lt",
-    "precio": 1.6,
+    "precio": 1.95,
     "codigo": "7591127623324",
     "imagen": "https://example.com/fanta1l.jpg"
   },
   {
     "nombre": "7up 1Lt",
-    "precio": 1.6,
+    "precio": 1.95,
     "codigo": "7591031001003",
     "imagen": "https://example.com/7up.jpg"
   },
   {
     "nombre": "Frescolita 1Lt",
-    "precio": 1.6,
+    "precio": 1.95,
     "codigo": "7591127853387",
     "imagen": "https://example.com/fresc.jpg"
   },
   {
     "nombre": "Refres caTe 500ml",
-    "precio": 1.6,
+    "precio": 1.95,
     "codigo": "0791466999785",
     "imagen": "https://example.com/caTe.jpg"
   },
   {
     "nombre": "Agua Nevada 600ml",
-    "precio": 1,
+    "precio": 1.22,
     "codigo": "000000500000",
     "imagen": "https://example.com/42.jpg"
   },
   {
     "nombre": "Agua Heleal 500ml",
-    "precio": 0.7,
+    "precio": 0.85,
     "codigo": "7595950000024",
     "imagen": "https://example.com/aguahele.jpg"
   },
   {
     "nombre": "Agua crystal 330cm",
-    "precio": 0.99,
+    "precio": 1.2,
     "codigo": "7592565000111",
     "imagen": "https://example.com/aguacry330.jpg"
   },
   {
     "nombre": "Jugo lalo 900ml",
-    "precio": 3.3,
+    "precio": 4.01,
     "codigo": "7597569000075",
     "imagen": "https://example.com/laloj.jpg"
   },
   {
     "nombre": "Coca cola lata 355ml",
-    "precio": 1.2,
+    "precio": 1.46,
     "codigo": "7591127104403",
     "imagen": "https://example.com/coca.jpg"
   },
   {
     "nombre": "Arizona 340ml",
-    "precio": 2.25,
+    "precio": 2.74,
     "codigo": "000000000011",
     "imagen": "https://example.com/ar.jpg"
   },
- {
+  {
     "nombre": "Lipton durazno 500ml",
-    "precio": 2.5,
+    "precio": 3.04,
     "codigo": "7591031011347",
     "imagen": "https://example.com/nada09.jpg"
   }
 ]
-  
