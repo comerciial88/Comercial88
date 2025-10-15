@@ -1,5 +1,41 @@
 [
   {
+    "nombre": "mimlot 4R 215H",
+    "precio": 0.00,
+    "codigo": "0718603108114",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rosal Plus 2R 215H ",
+    "precio": 0.00,
+    "codigo": "7591098000810",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rosal Plus 4R 180H",
+    "precio": 0.00,
+    "codigo": "7591098000919",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rosal Plus 4R 215H",
+    "precio": 0.00,
+    "codigo": "7591098802384",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rosal Plus 4R 400H",
+    "precio": 0.00,
+    "codigo": "7591098170230",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
+    "nombre": "Rosal Plus 4R 600H",
+    "precio": 0.00,
+    "codigo": "7591098800281",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Rosal TowelaToallin 80h",
     "precio": 2.08,
     "codigo": "7591098000759",
