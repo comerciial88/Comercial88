@@ -1,13 +1,13 @@
 [
   {
     "nombre": "Polet Ferrero Avellana Rocher Helado",
-    "precio": 2.76,
+    "precio": 2.64,
     "codigo": "7592647004570",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Polet Crunch white helado",
-    "precio": 2.25,
+    "precio": 2.07,
     "codigo": "7592647004563",
     "imagen": "https://example.com/0.jpg"
   },
@@ -19,19 +19,19 @@
   },
   {
     "nombre": "Polet frambuesa helado",
-    "precio": 2.43,
+    "precio": 2.64,
     "codigo": "7592647005645",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pasion yogurt helado",
-    "precio": 0.79,
+    "precio": 0.75,
     "codigo": "7592647001364",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Exotico parchita helado",
-    "precio": 0.79,
+    "precio": 0.75,
     "codigo": "7592647000602",
     "imagen": "https://example.com/0.jpg"
   },
