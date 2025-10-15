@@ -37,43 +37,43 @@
   },
   {
     "nombre": "Maxi sandwich helado",
-    "precio": 1.69,
+    "precio": 1.63,
     "codigo": "7592647004914",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Polet Coco arequipe helado",
-    "precio": 2.59,
+    "precio": 2.64,
     "codigo": "7592647005669",
     "imagen": "https://example.com/0.jpg"
   },
   {
-    "nombre": "Max polet helado",
-    "precio": 1.91,
+    "nombre": "Polet Avellana helado",
+    "precio": 2.64,
     "codigo": "7592647004570",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Donut sorpresa helado",
-    "precio": 1.46,
+    "precio": 1.38,
     "codigo": "7592647004549",
     "imagen": "https://example.com/donut.jpg"
   },
   {
     "nombre": "Mausi helado",
-    "precio": 1.46,
+    "precio": 1.13,
     "codigo": "7592647000190",
     "imagen": "https://example.com/Mausi.jpg"
   },
   {
     "nombre": "Cono chicle helado",
-    "precio": 1.24,
+    "precio": 1.13,
     "codigo": "7592647000718",
     "imagen": "https://example.com/cono.jpg"
   },
   {
     "nombre": "Paw patrol helado",
-    "precio": 1.24,
+    "precio": 1.13,
     "codigo": "7592647005676",
     "imagen": "https://example.com/paw.jpg"
   },
