@@ -185,26 +185,27 @@
       `;
     }
 
-    function createEmojiRain() {
-    const emoji = "🎃";
-    const count = 20; // cantidad de emojis
-
-    for (let i = 0; i < count; i++) {
-      const el = document.createElement("div");
-      el.classList.add("emoji-rain");
-      el.textContent = emoji;
-      el.style.left = Math.random() * 100 + "vw";
-      el.style.animationDuration = (2 + Math.random() * 3) + "s";
-      el.style.animationDelay = Math.random() * 5 + "s";
-      document.body.appendChild(el);
-
-      // Eliminar después de caer
-      setTimeout(() => el.remove(), 8000);
-    }
+    function iniciarNieveEmoji({ emoji = "🎃", cantidad = 30, intervalo = 800 } = {}) {
+  function crearEmoji() {
+    const el = document.createElement("div");
+    el.classList.add("emoji-snow");
+    el.textContent = emoji;
+    el.style.left = Math.random() * window.innerWidth + "px";
+    el.style.animationDuration = (5 + Math.random() * 5) + "s";
+    el.style.animationDelay = Math.random() * 3 + "s";
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 10000);
   }
 
-  // Repetir cada cierto tiempo
-  setInterval(createEmojiRain, 1000);
+  setInterval(() => {
+    for (let i = 0; i < cantidad / 10; i++) crearEmoji();
+  }, intervalo);
+}
+
+    const fecha = new Date();
+if (fecha.getMonth() === 9) { // Octubre
+  iniciarNieveEmoji({ emoji: "🎃", cantidad: 30, intervalo: 800 });
+}
 
  </script>
 </body>
