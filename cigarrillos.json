@@ -1,61 +1,61 @@
 [
   {
     "nombre": "Lucky Blanco con rojo",
-    "precio": 3.8,
+    "precio": 4.28,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Universal cigarrillo",
-    "precio": 2.05,
+    "precio": 2.31,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pall Mall cigarrillo",
-    "precio": 3.5,
+    "precio": 3.94,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Consul cigarrillo",
-    "precio": 2,
+    "precio": 2.25,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Viceroy cigarrillo",
-    "precio": 2,
+    "precio": 2.25,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Eclipse cigarrillo",
-    "precio": 4,
+    "precio": 4.5,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Cosmic cigarrillo",
-    "precio": 4.1,
+    "precio": 4.62,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lucky Nova cigarrillo",
-    "precio": 4.1,
+    "precio": 4.62,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont P cigarrillo",
-    "precio": 2.10,
+    "precio": 2.36,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Belmont G cigarrillo",
-    "precio": 3.5,
+    "precio": 3.94,
     "codigo": "000000000000",
     "imagen": "https://example.com/0.jpg"
   }
