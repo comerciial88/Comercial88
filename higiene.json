@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Pampers Pañales",
+    "precio": 0.00,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "DonToallin 50H",
     "precio": 0.00,
     "codigo": "7591098000698",
