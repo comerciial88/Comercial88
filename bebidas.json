@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Coca Cola 1L",
+    "precio": 1.76,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "3Tea 400g",
     "precio": 5.96,
     "codigo": "7592212000679",
@@ -31,7 +37,7 @@
   },
   {
     "nombre": "Coca cola 2Lt",
-    "precio": 3.04,
+    "precio": 2.64,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
@@ -145,7 +151,7 @@
   },
   {
     "nombre": "Agua Nevada 600ml",
-    "precio": 1.22,
+    "precio": 1.07,
     "codigo": "000000500000",
     "imagen": "https://example.com/42.jpg"
   },
