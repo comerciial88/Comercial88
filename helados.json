@@ -7,13 +7,13 @@
   },
   {
     "nombre": "Polet Crunch white helado",
-    "precio": 2,
+    "precio": 2.0,
     "codigo": "7592647004563",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Chocomantecado helado",
-    "precio": 1,
+    "precio": 1.0,
     "codigo": "7592647000763",
     "imagen": "https://example.com/0.jpg"
   },
@@ -61,25 +61,25 @@
   },
   {
     "nombre": "Mausi helado",
-    "precio": 1,
+    "precio": 1.3,
     "codigo": "7592647000190",
     "imagen": "https://example.com/Mausi.jpg"
   },
   {
     "nombre": "Cono chicle helado",
-    "precio": 1,
+    "precio": 1.1,
     "codigo": "7592647000718",
     "imagen": "https://example.com/cono.jpg"
   },
   {
     "nombre": "Paw patrol helado",
-    "precio": 1,
+    "precio": 1.1,
     "codigo": "7592647005676",
     "imagen": "https://example.com/paw.jpg"
   },
   {
     "nombre": "wonder helado",
-    "precio": 1,
+    "precio": 1.2,
     "codigo": "000000000111",
     "imagen": "https://example.com/0.jpg"
   },
