@@ -86,36 +86,36 @@
   {
     "nombre": "Choco mani arequipe helado",
     "precio": 1.13,
-    "codigo": "000000000012",
+    "codigo": "7592647004709",
     "imagen": "https://example.com/25.jpg"
   },
   {
     "nombre": "Super cono helado",
-    "precio": 1.69,
+    "precio": 1.63,
     "codigo": "000000000014",
     "imagen": "https://example.com/spc.jpg"
   },
   {
     "nombre": "Pasion Yogurt helado",
-    "precio": 0.68,
-    "codigo": "000000000150",
+    "precio": 0.75,
+    "codigo": "7592647001364",
     "imagen": "https://example.com/psy.jpg"
   },
   {
     "nombre": "Polet Crunch white helado",
-    "precio": 1.91,
-    "codigo": "000000000000",
+    "precio": 2.07,
+    "codigo": "7592647004563",
     "imagen": "https://example.com/pcw.jpg"
   },
   {
     "nombre": "Tinita cali helado",
-    "precio": 1.01,
+    "precio": 1.13,
     "codigo": "000000000000",
     "imagen": "https://example.com/tc.jpg"
   },
   {
     "nombre": "Maxi sandwich helado",
-    "precio": 1.46,
+    "precio": 1.63,
     "codigo": "0000000000p0",
     "imagen": "https://example.com/ms.jpg"
   },
@@ -127,7 +127,7 @@
   },
   {
     "nombre": "Fres helado",
-    "precio": 0.68,
+    "precio": 0.69,
     "codigo": "000000d00000",
     "imagen": "https://example.com/fc.jpg"
   }
