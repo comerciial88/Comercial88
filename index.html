@@ -94,28 +94,6 @@
 
   <script>
 
-function createEmojiRain() {
-    const emoji = "🎃";
-    const count = 20; // cantidad de emojis
-
-    for (let i = 0; i < count; i++) {
-      const el = document.createElement("div");
-      el.classList.add("emoji-rain");
-      el.textContent = emoji;
-      el.style.left = Math.random() * 100 + "vw";
-      el.style.animationDuration = (2 + Math.random() * 3) + "s";
-      el.style.animationDelay = Math.random() * 5 + "s";
-      document.body.appendChild(el);
-
-      // Eliminar después de caer
-      setTimeout(() => el.remove(), 8000);
-    }
-  }
-
-  // Repetir cada cierto tiempo
-  setInterval(createEmojiRain, 1000);
-
-    
     let productos = [];
     let tasa = 0;
 
@@ -203,7 +181,27 @@ function createEmojiRain() {
       `;
     }
 
-   </script>
+    function createEmojiRain() {
+    const emoji = "🎃";
+    const count = 20; // cantidad de emojis
 
+    for (let i = 0; i < count; i++) {
+      const el = document.createElement("div");
+      el.classList.add("emoji-rain");
+      el.textContent = emoji;
+      el.style.left = Math.random() * 100 + "vw";
+      el.style.animationDuration = (2 + Math.random() * 3) + "s";
+      el.style.animationDelay = Math.random() * 5 + "s";
+      document.body.appendChild(el);
+
+      // Eliminar después de caer
+      setTimeout(() => el.remove(), 8000);
+    }
+  }
+
+  // Repetir cada cierto tiempo
+  setInterval(createEmojiRain, 1000);
+
+ </script>
 </body>
 </html>
