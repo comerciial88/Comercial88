@@ -7,21 +7,25 @@
   <script src="https://unpkg.com/html5-qrcode"></script>
   <style>
 
-    <!-- Lluvia de emojis 🎃 -->
+    .emoji-snow {
+  position: fixed;
+  top: -50px;
+  font-size: 2rem;
+  animation: snowFall linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+}
 
-  .emoji-rain {
-    position: fixed;
-    top: -50px;
-    font-size: 2rem;
-    animation: fall linear infinite;
-    pointer-events: none;
-    z-index: 9999;
+@keyframes snowFall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
   }
-
-  @keyframes fall {
-    0% { top: -50px; opacity: 1; }
-    100% { top: 100vh; opacity: 0; }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0.3;
   }
+}
     
 @media (prefers-color-scheme: dark) {
   body {
