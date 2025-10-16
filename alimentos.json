@@ -1,5 +1,11 @@
 [
   {
+    "nombre": "Azucar Montalban 1Kg",
+    "precio": 2.14,
+    "codigo": "00000000000",
+    "imagen": "https://example.com/0.jpg"
+  },
+  {
     "nombre": "Huevos 1/2",
     "precio": 5.78,
     "codigo": "00000000000",
