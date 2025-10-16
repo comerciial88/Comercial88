@@ -1,733 +1,733 @@
 [
   {
     "nombre": "Azucar Montalban 1Kg",
-    "precio": 2.14,
+    "precio": 3.22,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Huevos 1/2",
-    "precio": 5.78,
+    "precio": 6.16,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Tigo Champiñones enteros 425g",
-    "precio": 4.02,
+    "precio": 4.29,
     "codigo": "7598986002369",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole MaizDulce 280g",
-    "precio": 2.32,
+    "precio": 2.47,
     "codigo": "7595826007737",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Aceituna VerdesRellenas 240g",
-    "precio": 2.8,
+    "precio": 2.98,
     "codigo": "7595826005290",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Aceituna VerdesRellenas 180g",
-    "precio": 2.01,
+    "precio": 2.14,
     "codigo": "7595826005269",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole Aceitunas Verdes Deshuesadas 240g",
-    "precio": 3.01,
+    "precio": 3.21,
     "codigo": "7595826005252",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Tiquire Vinagre 500Cm",
-    "precio": 1.7,
+    "precio": 1.81,
     "codigo": "7591112049016",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Heinz Vinagre 500cm",
-    "precio": 1.92,
+    "precio": 2.05,
     "codigo": "7591112015059",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "GardeN Apple Vinnegar 750Ml",
-    "precio": 8.79,
+    "precio": 9.37,
     "codigo": "5281029013591",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Glend'y Extra Virgin 500ml",
-    "precio": 13.17,
+    "precio": 14.04,
     "codigo": "5281029216336",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Mazeite 1Lt",
-    "precio": 7.37,
+    "precio": 7.86,
     "codigo": "7591002000745",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Caraotas Fina Ideal 500g",
-    "precio": 2.14,
+    "precio": 2.28,
     "codigo": "7591715001060",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lentejas Amanecer 400g",
-    "precio": 3.04,
+    "precio": 3.24,
     "codigo": "7599450000072",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Lentejas Mary 400g",
-    "precio": 3.43,
+    "precio": 3.66,
     "codigo": "7591473005034",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Sal Meru Gruesa 1Kg",
-    "precio": 2.03,
+    "precio": 2.16,
     "codigo": "7592200000063",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Sal BAHIA 1Kg",
-    "precio": 1.46,
+    "precio": 1.56,
     "codigo": "7595159000351",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Heinz Tomato ketchup 397g",
-    "precio": 3.94,
+    "precio": 4.2,
     "codigo": "75916107",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Jugo Natulac 1Lt",
-    "precio": 5.10,
+    "precio": 5.44,
     "codigo": "7592396002117",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Arroz LlanoVerde 800g",
-    "precio": 1.73,
+    "precio": 1.84,
     "codigo": "7594000370292",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Arroz Mary Tradicional 900g",
-    "precio": 2.41,
+    "precio": 2.57,
     "codigo": "7591473005362",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Arroz Mary Superior 900g",
-    "precio": 2.52,
+    "precio": 2.69,
     "codigo": "7591473005355",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Arroz Mary Esmeralda 900g",
-    "precio": 3.77,
+    "precio": 4.02,
     "codigo": "7591473005232",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Arroz Mary Premiun 900g",
-    "precio": 3.29,
+    "precio": 3.51,
     "codigo": "7591473005249",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Vermicelli Horizonte 1Kg",
-    "precio": 2.52,
+    "precio": 2.69,
     "codigo": "7591181019118",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pasta Horizonte Plumas 1Kg",
-    "precio": 2.65,
+    "precio": 2.82,
     "codigo": "7591181000406",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Vermicelli Ronco 1Kg",
-    "precio": 3.21,
+    "precio": 3.42,
     "codigo": "7591049220618",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Ronco Pasticho 250g",
-    "precio": 2.31,
+    "precio": 2.46,
     "codigo": "7591123000341",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pasta Ronco Pluma 500g",
-    "precio": 1.71,
+    "precio": 1.82,
     "codigo": "7591123000570",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pasta Ronco Tornillo 1Kg",
-    "precio": 3.27,
+    "precio": 3.49,
     "codigo": "7591049220663",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pasta Mary Superior tornillos 1Kh ",
-    "precio": 2.63,
+    "precio": 2.8,
     "codigo": "7597417000134",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Heinz mostaza 113g",
-    "precio": 1.94,
+    "precio": 2.07,
     "codigo": "7591112460842",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Twisti Keso 200g",
-    "precio": 4.93,
+    "precio": 5.26,
     "codigo": "7592433001523",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole Napolitana",
-    "precio": 2.08,
+    "precio": 2.22,
     "codigo": "7595826003982",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "GardeN tomato paste 1400g",
-    "precio": 15.42,
+    "precio": 16.44,
     "codigo": "5281029015410",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "GardeN Tomato Paste 660g",
-    "precio": 6.87,
+    "precio": 7.32,
     "codigo": "5281029015427",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Tiquire salsa de ajo 150cm",
-    "precio": 1.86,
+    "precio": 1.98,
     "codigo": "7591112052016",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "La abuela salsa de ajo 150cm",
-    "precio": 1.14,
+    "precio": 1.22,
     "codigo": "7598346000042",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "La abuela salsa inglesa 150cm",
-    "precio": 1.14,
+    "precio": 1.22,
     "codigo": "759834000011",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oishi salsa teriyaki 150ml",
-    "precio": 2.48,
+    "precio": 2.64,
     "codigo": "6939945115811",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oishi salsa de ostras 280g",
-    "precio": 2.87,
+    "precio": 3.06,
     "codigo": "6939945115828",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Tiquire ketchup salsa 198g",
-    "precio": 1.63,
+    "precio": 1.74,
     "codigo": "75920531",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Heinz tomaton ketchup 198g",
-    "precio": 2.08,
+    "precio": 2.22,
     "codigo": "75916220",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Tiquire Salsa Ketchup 397g",
-    "precio": 2.53,
+    "precio": 2.7,
     "codigo": "75919740",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Heinz 57 salsa 378g",
-    "precio": 2.87,
+    "precio": 3.06,
     "codigo": "75916176",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Marbonita sardinas 170g",
-    "precio": 1.13,
+    "precio": 1.2,
     "codigo": "7595122001927",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole Albahaca 340g",
-    "precio": 2.23,
+    "precio": 2.38,
     "codigo": "7595826006747",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole pizza 340g",
-    "precio": 2.23,
+    "precio": 2.38,
     "codigo": "7595826003968",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Compota Heinz 113g",
-    "precio": 1.61,
+    "precio": 1.72,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole Fresa mermelada 200g",
-    "precio": 2.71,
+    "precio": 2.89,
     "codigo": "7595826004248",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche Liquida Completa SanSimon 1Lt",
-    "precio": 3.15,
+    "precio": 3.36,
     "codigo": "7596914000258",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche liquida Descremada Deslactosada Natulac 946cm",
-    "precio": 3.15,
+    "precio": 3.36,
     "codigo": "7592396005484",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche liquida Descremada Natulac 946cm",
-    "precio": 2.89,
+    "precio": 3.08,
     "codigo": "7592396005514",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Avena Gravenca Hojuela 400g",
-    "precio": 1.75,
+    "precio": 1.87,
     "codigo": "7597957000106",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Avena Quaker Hojuelas 400g",
-    "precio": 2.7,
+    "precio": 2.88,
     "codigo": "7591184002018",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche condensada Natulac 397g",
-    "precio": 4.84,
+    "precio": 5.16,
     "codigo": "7592396000922",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Crema de leche Natulac 473Cm",
-    "precio": 6.98,
+    "precio": 7.44,
     "codigo": "7592396005736",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Crema de leche Natulac 946Cm",
-    "precio": 11.26,
+    "precio": 12.0,
     "codigo": "7592396005743",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche Evaporada 354ml",
-    "precio": 2.53,
+    "precio": 2.7,
     "codigo": "7598986000457",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Crema de arroz Santoni 400g",
-    "precio": 1.63,
+    "precio": 1.74,
     "codigo": "7592498001636",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Crema de arroz Mary 450g",
-    "precio": 1.15,
+    "precio": 1.23,
     "codigo": "7591473006734",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Leche en Polvo sanSimon 400g",
-    "precio": 7.54,
+    "precio": 8.04,
     "codigo": "7596914000401",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Damasco Cacao en polvo 100g",
-    "precio": 3.94,
+    "precio": 4.2,
     "codigo": "7598259000191",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Salt sea Atlantis Parrillera 500g",
-    "precio": 2.31,
+    "precio": 2.46,
     "codigo": "861510000429",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Trigo TodoUso LaEspecial 900g",
-    "precio": 1.58,
+    "precio": 1.68,
     "codigo": "759194401107",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Trigo TodoUso Mary 900g",
-    "precio": 2.26,
+    "precio": 2.41,
     "codigo": "7597417000691",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Trigo Leudante Mary 900g",
-    "precio": 2.36,
+    "precio": 2.52,
     "codigo": "7597417000707",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Triho Leudante RH 900g",
-    "precio": 2.36,
+    "precio": 2.52,
     "codigo": "7591104000209",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Trigo TodoUso RH 900g",
-    "precio": 2.36,
+    "precio": 2.52,
     "codigo": "7591104000193",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Maizina Americana 90g",
-    "precio": 1.13,
+    "precio": 1.2,
     "codigo": "7591039601526",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Auyama Alltaste 500g",
-    "precio": 13.51,
+    "precio": 14.4,
     "codigo": "5060104335",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de PlatanoVerde Alltaste 500g",
-    "precio": 9.23,
+    "precio": 9.84,
     "codigo": "5060104395",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Garbanzo Alltaste 500g",
-    "precio": 13.51,
+    "precio": 14.4,
     "codigo": "5060104425",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina de Arroz Alltaste 500g",
-    "precio": 4.84,
+    "precio": 5.16,
     "codigo": "5060104445",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Harina Pan 1kg",
-    "precio": 1.63,
+    "precio": 1.74,
     "codigo": "7591002200145",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Merengada 3p fresa 400g",
-    "precio": 5.07,
+    "precio": 5.4,
     "codigo": "7592212000129",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Osole compota 100g",
-    "precio": 1.13,
+    "precio": 1.2,
     "codigo": "000004000000",
     "imagen": "https://example.com/oc.jpg"
   },
   {
     "nombre": "Mayonesa Kraft 445g",
-    "precio": 5.63,
+    "precio": 6.0,
     "codigo": "7591114040042",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Café Damasco 200gr",
-    "precio": 3.96,
+    "precio": 4.22,
     "codigo": "7598259000092",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo hamburguesas 8nds 630g",
-    "precio": 5.18,
+    "precio": 5.52,
     "codigo": "7591133031571",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Rapiditas mediterraneas 330g",
-    "precio": 4.05,
+    "precio": 4.32,
     "codigo": "7591133000638",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Rapiditas Wraps 580g",
-    "precio": 5.57,
+    "precio": 5.94,
     "codigo": "7591133001291",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Reina del campo 400g",
-    "precio": 4.64,
+    "precio": 4.95,
     "codigo": "7592433002100",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum fiesta perro 8unds 420g",
-    "precio": 2.31,
+    "precio": 2.46,
     "codigo": "7591133001338",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Rapiditas mantequilla 330g",
-    "precio": 4.05,
+    "precio": 4.32,
     "codigo": "7591133000690",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Yogurt Cereal 150g",
-    "precio": 4.5,
+    "precio": 4.8,
     "codigo": "7599485000016",
     "imagen": "https://example.com/yogurt.jpg"
   },
   {
     "nombre": "Rapiditas Chia y quinoa 330g",
-    "precio": 4.12,
+    "precio": 4.39,
     "codigo": "7591133000645",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Rapiditas Diet 330g",
-    "precio": 4.12,
+    "precio": 4.39,
     "codigo": "7591167001045",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Rapiditas Clasicas 330g",
-    "precio": 3.9,
+    "precio": 4.16,
     "codigo": "7591167000895",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo pan molido 300g",
-    "precio": 1.66,
+    "precio": 1.77,
     "codigo": "7591133023187",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Pan cotillon 410g",
-    "precio": 1.66,
+    "precio": 1.77,
     "codigo": "7599068000129",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum integral 420g",
-    "precio": 4.0,
+    "precio": 4.26,
     "codigo": "7591133000751",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum mantequilla 420g",
-    "precio": 3.72,
+    "precio": 3.97,
     "codigo": "7591133001000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum hamburguesas 360g 6und",
-    "precio": 2.48,
+    "precio": 2.64,
     "codigo": "7591133001345",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Holsum jumbo 500g",
-    "precio": 2.95,
+    "precio": 3.14,
     "codigo": "7591133000775",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo artesano 500g",
-    "precio": 3.9,
+    "precio": 4.16,
     "codigo": "7591133451539",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Oriweat 7granos 600g",
-    "precio": 6.54,
+    "precio": 6.97,
     "codigo": "7561133051555",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo multi cereal 600g",
-    "precio": 5.89,
+    "precio": 6.28,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bombo cero cero 500g",
-    "precio": 4.94,
+    "precio": 5.27,
     "codigo": "7591133001260",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Diet 500g",
-    "precio": 4.71,
+    "precio": 5.02,
     "codigo": "7591133001130",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo blanco 500g",
-    "precio": 2.88,
+    "precio": 3.07,
     "codigo": "7561133001031",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Diet 350g",
-    "precio": 2.36,
+    "precio": 2.52,
     "codigo": "7591133000829",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo blanco 350g",
-    "precio": 2.36,
+    "precio": 2.52,
     "codigo": "7591133451546",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Fruxi pudin 48g",
-    "precio": 2.02,
+    "precio": 2.15,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Fruxi gelatina 40g",
-    "precio": 1.66,
+    "precio": 1.77,
     "codigo": "00000000000",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Sonrissa pudin 58g",
-    "precio": 2.12,
+    "precio": 2.26,
     "codigo": "7591112062183",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo pan de perro 420g 8und",
-    "precio": 3.06,
+    "precio": 3.26,
     "codigo": "7591133001017",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo pan perro 500g 8und",
-    "precio": 3.77,
+    "precio": 4.02,
     "codigo": "7591167000918",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Bimbo Hamburguesas 4und",
-    "precio": 2.95,
+    "precio": 3.14,
     "codigo": "7591133000102",
     "imagen": "https://example.com/0.jpg"
   },
   {
     "nombre": "Cafe amanecer 200g",
-    "precio": 4.6,
+    "precio": 4.9,
     "codigo": "7502271001789",
     "imagen": "https://example.com/jamon.jpg"
   },
   {
     "nombre": "Cafe amanecer 100G",
-    "precio": 1.96,
+    "precio": 2.09,
     "codigo": "9876543210987",
     "imagen": "https://example.com/queso.jpg"
   },
   {
     "nombre": "Cafe cerezo 200g",
-    "precio": 3.9,
+    "precio": 4.16,
     "codigo": "7598688000021",
     "imagen": "https://example.com/cafec2.jpg"
   },
   {
     "nombre": "Cafe cerezo 100g",
-    "precio": 1.96,
+    "precio": 2.09,
     "codigo": "7598688000014",
     "imagen": "https://example.com/cafec1.jpg"
   },
   {
     "nombre": "Cafe osole 200g",
-    "precio": 4.62,
+    "precio": 4.92,
     "codigo": "7595826004576",
     "imagen": "https://example.com/cafeoso2.jpg"
   },
   {
     "nombre": "Cafe favorito 100g",
-    "precio": 1.84,
+    "precio": 1.96,
     "codigo": "7595461000292",
     "imagen": "https://example.com/cafefa1.jpg"
   },
   {
     "nombre": "Mavesa margarina 250g",
-    "precio": 2.2,
+    "precio": 2.35,
     "codigo": "75930868",
     "imagen": "https://example.com/MavesaM25.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 445g",
-    "precio": 5.89,
+    "precio": 6.28,
     "codigo": "719503030123",
     "imagen": "https://example.com/nada1.jpg"
   },
   {
     "nombre": "Mavesa mayonesa 175g",
-    "precio": 3.01,
+    "precio": 3.21,
     "codigo": "0000000002",
     "imagen": "https://example.com/nada2.jpg"
   },
   {
     "nombre": "Mayonesa Kraft 175g",
-    "precio": 2.81,
+    "precio": 3.0,
     "codigo": "7622201512279",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar zuka 1kg",
-    "precio": 2.16,
+    "precio": 2.3,
     "codigo": "7596939000141",
     "imagen": "https://example.com/nad2a.jpg"
   },
   {
     "nombre": "Azucar kristal 1Kg",
-    "precio": 2.35,
+    "precio": 2.51,
     "codigo": "7590850247005",
     "imagen": "https://example.com/nad3a.jpg"
   },
   {
     "nombre": "Azúcar 100% 1Kg",
-    "precio": 2.58,
+    "precio": 2.75,
     "codigo": "7594000753866",
     "imagen": "https://example.com/na46da.jpg"
   }
